@@ -1,0 +1,73 @@
+.conti {
+  
+  padding: 200px;
+ 
+}
+
+body {
+  min-height: 2000px;
+}
+
+.contai {
+  padding: 85px;
+}
+
+.hal3 {
+  padding-top: 70px;
+  padding-bottom: 50px ;
+}
+
+.hal4 {
+  padding-bottom: 80px;
+  padding-top: 50px;
+}
+
+.hal5 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  
+}
+
+.contact {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.foote {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.container .footer {
+  margin-top: 40px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.iou {
+  margin-top: 100px;
+}
+
+
+
+.navbar-nav .nav-link:hover  {
+  background-color: rgb(17, 84, 255);
+  
+}
+
+.navbar-nav .nav-link:active {
+  color: black;
+}
+
+.navbar-nav .nav-link:visited {
+  color: gray;
+
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+

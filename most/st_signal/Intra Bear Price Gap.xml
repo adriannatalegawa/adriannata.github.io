@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stchart_systrade_file is_trade="false"><signal_conflist><buy isroot="yes" operator="and"/><sell isroot="yes" operator="and"><signal type="price_state" id="comparing_price" title="Compare(Price)" operator="and">
+				<help file="7-12"/>
+				<tab_var title="Format">
+					<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+					<crlf is_control="true"/>
+					<combo postlabel=" " name="m_target" is_control="true" selected_index="2">
+						<item value="1">Open</item>
+						<item value="2">High</item>
+						<item value="3">Low</item>
+						<item value="4">Close</item>
+					</combo>
+					<combo label="" postlabel="" name="m_compare" is_control="true" selected_index="2">
+						<item value="1"> &gt; </item>
+						<item value="2"> &lt; </item>
+						<item value="3"> = </item>
+						<item value="4"> &gt;= </item>
+						<item value="5"> &lt;= </item>
+					</combo>
+					<combo postlabel="" name="m_base" is_control="true" selected_index="3">
+						<item value="1">Open</item>
+						<item value="2">High</item>
+						<item value="3">Low</item>
+						<item value="4">Close</item>
+					</combo>
+					<edit label="Of" postlabel="Past Bar" name="m_barNum" data_type="decimal" is_control="true" min="0" max="1000">1</edit>
+				</tab_var>
+				<tab_candle>
+					<crlf is_control="true"/>
+					<color_combo label="Color" postlabel="" name="barcolor" data_type="decimal" is_control="true" min="0" max="1000">e62dff</color_combo>
+					<combo label="Position" name="nbuy_sell" is_control="true" selected_index="1">
+						<item value="1">Below Bar</item>
+						<item value="2">Above Bar</item>
+					</combo>
+				</tab_candle>
+			</signal>
+		</sell></signal_conflist></stchart_systrade_file>

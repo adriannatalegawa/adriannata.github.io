@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stchart_systrade_file is_trade="false"><signal_conflist><buy isroot="yes" operator="and"/><sell isroot="yes" operator="and"><signal type="candle" id="hangingman" title="Hanging Man" operator="and">
+				<help file="HangingMan"/>
+				<tab_var title="Format">
+					<combo label="[For Trend Judgment]  MA Type" name="nMaMethod" is_control="true" selected_index="2">
+						<item value="1">Simple</item>
+						<item value="2">Exponential</item>
+						<item value="3">Cumulative</item>
+						<item value="4">Weighted</item>
+						<item value="5">Geometric</item>
+						<item value="6">Triangular</item>
+					</combo>
+					<edit label="Period" postlabel="Bar(s)" name="m_ematerm" data_type="decimal" is_control="true" min="0" max="1000">5</edit>
+					<crlf is_control="true"/>
+					<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+					<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="1000">1</edit>
+				</tab_var>
+				<tab_candle>
+					<crlf is_control="true"/>
+					<color_combo label="Color" postlabel="" name="barcolor" data_type="decimal" is_control="true" min="0" max="1000">8b0000</color_combo>
+					<combo label="Position" name="nbuy_sell" is_control="true" selected_index="2">
+						<item value="1">Below Bar</item>
+						<item value="2">Above Bar</item>
+					</combo>
+				</tab_candle>
+			</signal>
+		</sell></signal_conflist></stchart_systrade_file>

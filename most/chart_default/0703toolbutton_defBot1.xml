@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="KSC_5601"?>
+<stchart_savefile>
+	<ToolbarButtons>
+		<Button>
+			<text>A</text>
+			<icon>0</icon>
+			<menuid>1327</menuid>
+			<desc>Adj/Raw</desc>
+			<size>20</size>
+			<style>1</style>
+			<use>1</use>
+		</Button>
+		<Button>
+			<text></text>
+			<icon>261</icon>
+			<menuid>1343</menuid>
+			<desc>Left Scroll</desc>
+			<size>20</size>
+			<style>1</style>
+			<use>1</use>
+		</Button>
+		<Button>
+			<text></text>
+			<icon>36</icon>
+			<menuid>1345</menuid>
+			<desc>Stop Scroll</desc>
+			<size>20</size>
+			<style>1</style>
+			<use>1</use>
+		</Button>
+		<Button>
+			<text></text>
+			<icon>262</icon>
+			<menuid>1344</menuid>
+			<desc>Rignt Scroll</desc>
+			<size>20</size>
+			<style>1</style>
+			<use>1</use>
+		</Button>
+		<Button>
+			<text></text>
+			<icon>62</icon>
+			<menuid>1342</menuid>
+			<desc>Select View Type</desc>
+			<size>20</size>
+			<style>1</style>
+			<use>1</use>
+		</Button>
+		<Button>
+			<text></text>
+			<icon>335</icon>
+			<menuid>1335</menuid>
+			<desc>Invert Chart</desc>
+			<size>20</size>
+			<style>1</style>
+			<use>1</use>
+		</Button>
+		<Button>
+			<text></text>
+			<icon>15</icon>
+			<menuid>1329</menuid>
+			<desc>Zoom in</desc>
+			<size>20</size>
+			<style>1</style>
+			<use>1</use>
+		</Button>
+		<Button>
+			<text></text>
+			<icon>63</icon>
+			<menuid>1328</menuid>
+			<desc>Zoom out</desc>
+			<size>20</size>
+			<style>1</style>
+			<use>1</use>
+		</Button>
+		<Button>
+			<text></text>
+			<icon>303</icon>
+			<menuid>1330</menuid>
+			<desc>1:1</desc>
+			<size>20</size>
+			<style>1</style>
+			<use>1</use>
+		</Button>
+		<Button>
+			<text></text>
+			<icon>6068</icon>
+			<menuid>1325</menuid>
+			<desc>Slide bar</desc>
+			<size>68</size>
+			<style>3</style>
+			<use>1</use>
+		</Button>
+		<Button>
+			<text></text>
+			<icon>109</icon>
+			<menuid>1347</menuid>
+			<desc>Previos</desc>
+			<size>20</size>
+			<style>1</style>
+			<use>1</use>
+		</Button>
+		<Button>
+			<text></text>
+			<icon>110</icon>
+			<menuid>1346</menuid>
+			<desc>Next</desc>
+			<size>20</size>
+			<style>1</style>
+			<use>1</use>
+		</Button>
+	</ToolbarButtons>
+</stchart_savefile>

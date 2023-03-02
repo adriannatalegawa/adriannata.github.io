@@ -1,0 +1,84 @@
+2,OPEN,0,0,0,0,0,0,1
+3,CLOSE,0,0,0,0,0,0,1
+4,LOW,0,0,0,0,0,0,1
+5,HIGH,0,0,0,0,0,0,1
+7,MEDIAN,0,0,0,0,0,0,1
+8,TYPICAL,0,0,0,0,0,0,1
+6,VOLUME,0,0,0,0,0,0,1
+0,MACD,3,1,4,4,0,0,1,Price,ShortTerm,LongTerm
+1,MOV,3,1,4,7,0,0,1,DataField,Length,MA_KIND
+9,PROC,3,1,4,8,0,0,1,Price,Length,DIFF_KIND
+39,VOLROC,2,4,8,0,0,0,1,Length,DIFF_KIND
+10,CCI,1,4,0,0,0,0,1,Length
+11,TRIX,2,1,4,0,0,0,1,Price,Length
+12,SLOWK,2,4,4,0,0,0,1,Length,FastLen
+13,FASTK,1,4,0,0,0,0,1,Length
+14,CROSSUP,2,1,9,0,0,0,1,DataField1,DataField2
+15,CROSSDN,2,1,9,0,0,0,1,DataField1,DataField2
+18,RSI,2,1,4,0,0,0,1,Price,Length
+36,VOLRSI,1,4,0,0,0,0,1,Length
+31,PSAR,2,4,4,0,0,0,1,Step,Maximum
+21,BBANDBOT,4,1,4,4,7,0,1,Price,Length,Mult,MA_KIND
+22,BBANDMID,4,1,4,4,7,0,1,Price,Length,Mult,MA_KIND
+23,BBANDTOP,4,1,4,4,7,0,1,Price,Length,Mult,MA_KIND
+25,LRS,2,1,4,0,0,0,1,Price,Length
+33,STDDEV,3,1,4,4,0,0,1,Price,Length,Mult
+32,RSQR,2,1,4,0,0,0,1,DataField,Length
+34,STDERR,2,1,4,0,0,0,1,Price,Length
+24,CO,2,4,4,0,0,0,1,ShortTerm,LongTerm
+28,MFI,1,4,0,0,0,0,1,Length
+47,DIPLUS,1,4,0,0,0,0,1,Length
+27,DIMINUS,1,4,0,0,0,0,1,Length
+20,ATR,1,4,0,0,0,0,1,Length
+26,MAO,5,1,4,4,7,8,1,Price,ShortTerm,LongTerm,MA_KIND,DIFF_KIND
+37,VO,4,4,4,7,8,0,1,ShortTerm,LongTerm,MA_KIND,DIFF_KIND
+48,REF,2,1,4,0,0,0,1,DataField,Length
+49,HHV,3,4,1,4,0,0,1,Nth,DataField,Length
+50,LLV,3,4,1,4,0,0,1,Nth,DataField,Length
+51,GPBUY,1,4,0,0,0,0,1,Length
+52,GPSELL,1,4,0,0,0,0,1,Length
+53,TPBUY,1,4,0,0,0,0,1,Length
+54,TPSELL,1,4,0,0,0,0,1,Length
+55,NETPOWER,1,4,0,0,0,0,1,Length
+56,VHF,2,1,4,0,0,0,1,Price,Length
+57,TSI,4,1,4,4,7,0,1,Price,ShortTerm,LongTerm,MA_KIND
+58,LRI,2,1,4,0,0,0,1,Price,Length
+59,TSF,2,1,4,0,0,0,1,Price,Length
+60,DISPARITY,2,1,1,0,0,0,1,DataField1,DataField2
+61,ADX,1,4,0,0,0,0,1,Length
+62,ADXR,1,4,0,0,0,0,1,Length
+63,ENVELOPTOP,4,1,4,4,7,0,1,Price,Length,Shift,MA_KIND
+64,ENVELOPBOT,4,1,4,4,7,0,1,Price,Length,Shift,MA_KIND
+65,PRICECHHIGH,1,4,0,0,0,0,1,Length
+66,PRICECHLOW,1,4,0,0,0,0,1,Length
+67,SONAR,2,1,4,0,0,0,1,Price,Length
+68,WILLPERR,1,4,0,0,0,0,1,Length
+69,PSYCHOL,1,4,0,0,0,0,1,Length
+70,AD,0,0,0,0,0,0,1
+71,VR,1,4,0,0,0,0,1,Length
+72,ROUNDDROP,2,1,4,0,0,0,1,DataField,precision
+#
+0;1;SMA(Simple Moving Average);1;Cross(Price);Price CrossUp SMA(#V1);Price CrossDn SMA(#V1);Price CrossDn SMA(#V1);Price CrossUp SMA(#V1);CROSSUP(CLOSE(),MOV(CLOSE(),#V1,S));CROSSDN(CLOSE(),MOV(CLOSE(),#V1,S));CROSSDN(CLOSE(),MOV(CLOSE(),#V1,S));CROSSUP(CLOSE(),MOV(CLOSE(),#V1,S));Term;5;2;Cross(Short,Long);Short-SMA(#V1) CrossUp Long-SMA(#V2);Short-SMA(#V1) CrossDn Long-SMA(#V2);Short-SMA(#V1) CrossDn Long-SMA(#V2);Short-SMA(#V1) CrossUp Short-SMA(#V2);CROSSUP(MOV(CLOSE(),#V1,S),MOV(CLOSE(),#V2,S));CROSSDN(MOV(CLOSE(),#V1,S),MOV(CLOSE(),#V2,S));CROSSDN(MOV(CLOSE(),#V1,S),MOV(CLOSE(),#V2,S));CROSSUP(MOV(CLOSE(),#V1,S),MOV(CLOSE(),#V2,S));Short;Long;10;20
+0;2;EMA(Exponential Moving Average);1;Cross(Price);Price CrossUp EMA(#V1);Price CrossDn EMA(#V1);Price CrossDn EMA(#V1);Price CrossUp EMA(#V1);CROSSUP(CLOSE(),MOV(CLOSE(),#V1,E));CROSSDN(CLOSE(),MOV(CLOSE(),#V1,E));CROSSDN(CLOSE(),MOV(CLOSE(),#V1,E));CROSSUP(CLOSE(),MOV(CLOSE(),#V1,E));Term;5;2;Cross(Short,Long);Short-EMA(#V1) CrossUp Long-EMA(#V2);Short-EMA(#V1) CrossDn Long-EMA(#V2);Short-EMA(#V1) CrossDn Long-EMA(#V2);Short-EMA(#V1) CrossUp Long-EMA(#V2);CROSSUP(MOV(CLOSE(),#V1,E), MOV(CLOSE(),#V2,E));CROSSDN(MOV(CLOSE(),#V1,E),MOV(CLOSE(),#V2,E));CROSSDN(MOV(CLOSE(),#V1,E), MOV(CLOSE(),#V2,E));CROSSUP(MOV(CLOSE(),#V1,E),MOV(CLOSE(),#V2,E));Short;Long;10;20
+0;3;Bollinger Band;2;Cross(Price);Price CrossUp Upper Band(#V1,#V2);Price CrossDn Lower Band(#V1,#V2);Price CrossDn Lower Band(#V1,#V2);Price CrossUp Upper Band(#V1,#V2);CROSSUP(CLOSE(),BBANDTOP(CLOSE(),#V1,#V2,S));CROSSDN(CLOSE(),MOV(CLOSE(),#V1,S));CROSSDN(CLOSE(),MOV(CLOSE(),#V1,S));CROSSUP(CLOSE(),BBANDBOT(CLOSE(),#V1,#V2,S));Term;Mult;12;2
+0;4;Envelop;2;Cross(Price);Price CrossUp Upper Envelop(#V1,#V2);Price CrossDn Lower Envelop(#V1,#V2);Price CrossDn Lower Envelop(#V1,#V2);Price CrossUp Upper Envelop(#V1,#V2);CROSSUP(CLOSE(),ENVELOPTOP(CLOSE(),#V1,#V2,S));CROSSDN(CLOSE(),MOV(CLOSE(),#V1,S));CROSSDN(CLOSE(),MOV(CLOSE(),#V1,S));CROSSUP(CLOSE(),ENVELOPBOT(CLOSE(),#V1,#V2,S));Term;Mult;12;2
+0;5;Channel;1;Cross(Price);Price CrossUp Upper Channel(#V1);Price CrossDn Lower Channel(#V1);Price CrossDn Lower Channel(#V1);Price CrossUp Upper Channel(#V1);CROSSUP(CLOSE(),PRICECHHIGH(#V1));CROSSDN(CLOSE(),MOV(CLOSE(),#V1,S));CROSSDN(CLOSE(),MOV(CLOSE(),#V1,S));CROSSUP(CLOSE(),PRICECHLOW(#V1));Term;5
+0;6;Parabolic SAR;2;Cross(Price);High Price CrossUp Parabolic SAR(#V1,#V2);Low Prcie CrossDn Parabolic SAR(#V1,#V2);Low Price CrossDn Parabolic SAR(#V1,#V2);High Price CrossUp Parabolic SAR(#V1,#V2);CROSSUP(HIGH(),PSAR(#V1,#V2));CROSSDN(LOW(),PSAR(#V1,#V2));CROSSDN(LOW(),PSAR(#V1,#V2));CROSSUP(HIGH(),PSAR(#V1,#V2));Step;Max;0.02;0.2
+1;1;Price ROC;2;Cross Base line;Price ROC(#V1) CrossUp Base line(#V2);Price ROC(#V1)CrossDn Base line(#V2);Price ROC(#V1)CrossDn Base line(#V2);Price ROC(#V1) CrossUp Base line(#V2);CROSSUP(PROC(CLOSE(),#V1,PER),#V2);CROSSDN(PROC(CLOSE(),#V1,PER),#V2);CROSSDN(PROC(CLOSE(),#V1,PER),#V2);CROSSUP(PROC(CLOSE(),#V1,PER),#V2);Term;Base;14;0.00;2;Cross Signal;Price ROC(#V1) CrossUp Signal(#V2);Price ROC(#V1) CrossDn Signal(#V2);Price ROC(#V1) CrossDn Signal(#V2);Price ROC(#V1) CrossUp Signal(#V2);CROSSUP(PROC(CLOSE(),#V1,PER),MOV(PROC(CLOSE(),#V1,PER),#V1,S)));CROSSDN(PROC(CLOSE(),#V1,PER),MOV(PROC(CLOSE(),#V1,PER),#V1,S)));CROSSDN(PROC(CLOSE(),#V1,PER),MOV(PROC(CLOSE(),#V1,PER),#V1,S)));CROSSUP(PROC(CLOSE(),#V1,PER),MOV(PROC(CLOSE(),#V1,PER),#V1,S)));Term;Signal;14;9
+1;2;MACD;3;Cross Signal;MACD(#V1,#V2) CrossUp Signal(#V3);MACD(#V1,#V2) CrossDn Signal(#V3);MACD(#V1,#V2) CrossDn Signal(#V3);MACD(#V1,#V2) CrossUp Signal(#V3);CROSSUP(MACD(CLOSE(),#V1,#V2),MOV(MACD(CLOSE(),#V1,#V2),#V3,E));CROSSDN(MACD(CLOSE(),#V1,#V2),MOV(MACD(CLOSE(),#V1,#V2),#V3,E));CROSSDN(MACD(CLOSE(),#V1,#V2),MOV(MACD(CLOSE(),#V1,#V2),#V3,E));CROSSUP(MACD(CLOSE(),#V1,#V2),MOV(MACD(CLOSE(),#V1,#V2),#V3,E));Short;Long;Signal;12;26;9
+1;3;TRIX;2;Cross Base line;Trix(#V1) CrossUp Base line(#V2);Trix(#V1) CrossDn Base line(#V2);Trix(#V1) CrossDn Base line(#V2);Trix(#V1) CrossUp Base line(#V2);CROSSUP(TRIX(CLOSE(),#V1),#V2);CROSSDN(TRIX(CLOSE(),#V1),#V2);CROSSDN(TRIX(CLOSE(),#V1),#V2);CROSSUP(TRIX(CLOSE(),#V1),#V2);Term;Base;5;0.00;2;Cross Signal;Trix(#V1) CrossUp Signal(#V2;Trix(#V1) CrossDn Signal(#V2);Trix(#V1) CrossDn Signal(#V2);Trix(#V1) CrossUp Signal(#V2);CROSSUP(TRIX(CLOSE(),#V1),MOV(TRIX(CLOSE(),#V1),#V2,S));CROSSDN(TRIX(CLOSE(),#V1),MOV(TRIX(CLOSE(),#V1),#V2,S));CROSSDN(TRIX(CLOSE(),#V1),MOV(TRIX(CLOSE(),#V1),#V2,S));CROSSUP(TRIX(CLOSE(),#V1),MOV(TRIX(CLOSE(),#V1),#V2,S));Term;Signal;5;9
+1;4;CCI;2;Cross Base line;CCI(#V1)CrossUp Base line(#V2);CCI(#V1) CrossDn Base line(#V2);CCI(#V1) CrossDn Base line(#V2);CCI(#V1)CrossUp Base line(#V2);CROSSUP(CCI(#V1),#V2);CROSSDN(CCI(#V1),#V2);CROSSDN(CCI(#V1),#V2);CROSSUP(CCI(#V1),#V2);Term;Base;14;0.00;2;Cross Signal;CCI(#V1)CrossUp Signal(#V2);CCI(#V1)CrossDn Signal(#V2);CCI(#V1)CrossDn Signal(#V2);CCI(#V1)CrossUp Signal(#V2);CROSSUP(CCI(#V1),MOV(CCI(#V1),#V2,S));CROSSDN(CCI(#V1),MOV(CCI(#V1),#V2,S));CROSSDN(CCI(#V1),MOV(CCI(#V1),#V2,S));CROSSUP(CCI(#V1),MOV(CCI(#V1),#V2,S));Term;Signal;14;9
+1;5;SONAR;2;Cross Base line;SONAR(#V1)CrossUp Base line(#V2);SONAR(#V1) CrossDn Base line(#V2);SONAR(#V1) CrossDn Base line(#V2);SONAR(#V1)CrossUp Base line(#V2);CROSSUP(SONAR(CLOSE(),#V1),#V2);CROSSDN(SONAR(CLOSE(),#V1),#V2);CROSSDN(SONAR(CLOSE(),#V1),#V2);CROSSUP(SONAR(CLOSE(),#V1),#V2);Term;Base;25;0.00;2;Cross Signal;SONAR(#V1)CrossUp Signal(#V2);SONAR(#V1)CrossDn Signal(#V2);SONAR(#V1)CrossDn Signal(#V2);SONAR(#V1)CrossUp Signal(#V2);CROSSUP(SONAR(CLOSE(),#V1),MOV(SONAR(CLOSE(),#V1),#V2,S));CROSSDN(SONAR(CLOSE(),#V1),MOV(SONAR(CLOSE(),#V1),#V2,S));CROSSDN(SONAR(CLOSE(),#V1),MOV(SONAR(CLOSE(),#V1),#V2,S));CROSSUP(SONAR(CLOSE(),#V1),MOV(SONAR(CLOSE(),#V1),#V2,S));Term;Signal;25;9
+2;1;Stochastic Fast;2;Cross Base line;FastK(#V1)CrossUp Base line(#V2);FastK(#V1) CrossDn Base line(#V2);FastK(#V1) CrossDn Base line(#V2);FastK(#V1)CrossUp Base line(#V2);CROSSUP(FASTK(#V1),#V2);CROSSDN(FASTK(#V1),#V2);CROSSDN(FASTK(#V1),#V2);CROSSUP(FASTK(#V1),#V2);Term;Base;5;50.00;2;Cross Signal;FastK(#V1)CrossUp Signal(#V2);FastK(#V1) CrossDn Signal(#V2);FastK(#V1)CrossDn Signal(#V2);FastK(#V1) CrossUp Signal(#V2);CROSSUP(FASTK(#V1),MOV(FASTK(#V1),#V2,S));CROSSDN(FASTK(#V1),MOV(FASTK(#V1),#V2,S));CROSSDN(FASTK(#V1),MOV(FASTK(#V1),#V2,S));CROSSUP(FASTK(#V1),MOV(FASTK(#V1),#V2,S));Term;Signal(%D);5;3
+2;2;Stochastic Slow;3;Cross Base line;SlowK(#V1,#V2) CrossUp Base line(#V3);SlowK(#V1,#V2) CrossDn Base line(#V3);SlowK(#V1,#V2) CrossDn Base line(#V3);SlowK(#V1,#V2) CrossUp Base line(#V3);CROSSUP(SLOWK(#V1,#V2),#V3);CROSSDN(SLOWK(#V1,#V2),#V3);CROSSDN(SLOWK(#V1,#V2),#V3);CROSSUP(SLOWK(#V1,#V2),#V3);Term;Fast%K(Term);Base;5;3;50.00;3;Cross Signal;SlowK(#V1,#V2) CrossUp Signal(#V3);SlowK(#V1,#V2)CrossDn Signal(#V3);SlowK(#V1,#V2)CrossDn Signal(#V3);SlowK(#V1,#V2) CrossUp Signal(#V3);CROSSUP(SLOWK(#V1,#V2),MOV(SLOWK(#V1,#V2),#V3,S));CROSSDN(SLOWK(#V1,#V2),MOV(SLOWK(#V1,#V2),#V3,S));CROSSDN(SLOWK(#V1,#V2),MOV(SLOWK(#V1,#V2),#V3,S));CROSSUP(SLOWK(#V1,#V2),MOV(SLOWK(#V1,#V2),#V3,S));Term;Fast%K(Term);Signal(%D);5;3;3
+2;3;RSI Exponential;2;Cross Base line;RSI(Close,#V1)CrossUp Base line(#V2);RSI(Close,#V1)CrossDn Base line(#V2);RSI(Close,#V1)CrossDn Base line(#V2);RSI(Close,#V1)CrossUp Base line(#V2);CROSSUP(RSI(CLOSE(),#V1),#V2);CROSSDN(RSI(CLOSE(),#V1),#V2);CROSSDN(RSI(CLOSE(),#V1),#V2);CROSSUP(RSI(CLOSE(),#V1),#V2);Term;Base;14;50.00;2;Cross Signal;RSI(Close,#V1)CrossUp Signal(#V2);RSI(Close,#V1)CrossDn Signal(#V2);RSI(Close,#V1)CrossDn Signal(#V2);RSI(Close,#V1) CrossUp Signal(#V2);CROSSUP(RSI(CLOSE(),#V1),MOV(RSI(CLOSE(),#V1),#V2,S));CROSSDN(RSI(CLOSE(),#V1),MOV(RSI(CLOSE(),#V1),#V2,S));CROSSDN(RSI(CLOSE(),#V1),MOV(RSI(CLOSE(),#V1),#V2,S));CROSSUP(RSI(CLOSE(),#V1),MOV(RSI(CLOSE(),#V1),#V2,S));Term;Signal;14;9
+2;4;DMI;1;Cross(DI+,DI-);DI+(#V1) CrossUp DI-(#V1);DI+(#V1) CrossDn DI-(#V1);DI+(#V1) CrossDn DI-(#V1);DI+(#V1) CrossUp DI-(#V1);CROSSUP(DIPLUS(#V1),DIMINUS(#V1));CROSSDN(DIPLUS(#V1),DIMINUS(#V1));CROSSDN(DIPLUS(#V1),DIMINUS(#V1));CROSSUP(DIPLUS(#V1),DIMINUS(#V1));DI+,DI-;14;1;Cross(ADX,ADXR);Adx(#V1) CrossUp Adxr(#V1);Adx(#V1) CrossDn Adxr(#V1);Adx(#V1) CrossDn Adxr(#V1);Adx(#V1) CrossUp Adxr(#V1);CROSSUP(ADX(#V1),ADXR(#V1));CROSSDN(ADX(#V1),ADXR(#V1));CROSSDN(ADX(#V1),ADXR(#V1));CROSSUP(ADX(#V1),ADXR(#V1));Term;14
+2;5;LRS;2;Cross Base line;LRS(Close,#V1)CrossUp Base line(#V2);LRS(Close,#V1)CrossDn Base line(#V2);LRS(Close,#V1)CrossDn Base line(#V2);LRS(Close,#V1)CrossUp Base line(#V2);CROSSUP(LRS(CLOSE(),#V1),#V2);CROSSDN(LRS(CLOSE(),#V1),#V2);CROSSDN(LRS(CLOSE(),#V1),#V2);CROSSUP(LRS(CLOSE(),#V1),#V2);Term;Base;14;0.00;2;Cross Signal;LRS(Close,#V1)CrossUp Signal(#V2);LRS(Close,#V1)CrossDn Signal(#V2);LRS(Close,#V1)CrossDn Signal(#V2);LRS(Close,#V1)CrossUp Signal(#V2);CROSSUP(LRS(CLOSE(),#V1),MOV(LRS(CLOSE(),#V1),#V2,S));CROSSDN(LRS(CLOSE(),#V1),MOV(LRS(CLOSE(),#V1),#V2,S));CROSSDN(LRS(CLOSE(),#V1),MOV(LRS(CLOSE(),#V1),#V2,S));CROSSUP(LRS(CLOSE(),#V1),MOV(LRS(CLOSE(),#V1),#V2,S));Term;Signal;14;9
+3;1;Volume Oscillator;3;Cross Base line;VO(#V1,#V2) CrossUp Base line(#V3);VO(#V1,#V2) CrossDn Base line(#V3);VO(#V1,#V2) CrossDn Base line(#V3);VO(#V1,#V2) CrossUp Base line(#V3);CROSSUP(VO(#V1,#V2,S,PER),#V3);CROSSDN(VO(#V1,#V2,S,PER),#V3);CROSSDN(VO(#V1,#V2,S,PER),#V3);CROSSUP(VO(#V1,#V2,S,PER),#V3);Short;Long;Base;10;20;0.00;3;Cross Signal;VO(#V1,#V2) CrossUp Signal(#V3);VO(#V1,#V2)CrossDn Signal(#V3);VO(#V1,#V2)CrossDn Signal(#V3);VO(#V1,#V2) CrossUp Signal(#V3);CROSSUP(VO(#V1,#V2,S,PER),MOV(VO(#V1,#V2,S,PER),#V3,S));CROSSDN(VO(#V1,#V2,S,PER),MOV(VO(#V1,#V2,S,PER),#V3,S));CROSSDN(VO(#V1,#V2,S,PER),MOV(VO(#V1,#V2,S,PER),#V3,S));CROSSUP(VO(#V1,#V2,S,PER),MOV(VO(#V1,#V2,S,PER),#V3,S));Short;Long;Signal;10;20;9
+3;2;A/D Line;1;Cross Signal;ADLine CrossUp Signal(#V1);ADLine CrossDn Signal(#V1);ADLine CrossDn Signal(#V1);ADLine CrossUp Signal(#V1);CROSSUP(AD(),MOV(AD(),#V1,S));CROSSDN(AD(),MOV(AD(),#V1,S));CROSSDN(AD(),MOV(AD(),#V1,S));CROSSUP(AD(),MOV(AD(),#V1,S));Signal;9
+3;3;CO;3;Cross Base line;CO(#V1,#V2) CrossUp Base line(#V3);CO(#V1,#V2) CrossDn Base line(#V3);CO(#V1,#V2) CrossDn Base line(#V3);CO(#V1,#V2) CrossUp Base line(#V3);CROSSUP(CO(#V1,#V2),#V3);CROSSDN(CO(#V1,#V2),#V3);CROSSDN(CO(#V1,#V2),#V3);CROSSUP(CO(#V1,#V2),#V3);Short;Long;Base;3;10;0.00;3;Cross Signal;CO(#V1,#V2) CrossUp Signal(#V3);CO(#V1,#V2)CrossDn Signal(#V3);CO(#V1,#V2)CrossDn Signal(#V3);CO(#V1,#V2) CrossUp Signal(#V3);CROSSUP(CO(#V1,#V2),MOV(CO(#V1,#V2),#V3,S));CROSSDN(CO(#V1,#V2),MOV(CO(#V1,#V2),#V3,S));CROSSDN(CO(#V1,#V2),MOV(CO(#V1,#V2),#V3,S));CROSSUP(CO(#V1,#V2),MOV(CO(#V1,#V2),#V3,S));Short;Long;Signal;3;10;9
+3;4;MFI;2;Cross Base line;MFI(#V1)CrossUp Base line(#V2);MFI(#V1) CrossDn Base line(#V2);MFI(#V1) CrossDn Base line(#V2);MFI(#V1)CrossUp Base line(#V2);CROSSUP(MFI(#V1),#V2);CROSSDN(MFI(#V1),#V2);CROSSDN(MFI(#V1),#V2);CROSSUP(MFI(#V1),#V2);Term;Base;14;50.00;2;Cross Signal;MFI(#V1)CrossUp Signal(#V2);MFI(#V1)CrossDn Signal(#V2);MFI(#V1)CrossDn Signal(#V2);MFI(#V1)CrossUp Signal(#V2);CROSSUP(MFI(#V1),MOV(MFI(#V1),#V2,S));CROSSDN(MFI(#V1),MOV(MFI(#V1),#V2,S));CROSSDN(MFI(#V1),MOV(MFI(#V1),#V2,S));CROSSDN(MFI(#V1),MOV(MFI(#V1),#V2,S));Term;Signal;14;9
+3;5;Volume Ratio;2;Cross Base line;VR(#V1)CrossUp Base line(#V2);VR(#V1) CrossDn Base line(#V2);VR(#V1) CrossDn Base line(#V2);VR(#V1)CrossUp Base line(#V2);CROSSUP(VR(#V1),#V2);CROSSDN(VR(#V1),#V2);CROSSDN(VR(#V1),#V2);CROSSUP(VR(#V1),#V2);Term;Base;20;150.00;2;Cross Signal;VR(#V1)CrossUp Signal(#V2);VR(#V1)CrossDn Signal(#V2);VR(#V1)CrossDn Signal(#V2);VR(#V1)CrossUp Signal(#V2);CROSSUP(VR(#V1),MOV(VR(#V1),#V2,S));CROSSDN(VR(#V1),MOV(VR(#V1),#V2,S));CROSSDN(VR(#V1),MOV(VR(#V1),#V2,S));CROSSUP(VR(#V1),MOV(VR(#V1),#V2,S));Term;Signal;20;9
+4;1;Psychology;2;Cross Base line;Psycholo(#V1)CrossUp Base line(#V2);Psycholo(#V1) CrossDn Base line(#V2);Psycholo(#V1) CrossDn Base line(#V2);Psycholo(#V1)CrossUp Base line(#V2);CROSSUP(PSYCHOL(#V1),#V2);CROSSDN(PSYCHOL(#V1),#V2);CROSSDN(PSYCHOL(#V1),#V2);CROSSUP(PSYCHOL(#V1),#V2);Term;Base;12;50.00;2;Cross Signal;Psycholo(#V1)CrossUp Signal(#V2);Psycholo(#V1)CrossDn Signal(#V2);Psycholo(#V1)CrossDn Signal(#V2);Psycholo(#V1)CrossUp Signal(#V2);CROSSUP(PSYCHOL(#V1),MOV(PSYCHOL(#V1),#V2,S));CROSSDN(PSYCHOL(#V1),MOV(PSYCHOL(#V1),#V2,S));CROSSDN(PSYCHOL(#V1),MOV(PSYCHOL(#V1),#V2,S));CROSSUP(PSYCHOL(#V1),MOV(PSYCHOL(#V1),#V2,S));Term;Signal;12;9
+5;1;William's %R;2;Cross Base line;Williams(#V1)CrossUp Base line(#V2);Williams(#V1) CrossDn Base line(#V2);Williams(#V1) CrossDn Base line(#V2);Williams(#V1)CrossUp Base line(#V2);CROSSUP(WILLPERR(#V1),#V2);CROSSDN(WILLPERR(#V1),#V2);CROSSDN(WILLPERR(#V1),#V2);CROSSUP(WILLPERR(#V1),#V2);Term;Base;14;-50.00;2;Cross Signal;Williams(#V1)CrossUp Signal(#V2);Williams(#V1)CrossDn Signal(#V2);Williams(#V1)CrossDn Signal(#V2);Williams(#V1)CrossUp Signal(#V2);CROSSUP(WILLPERR(#V1),MOV(WILLPERR(#V1),#V2,S));CROSSDN(WILLPERR(#V1),MOV(WILLPERR(#V1),#V2,S));CROSSDN(WILLPERR(#V1),MOV(WILLPERR(#V1),#V2,S));CROSSUP(WILLPERR(#V1),MOV(WILLPERR(#V1),#V2,S));Term;Signal;14;9
+#

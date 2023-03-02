@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contoh Navbar</title>
+
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+  
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Helvetica Neue', sans-serif;
+      font-size: 16px;
+      color: #333;
+    }
+    nav {
+      background-color: #000;
+      height: 70px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 20px;
+    }
+    nav ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: flex;
+    }
+    nav ul li a {
+      display: block;
+      color: #00BFFF;
+      text-decoration: none;
+      padding: 10px 15px;
+      transition: background-color 0.3s ease;
+    }
+    nav ul li a:hover {
+      background-color: #fff;
+      color: #000;
+    }
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #00BFFF;
+    }
+    .right {
+      margin-left: auto;
+    }
+
+    .navbar {
+  background-color: #1a1a1a;
+  color: #007bff;
+  transition: color 0.2s ease-in-out;
+}
+
+.navbar:hover {
+  color: #ffffff;
+}
+
+.nav-link {
+  color: #007bff !important;
+}
+
+.nav-link:hover {
+  color: #ffffff !important;
+}
+
+.dropdown-menu {
+  background-color: #1a1a1a;
+}
+
+.dropdown-item {
+  color: #ffffff;
+}
+
+.dropdown-item:hover {
+  background-color: #007bff;
+}
+
+/*-cover background-image: url("img/daria-nepriakhina-xY55bL5mZAM-unsplash.jpg"); */
+
+#cover {
+  background-color: #1DB954;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cover-text {
+  text-align: center;
+  color: #fff;
+}
+
+.cover-text h1 {
+  font-size: 4em;
+  margin-bottom: 0.5em;
+}
+
+.cover-text p {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+
+.btn {
+  background-color: #fff;
+  color: #3c3c3c;
+  font-size: 1.2em;
+  padding: 1em 2em;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #3c3c3c;
+  color: #fff;
+}
+
+
+/* section 3 */
+
+#about {
+  background-color: #f2f2f2;
+  padding: 50px 0;
+  color: #333;
+}
+
+#about h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+#about p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+#about img {
+  margin-top: 20px;
+}
+
+/* section 4 */
+
+#why-choose-us h2 {
+  font-size: 2.5rem;
+}
+
+#why-choose-us ul li h5 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+#why-choose-us ul li p {
+  font-size: 1rem;
+}
+
+/* section 5 */
+
+#harga {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.card {
+  border: none;
+}
+
+.card-body {
+  padding: 2rem;
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 2rem;
+  color: #555;
+}
+
+.card-text {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.btn-primary {
+  background-color: #1db954;
+  border-color: #1db954;
+}
+
+.btn-primary:hover {
+  background-color: #fff;
+  color: #1db954;
+}
+
+.btn {
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+/* section 6 */
+
+#review {
+  background-color: #f9f9f9;
+}
+
+.card {
+  border: none;
+  transition: transform 0.2s;
+  height: 100%;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+}
+
+.card-title {
+  font-weight: 600;
+}
+
+.card-subtitle {
+  font-size: 0.9rem;
+}
+
+/* section 7 */
+
+#contact {
+  padding: 50px 0;
+}
+
+#contact h2 {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+#contact form {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#contact form label {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#contact form input[type="text"],
+#contact form input[type="email"],
+#contact form input[type="tel"],
+#contact form textarea {
+  background-color: #f6f6f6;
+  border: none;
+  border-radius: 6px;
+  font-size: 18px;
+  margin-bottom: 20px;
+  padding: 12px 20px;
+  width: 100%;
+}
+
+#contact form textarea {
+  height: 150px;
+}
+
+#contact form button[type="submit"] {
+  background-color: #007bff;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 15px 40px;
+  transition: all 0.3s ease-in-out;
+}
+
+#contact form button[type="submit"]:hover {
+  background-color: #0062cc;
+  cursor: pointer;
+}
+
+/*  footer  */
+
+footer {
+  font-size: 14px;
+}
+
+footer h5 {
+  font-weight: bold;
+  color: #1DB954;
+}
+
+footer p {
+  font-size: 14px;
+  color: #A0A0A0;
+}
+
+footer ul li a {
+  font-size: 14px;
+  color: #A0A0A0;
+}
+
+footer ul li a:hover {
+  color: #1DB954;
+}
+
+footer .bg-success {
+  background-color: #1DB954;
+  color: #FFF;
+}
+
+
+
+
+
+
+
+
+
+
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="logo">Contoh Navbar</div>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Layanan</a></li>
+      <li><a href="#">Tentang</a></li>
+      <li><a href="#">Kontak</a></li>
+    </ul>
+    <ul class="right">
+      <li><a href="#">Login</a></li>
+      <li><a href="#">Daftar</a></li>
+    </ul>
+  </nav>
+  
+
+  <!--
+    s
+    ec
+  -->
+
+  <section id="cover">
+    <div class="cover-text">
+      <h1>Jasa Penerjemah Buku</h1>
+      <p>Terjemahan profesional dari bahasa Inggris ke Indonesia</p>
+      <a href="#about" class="btn">Pelajari Lebih Lanjut</a>
+    </div>
+  </section>
+
+  <!-- section 2-->
+
+  <section id="portfolio" style="background-color: #404643;">
+    <div class="container">
+      <h2 class="text-center">Portfolio</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img class="card-img-top" src="https://picsum.photos/300/200?random=1" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Buku A</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+              <a href="#" class="btn btn-primary">Detail</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img class="card-img-top" src="https://picsum.photos/300/200?random=2" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Buku B</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+              <a href="#" class="btn btn-primary">Detail</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img class="card-img-top" src="https://picsum.photos/300/200?random=3" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Buku C</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+              <a href="#" class="btn btn-primary">Detail</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- section 3-->
+
+  <section id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Tentang Perusahaan Ini</h2>
+          <p>Perusahaan ini merupakan penyedia layanan penerjemahan buku dari bahasa Inggris ke bahasa Indonesia. Kami memiliki tim penerjemah profesional yang berpengalaman dalam menerjemahkan buku-buku terbaik dari berbagai genre.</p>
+          <p>Kami menawarkan jasa penerjemahan buku dalam berbagai bidang, termasuk fiksi, non-fiksi, akademik, bisnis, dan lainnya. Selain itu, kami juga memberikan layanan penyuntingan dan proofreading untuk memastikan terjemahan yang kami hasilkan berkualitas tinggi.</p>
+        </div>
+        <div class="col-md-6">
+          <img src="https://dummyimage.com/600x400/000/fff" alt="Foto Perusahaan" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- section 4 -->
+
+  <section id="why-choose-us" class="bg-light text-dark py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h2 class="mb-4">Mengapa Memilih Layanan Kami</h2>
+          <p class="lead mb-4">Kami adalah pilihan yang tepat untuk Anda yang membutuhkan jasa penerjemahan buku karena:</p>
+          <ul class="list-unstyled">
+            <li class="d-flex mb-4">
+              <div class="mr-3">
+                <i class="bi bi-check-circle-fill text-primary"></i>
+              </div>
+              <div>
+                <h5>Terjemahan Berkualitas Tinggi</h5>
+                <p>Kami memiliki tim penerjemah yang ahli dan berpengalaman dalam menerjemahkan buku dengan kualitas tinggi.</p>
+              </div>
+            </li>
+            <li class="d-flex mb-4">
+              <div class="mr-3">
+                <i class="bi bi-check-circle-fill text-primary"></i>
+              </div>
+              <div>
+                <h5>Pengerjaan Cepat dan Tepat Waktu</h5>
+                <p>Kami memberikan jaminan pengerjaan cepat dan tepat waktu untuk setiap proyek penerjemahan buku.</p>
+              </div>
+            </li>
+            <li class="d-flex mb-4">
+              <div class="mr-3">
+                <i class="bi bi-check-circle-fill text-primary"></i>
+              </div>
+              <div>
+                <h5>Harga yang Kompetitif</h5>
+                <p>Kami memberikan harga yang kompetitif dan terjangkau tanpa mengurangi kualitas terjemahan.</p>
+              </div>
+            </li>
+            <li class="d-flex mb-4">
+              <div class="mr-3">
+                <i class="bi bi-check-circle-fill text-primary"></i>
+              </div>
+              <div>
+                <h5>Layanan Pelanggan yang Ramah</h5>
+                <p>Kami memberikan layanan pelanggan yang ramah dan responsif untuk menjawab setiap pertanyaan atau permintaan Anda.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <img src="https://picsum.photos/600/400" alt="Mengapa Memilih Layanan Kami" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- section 5 -->
+  
+  <section id="harga" class="py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card mb-4 mb-md-0">
+          <div class="card-body">
+            <h5 class="card-title">Basic</h5>
+            <p class="card-text">Rp 10.000 per halaman</p>
+            <p class="card-text">Minimal 200 halaman</p>
+            <a href="#" class="btn btn-primary">Pilih</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4 mb-md-0">
+          <div class="card-body">
+            <h5 class="card-title">Advance</h5>
+            <p class="card-text">Rp 8.000 per halaman</p>
+            <p class="card-text">Minimal 300 halaman</p>
+            <a href="#" class="btn btn-primary">Pilih</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-4 mb-md-0">
+          <div class="card-body">
+            <h5 class="card-title">Premium</h5>
+            <p class="card-text">Rp 5.000 per halaman</p>
+            <p class="card-text">Minimal 400 halaman</p>
+            <a href="#" class="btn btn-primary">Pilih</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- section 6 -->
+
+<section id="review" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-5">Testimonials</h2>
+    <div class="row">
+      <div class="col-lg-4 mb-4">
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <p class="card-text">"The translation service provided by this company is top-notch. The quality of their work exceeded my expectations and I would definitely recommend them to anyone looking for a reliable translation service."</p>
+            <h5 class="card-title">John Doe</h5>
+            <p class="card-subtitle mb-2 text-muted">Author</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-4">
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <p class="card-text">"I was impressed by the speed and accuracy of the translation. The team was able to deliver the work on time and with great attention to detail."</p>
+            <h5 class="card-title">Jane Smith</h5>
+            <p class="card-subtitle mb-2 text-muted">Publisher</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-4">
+        <div class="card shadow-sm">
+          <div class="card-body">
+            <p class="card-text">"I had a great experience working with this translation service. Their team was professional, communicative, and delivered high-quality work. I highly recommend them."</p>
+            <h5 class="card-title">David Lee</h5>
+            <p class="card-subtitle mb-2 text-muted">Editor</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- section 7 -->
+
+<section id="contact" class="bg-light py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <h2 class="text-center mb-4">Contact Us</h2>
+        <form>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputName">Name</label>
+              <input type="text" class="form-control" id="inputName" placeholder="Enter your name">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputEmail">Email</label>
+              <input type="email" class="form-control" id="inputEmail" placeholder="Enter your email">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputPhone">Phone Number</label>
+            <input type="tel" class="form-control" id="inputPhone" placeholder="Enter your phone number">
+          </div>
+          <div class="form-group">
+            <label for="inputMessage">Message</label>
+            <textarea class="form-control" id="inputMessage" rows="5" placeholder="Enter your message"></textarea>
+          </div>
+          <div class="text-center">
+            <button type="submit" class="btn btn-primary btn-lg mt-3">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--footer -->
+
+<footer class="bg-dark text-light py-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <h5 class="mb-3">Tentang Kami</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed urna at ipsum posuere lobortis.</p>
+      </div>
+      <div class="col-md-3">
+        <h5 class="mb-3">Link Terkait</h5>
+        <ul class="list-unstyled">
+          <li><a href="#">Beranda</a></li>
+          <li><a href="#">Tentang Kami</a></li>
+          <li><a href="#">Layanan</a></li>
+          <li><a href="#">Kontak</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <h5 class="mb-3">Layanan</h5>
+        <ul class="list-unstyled">
+          <li><a href="#">Terjemahan Buku</a></li>
+          <li><a href="#">Terjemahan Teks</a></li>
+          <li><a href="#">Transkripsi</a></li>
+          <li><a href="#">Proofreading</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <h5 class="mb-3">Kontak Kami</h5>
+        <p><i class="fa fa-map-marker"></i> Jl. Jendral Sudirman No.123, Jakarta Selatan</p>
+        <p><i class="fa fa-envelope"></i> info@contoh.com</p>
+        <p><i class="fa fa-phone"></i> 021-123456</p>
+      </div>
+    </div>
+  </div>
+  <div class="bg-success text-center py-2">
+    <p class="mb-0">© 2023 Contoh. All rights reserved.</p>
+  </div>
+</footer>
+
+
+
+
+  
+  
+  
+  
+  
+
+</body>
+</html>

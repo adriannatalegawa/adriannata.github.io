@@ -1,0 +1,1695 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<indicator_signal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="st.xsd" ver="4">
+	<indicator_group name="Overlay">
+		<signal  type="indicator" id="2lineblock" title="2Division(m/t)">
+			<sig_methods>
+				<itm>cross_price_2lineblock</itm>
+				<itm>comp_price_3lineblock</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="3lineblock" title="3Division(m/t)">
+			<sig_methods>
+				<itm>cross_price_3lineblock</itm>
+				<itm>comp_price_3lineblock</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="4lineblock" title="4Division(m/t)">
+			<sig_methods>
+				<itm>cross_price_4lineblock</itm>
+				<itm>comp_price_4lineblock</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="alligator" title="Alligator">
+			<sig_methods>
+				<itm>cross_price_alligator</itm>
+				<itm>cross_term_alligator</itm>
+				<itm>comp_location_alligator</itm>
+				<itm>comp_price_alligator</itm>
+				<itm>comp_trend_alligator</itm>
+				<itm>comp_turning_alligator</itm>
+			</sig_methods>
+		</signal>		
+		<signal  type="indicator" id="bollinger" title="Bollinger Band">
+			<sig_methods>
+				<itm>cross_bound</itm>
+				<itm>comp_price_bound</itm>
+				<itm>comp_trend_bound</itm>
+				<itm>comp_turning_bound</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="dema" title="DEMA">
+			<sig_methods>
+				<itm>comp_price</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_turning</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="simpledema" title="DEMA(simple)">
+			<sig_methods>
+				<itm>comp_price</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_turning</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="demark" title="Demark">
+			<sig_methods>
+				<itm>cross_bound</itm>
+				<itm>comp_price_bound</itm>
+				<itm>comp_trend_bound</itm>
+				<itm>comp_turning_bound</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="demarkblock" title="Demark(m/t)">
+			<sig_methods>
+				<itm>cross_bound</itm>
+				<itm>comp_price_bound</itm>
+				<itm>comp_trend_bound</itm>
+				<itm>comp_turning_bound</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="envelope" title="Envelope">
+			<sig_methods>
+				<itm>cross_bound</itm>
+				<itm>comp_price_bound</itm>
+				<itm>comp_trend_bound</itm>
+				<itm>comp_turning_bound</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="fiborblock" title="Fibonacci(m/t)">
+			<sig_methods>
+				<itm>cross_price_fiborblock</itm>
+				<itm>comp_price_fiborblock</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="highlowma" title="High Low Moving Average">
+			<sig_methods>
+				<itm>cross_bound</itm>
+				<itm>comp_price_bound</itm>
+				<itm>comp_trend_bound</itm>
+				<itm>comp_turning_bound</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="ilmok" title="Ichimochu Cloud">
+			<sig_methods>
+				<itm>cross_price_ilmok</itm>
+				<itm>cross_term_ilmok</itm>
+				<itm>cross_ilmok</itm>
+				<itm>cross_cloud</itm>
+				<itm>comp_price_ilmok</itm>
+				<itm>comp_standline_ilmok</itm>
+				<itm>comp_prespan</itm>
+				<itm>comp_standline_switchline</itm>
+				<itm>comp_cloud</itm>
+				<itm>comp_trend_ilmok</itm>
+				<itm>comp_turning_ilmok</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="kchannel" title="Keltner Channels">
+			<sig_methods>
+				<itm>cross_bound</itm>
+				<itm>comp_price_bound</itm>
+				<itm>comp_trend_bound</itm>
+				<itm>comp_turning_bound</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="lri" title="LRI">
+			<sig_methods>
+				<itm>cross_price</itm>
+				<itm>cross_signal</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_turning</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="mcdynamic" title="McGinley Dynamic">
+			<sig_methods>
+				<itm>cross_price</itm>
+				<itm>comp_price</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_turning</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="median" title="Median Price">
+			<sig_methods>
+				<itm>cross_price</itm>
+				<itm>comp_price</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_turning</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="medianblock" title="Median Price(m/t)">
+			<sig_methods>
+				<itm>cross_price</itm>
+				<itm>comp_price</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_turning</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="ma1" title="Moving Average(1)">
+			<sig_methods>
+				<itm>cross_price</itm>
+				<itm>comp_price</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_turning</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="hshiftedma" title="Moving Average(2)">
+			<sig_methods>
+				<itm>cross_price</itm>
+				<itm>cross_term</itm>
+				<itm>comp_location</itm>
+				<itm>comp_price</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_turning</itm>
+			</sig_methods>
+		</signal>
+				<signal  type="indicator" id="ma" title="Moving Average(3)">
+			<sig_methods>
+				<itm>cross_price</itm>
+				<itm>cross_term</itm>
+				<itm>comp_location</itm>
+				<itm>comp_price</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_turning</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="mablock" title="Moving Average(m/t)">
+			<sig_methods>
+				<itm>cross_price</itm>
+				<itm>comp_price</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_turning</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="mac" title="Moving Average Channel">
+			<sig_methods>
+				<itm>cross_price_mac</itm>
+				<itm>comp_price_mac</itm>
+				<itm>comp_trend_mac</itm>
+				<itm>comp_turning_mac</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="parabolic" title="Parabolic SAR">
+			<sig_methods>
+				<itm>cross_sar</itm>
+				<itm>comp_trend</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="perchannel" title="Percent Channel(m/t)">
+			<sig_methods>
+				<itm>cross_bound</itm>
+				<itm>comp_price_bound</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="pivot" title="Pivot Lines">
+			<sig_methods>
+				<itm>cross_price_pivot</itm>
+				<itm>comp_price_pivot</itm>
+				<itm>comp_trend_pivot</itm>
+				<itm>comp_turning_pivot</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="pivotblock" title="Pivot Lines(m/t)">
+			<sig_methods>
+				<itm>cross_price_pivot</itm>
+				<itm>comp_price_pivot</itm>
+				<itm>comp_trend_pivot</itm>
+				<itm>comp_turning_pivot</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="channel" title="Price Channel">
+			<sig_methods>
+				<itm>cross_bound</itm>
+				<itm>comp_price_bound</itm>
+				<itm>comp_trend_bound</itm>
+				<itm>comp_turning_bound</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="box" title="Price&amp; BOX Chart">
+			<sig_methods>
+				<itm>cross_bound</itm>
+				<itm>comp_price_bound</itm>
+				<itm>comp_trend_bound</itm>
+				<itm>comp_turning_bound</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="projband" title="Projection Bands">
+			<sig_methods>
+				<itm>cross_bound</itm>
+				<itm>comp_price_bound</itm>
+				<itm>comp_trend_bound</itm>
+				<itm>comp_turning_bound</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="stderrband" title="Standard Error Band">
+			<sig_methods>
+				<itm>cross_bound</itm>
+				<itm>comp_price_bound</itm>
+				<itm>comp_trend_bound</itm>
+				<itm>comp_turning_bound</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="starcband" title="Starc Bands">
+			<sig_methods>
+				<itm>cross_bound</itm>
+				<itm>comp_price_bound</itm>
+				<itm>comp_trend_bound</itm>
+				<itm>comp_turning_bound</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="tema" title="TEMA">
+			<sig_methods>
+				<itm>cross_price</itm>
+				<itm>comp_price</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_turning</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="simpletema" title="TEMA(simple)">
+			<sig_methods>
+				<itm>cross_price</itm>
+				<itm>comp_price</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_turning</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="tironelevel" title="Tirone Level">
+			<sig_methods>
+				<itm>cross_bound</itm>
+				<itm>comp_price_bound</itm>
+				<itm>comp_trend_bound</itm>
+				<itm>comp_turning_bound</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="vidya" title="VIDYA">
+			<sig_methods>
+				<itm>cross_signal</itm>
+				<itm>cross_price</itm>
+				<itm>comp_price</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_trend_signal</itm>
+				<itm>comp_turning</itm>
+				<itm>comp_turning_signal</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="vwma" title="VWMA">
+			<sig_methods>
+				<itm>cross_price</itm>
+				<itm>cross_term</itm>
+				<itm>comp_price</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_turning</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="weightedclose" title="Weighted Close">
+			<sig_methods>
+				<itm>cross_price</itm>
+				<itm>comp_price</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_turning</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="zigzag" title="ZigZag">
+			<sig_methods>
+				<itm>cross_price_zigzag</itm>
+				<itm>comp_price_zigzag</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_turning</itm>
+			</sig_methods>
+		</signal>
+	</indicator_group>
+
+	<indicator_group name="Trend Indicator">
+		<signal  type="indicator" id="bwmacd" title="Binary Wave MACD">
+			<sig_methods>
+				<itm>cross_signal</itm>
+				<itm>cross_stand_macd</itm>
+				<itm>cross_stand_signal</itm>
+				<itm>comp_standline_signal</itm>
+				<itm>comp_standvalue_macd</itm>
+				<itm>comp_standvalue_signal</itm>
+				<itm>comp_trend_macd</itm>
+				<itm>comp_trend_signal</itm>
+				<itm>comp_turning_macd</itm>
+				<itm>comp_turning_signal</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="bpdlhilo" title="BPDL Hilo Index">
+			<sig_methods>
+				<itm>cross_stand</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_turning</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="bpdlst" title="BPDL Short Trend">
+			<sig_methods>
+				<itm>cross_stand</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_turning</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="bpdltf" title="BPDL Trend Filter">
+			<sig_methods>
+				<itm>cross_stand</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_turning</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="cci" title="CCI">
+			<sig_methods>
+				<itm>cross_signal</itm>
+				<itm>cross_stand</itm>
+				<itm>cross_stand_signal</itm>
+				<itm>comp_standline_signal</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_standvalue_signal</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_trend_signal</itm>
+				<itm>comp_turning</itm>
+				<itm>comp_turning_signal</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="elderray" title="Elder-Ray">
+			<sig_methods>
+				<itm>cross_stand_elderray</itm>
+				<itm>comp_standvalue_elderray</itm>
+				<itm>comp_trend_elderray</itm>
+				<itm>comp_turning_elderray</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="macd" title="MACD">
+			<sig_methods>
+				<itm>cross_signal</itm>
+				<itm>cross_stand_macd</itm>
+				<itm>cross_stand_signal</itm>
+				<itm>comp_standline_signal</itm>
+				<itm>comp_standvalue_macd</itm>
+				<itm>comp_standvalue_signal</itm>
+				<itm>comp_trend_macd</itm>
+				<itm>comp_trend_signal</itm>
+				<itm>comp_turning_macd</itm>
+				<itm>comp_turning_signal</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="demamacd" title="MACD(DEMA)">
+			<sig_methods>
+				<itm>cross_signal</itm>
+				<itm>cross_stand_macd</itm>
+				<itm>cross_stand_signal</itm>
+				<itm>comp_standline_signal</itm>
+				<itm>comp_standvalue_macd</itm>
+				<itm>comp_standvalue_signal</itm>
+				<itm>comp_trend_macd</itm>
+				<itm>comp_trend_signal</itm>
+				<itm>comp_turning_macd</itm>
+				<itm>comp_turning_signal</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="temamacd" title="MACD(TEMA)">
+			<sig_methods>
+				<itm>cross_signal</itm>
+				<itm>cross_stand_macd</itm>
+				<itm>cross_stand_signal</itm>
+				<itm>comp_standline_signal</itm>
+				<itm>comp_standvalue_macd</itm>
+				<itm>comp_standvalue_signal</itm>
+				<itm>comp_trend_macd</itm>
+				<itm>comp_trend_signal</itm>
+				<itm>comp_turning_macd</itm>
+				<itm>comp_turning_signal</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="oscillator" title="MACD Oscillator">
+			<sig_methods>
+				<itm>cross_stand</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_turning</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="mao" title="MAO">
+			<sig_methods>
+				<itm>cross_signal</itm>
+				<itm>cross_stand</itm>
+				<itm>cross_stand_signal</itm>
+				<itm>comp_standline_signal</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_standvalue_signal</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_trend_signal</itm>
+				<itm>comp_turning</itm>
+				<itm>comp_turning_signal</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="mcosc" title="McCellan Oscillator">
+			<sig_methods>
+				<itm>cross_stand</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_turning</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="mcsum" title="McCellan Summation">
+			<sig_methods>
+				<itm>cross_stand</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_turning</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="momentum" title="Momentum">
+			<sig_methods>
+				<itm>cross_signal</itm>
+				<itm>cross_stand</itm>
+				<itm>cross_stand_signal</itm>
+				<itm>comp_standline_signal</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_standvalue_signal</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_trend_signal</itm>
+				<itm>comp_turning</itm>
+				<itm>comp_turning_signal</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="npal" title="North Price Action Line">
+			<sig_methods>
+				<itm>cross_stand</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_turning</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="obp" title="On Balance Price">
+			<sig_methods>
+				<itm>cross_stand</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_turning</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="pricechangeline" title="Price Change Line">
+			<sig_methods>
+				<itm>cross_stand</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_turning</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="proc" title="Price ROC">
+			<sig_methods>
+				<itm>cross_signal</itm>
+				<itm>cross_stand</itm>
+				<itm>cross_stand_signal</itm>
+				<itm>comp_standline_signal</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_standvalue_signal</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_trend_signal</itm>
+				<itm>comp_turning</itm>
+				<itm>comp_turning_signal</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="rmi" title="Relative Momentum Index">
+			<sig_methods>
+				<itm>cross_signal</itm>
+				<itm>cross_stand</itm>
+				<itm>cross_stand_signal</itm>
+				<itm>comp_standline_signal</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_standvalue_signal</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_trend_signal</itm>
+				<itm>comp_turning</itm>
+				<itm>comp_turning_signal</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="rvigori" title="Relative Vigor Indicator">
+			<sig_methods>
+				<itm>cross_signal</itm>
+				<itm>cross_stand</itm>
+				<itm>cross_stand_signal</itm>
+				<itm>comp_standline_signal</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_standvalue_signal</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_trend_signal</itm>
+				<itm>comp_turning</itm>
+				<itm>comp_turning_signal</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="sop" title="Slope of Price">
+			<sig_methods>
+				<itm>cross_stand</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_turning</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="sroc" title="Smoothed ROC">
+			<sig_methods>
+				<itm>cross_signal</itm>
+				<itm>cross_stand</itm>
+				<itm>cross_stand_signal</itm>
+				<itm>comp_standline_signal</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_standvalue_signal</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_trend_signal</itm>
+				<itm>comp_turning</itm>
+				<itm>comp_turning_signal</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="sonar" title="SONAR">
+			<sig_methods>
+				<itm>cross_signal</itm>
+				<itm>cross_stand</itm>
+				<itm>cross_stand_signal</itm>
+				<itm>comp_standline_signal</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_standvalue_signal</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_trend_signal</itm>
+				<itm>comp_turning</itm>
+				<itm>comp_turning_signal</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="trix" title="TRIX">
+			<sig_methods>
+				<itm>cross_signal</itm>
+				<itm>cross_stand</itm>
+				<itm>cross_stand_signal</itm>
+				<itm>comp_standline_signal</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_standvalue_signal</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_trend_signal</itm>
+				<itm>comp_turning</itm>
+				<itm>comp_turning_signal</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="tsf" title="TSF">
+			<sig_methods>
+				<itm>cross_price</itm>
+				<itm>cross_signal</itm>
+				<itm>comp_price</itm>
+				<itm>comp_standline_signal</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_trend_signal</itm>
+				<itm>comp_turning</itm>
+				<itm>comp_turning_signal</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="tsi" title="TSI">
+			<sig_methods>
+				<itm>cross_signal</itm>
+				<itm>cross_stand</itm>
+				<itm>cross_stand_signal</itm>
+				<itm>comp_standline_signal</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_standvalue_signal</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_trend_signal</itm>
+				<itm>comp_turning</itm>
+				<itm>comp_turning_signal</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="uosc" title="Ultimate Oscillator">
+			<sig_methods>
+				<itm>cross_signal</itm>
+				<itm>comp_standline_signal</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_trend_signal</itm>
+				<itm>comp_turning</itm>
+				<itm>comp_turning_signal</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="velindex" title="Velocith Index">
+			<sig_methods>
+				<itm>cross_stand</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_turning</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="willad" title="Williams Accumulation Distribution">
+			<sig_methods>
+				<itm>cross_signal</itm>
+				<itm>cross_stand</itm>
+				<itm>cross_stand_signal</itm>
+				<itm>comp_standline_signal</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_standvalue_signal</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_trend_signal</itm>
+				<itm>comp_turning</itm>
+				<itm>comp_turning_signal</itm>
+			</sig_methods>
+		</signal>
+	</indicator_group>
+
+	<indicator_group name="Momentum Indicator">
+		<signal  type="indicator" id="abratio" title="AB Ratio">
+			<sig_methods>
+				<itm>cross_abratio</itm>
+				<itm>comp_standline_abratio</itm>
+				<itm>comp_trend_abratio</itm>
+				<itm>comp_turning_abratio</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="adx" title="ADX">
+			<sig_methods>
+				<itm>cross_stand</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_turning</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="adxr" title="ADXR">
+			<sig_methods>
+				<itm>cross_adx</itm>
+				<itm>cross_stand</itm>
+				<itm>comp_standline_signal</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_turning</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="aroon" title="Aroon">
+			<sig_methods>
+				<itm>cross_aroon</itm>
+				<itm>cross_stand_aroon</itm>
+				<itm>comp_standline_aroon</itm>
+				<itm>comp_standvalue_aroon</itm>
+				<itm>comp_trend_aroon</itm>
+				<itm>comp_turning_aroon</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="aroonosc" title="Aroon Osillator">
+			<sig_methods>
+				<itm>cross_stand</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_turning</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="atr" title="ATR">
+			<sig_methods>
+				<itm>comp_trend</itm>
+				<itm>comp_turning</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="bpdlrsi" title="BPDL RSI">
+			<sig_methods>
+				<itm>cross_signal</itm>
+				<itm>cross_stand</itm>
+				<itm>cross_stand_signal</itm>
+				<itm>comp_standline_signal</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_standvalue_signal</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_trend_signal</itm>
+				<itm>comp_turning</itm>
+				<itm>comp_turning_signal</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="bpdlstoch" title="BPDL Stochatic">
+			<sig_methods>
+				<itm>cross_signal</itm>
+				<itm>cross_stand</itm>
+				<itm>cross_stand_signal</itm>
+				<itm>comp_standline_signal</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_standvalue_signal</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_trend_signal</itm>
+				<itm>comp_turning</itm>
+				<itm>comp_turning_signal</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="cmo" title="Chande Momentum Oscillator">
+			<sig_methods>
+				<itm>cross_stand</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_turning</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="chaikinvol" title="Chaikin's Volatility">
+			<sig_methods>
+				<itm>cross_stand</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_turning</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="comvol" title="CompuTrac Volatility">
+			<sig_methods>
+				<itm>cross_stand</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_turning</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="dmi" title="DMI">
+			<sig_methods>
+				<itm>cross_dmi</itm>
+				<itm>cross_dmi_adx</itm>
+				<itm>comp_dmi_adx</itm>
+				<itm>comp_standline_dmi</itm>
+				<itm>comp_standvalue_dmi</itm>
+				<itm>comp_trend_dmi</itm>
+				<itm>comp_turning_dmi</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="simpledmi" title="DMI(simple)">
+			<sig_methods>
+				<itm>cross_dmi</itm>
+				<itm>cross_dmi_adx</itm>
+				<itm>comp_dmi_adx</itm>
+				<itm>comp_standline_dmi</itm>
+				<itm>comp_standvalue_dmi</itm>
+				<itm>comp_trend_dmi</itm>
+				<itm>comp_turning_dmi</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="disparity" title="Disparity">
+			<sig_methods>
+				<itm>cross_stand_disparity</itm>
+				<itm>comp_standvalue_disparity</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_turning</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="energy" title="Energy">
+			<sig_methods>
+				<itm>cross_plusminus</itm>
+				<itm>comp_standline_energy</itm>
+				<itm>comp_standvalue_energy</itm>
+				<itm>comp_trend_energy</itm>
+				<itm>comp_turning_energy</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="hlenv" title="High Low Envelope">
+			<sig_methods>
+				<itm>cross_stand</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_turning</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="hlosc" title="High Low Oscillator">
+			<sig_methods>
+				<itm>cross_stand</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_turning</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="inertia" title="Inertia">
+			<sig_methods>
+				<itm>cross_signal</itm>
+				<itm>cross_stand</itm>
+				<itm>cross_stand_signal</itm>
+				<itm>comp_standline_signal</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_standvalue_signal</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_trend_signal</itm>
+				<itm>comp_turning</itm>
+				<itm>comp_turning_signal</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="ko" title="Klinger Oscillator">
+			<sig_methods>
+				<itm>cross_signal</itm>
+				<itm>cross_stand</itm>
+				<itm>cross_stand_signal</itm>
+				<itm>comp_standline_signal</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_standvalue_signal</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_trend_signal</itm>
+				<itm>comp_turning</itm>
+				<itm>comp_turning_signal</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="lto" title="Linear Trend Oscillator">
+			<sig_methods>
+				<itm>cross_stand</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_turning</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="lrs" title="LRS">
+			<sig_methods>
+				<itm>cross_signal</itm>
+				<itm>cross_stand</itm>
+				<itm>cross_stand_signal</itm>
+				<itm>comp_standline_signal</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_standvalue_signal</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_trend_signal</itm>
+				<itm>comp_turning</itm>
+				<itm>comp_turning_signal</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="massindex" title="Mass Index">
+			<sig_methods>
+				<itm>cross_signal</itm>
+				<itm>cross_stand</itm>
+				<itm>cross_stand_signal</itm>
+				<itm>comp_standline_signal</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_standvalue_signal</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_trend_signal</itm>
+				<itm>comp_turning</itm>
+				<itm>comp_turning_signal</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="morrmm" title="Morris Mixed Momentum">
+			<sig_methods>
+				<itm>cross_stand</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_turning</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="newbpdlhli" title="New BPDL HiLo Index MA">
+			<sig_methods>
+				<itm>cross_stand</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_turning</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="opendiff" title="Open Difference">
+			<sig_methods>
+				<itm>cross_stand</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_turning</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="qstick" title="QStick">
+			<sig_methods>
+				<itm>cross_signal</itm>
+				<itm>cross_stand</itm>
+				<itm>cross_stand_signal</itm>
+				<itm>comp_standline_signal</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_standvalue_signal</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_trend_signal</itm>
+				<itm>comp_turning</itm>
+				<itm>comp_turning_signal</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="rwi" title="Random Walk Index">
+			<sig_methods>
+				<itm>cross_stand</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_turning</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="rci" title="RCI">
+			<sig_methods>
+				<itm>cross_longshort</itm>
+				<itm>cross_stand</itm>
+				<itm>comp_standline_term</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_turning</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="rvi" title="Relative Volatility Index">
+			<sig_methods>
+				<itm>cross_signal</itm>
+				<itm>cross_stand</itm>
+				<itm>cross_stand_signal</itm>
+				<itm>comp_standline_signal</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_standvalue_signal</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_trend_signal</itm>
+				<itm>comp_turning</itm>
+				<itm>comp_turning_signal</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="reverse" title="Reverse">
+			<sig_methods>
+				<itm>cross_term</itm>
+				<itm>cross_stand</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_turning</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="rsi" title="RSI">
+			<sig_methods>
+				<itm>cross_signal</itm>
+				<itm>cross_stand</itm>
+				<itm>cross_stand_signal</itm>
+				<itm>comp_standline_signal</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_standvalue_signal</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_trend_signal</itm>
+				<itm>comp_turning</itm>
+				<itm>comp_turning_signal</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="simplersi" title="RSI(simple)">
+			<sig_methods>
+				<itm>cross_signal</itm>
+				<itm>cross_stand</itm>
+				<itm>cross_stand_signal</itm>
+				<itm>comp_standline_signal</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_standvalue_signal</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_trend_signal</itm>
+				<itm>comp_turning</itm>
+				<itm>comp_turning_signal</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="rsistochastic" title="RSI(Stochastic)">
+			<sig_methods>
+				<itm>cross_signal</itm>
+				<itm>cross_stand</itm>
+				<itm>cross_stand_signal</itm>
+				<itm>comp_standline_signal</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_standvalue_signal</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_trend_signal</itm>
+				<itm>comp_turning</itm>
+				<itm>comp_turning_signal</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="rsquared" title="R-Squared">
+			<sig_methods>
+				<itm>cross_signal</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_trend_signal</itm>
+				<itm>comp_turning</itm>
+				<itm>comp_turning_signal</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="sigma" title="Sigma">
+			<sig_methods>
+				<itm>cross_signal</itm>
+				<itm>cross_stand</itm>
+				<itm>cross_stand_signal</itm>
+				<itm>comp_standline_signal</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_standvalue_signal</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_trend_signal</itm>
+				<itm>comp_turning</itm>
+				<itm>comp_turning_signal</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="smi" title="SMI">
+			<sig_methods>
+				<itm>cross_signal</itm>
+				<itm>cross_stand</itm>
+				<itm>cross_stand_signal</itm>
+				<itm>comp_standline_signal</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_standvalue_signal</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_trend_signal</itm>
+				<itm>comp_turning</itm>
+				<itm>comp_turning_signal</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="stdev" title="Standard Deviation">
+			<sig_methods>
+				<itm>comp_standvalue</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_turning</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="stdeverr" title="Standard Error">
+			<sig_methods>
+				<itm>comp_standvalue</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_turning</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="stochfast" title="Stochastic Fast">
+			<sig_methods>
+				<itm>cross_stoch</itm>
+				<itm>cross_stand</itm>
+				<itm>cross_stand_signal</itm>
+				<itm>comp_standline_signal</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_standvalue_signal</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_trend_signal</itm>
+				<itm>comp_turning</itm>
+				<itm>comp_turning_signal</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="stochslow" title="Stochastic Slow">
+			<sig_methods>
+				<itm>cross_stoch</itm>
+				<itm>cross_stand</itm>
+				<itm>cross_stand_signal</itm>
+				<itm>comp_standline_signal</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_standvalue_signal</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_trend_signal</itm>
+				<itm>comp_turning</itm>
+				<itm>comp_turning_signal</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="simplestoch" title="Stochastic(simple)">
+			<sig_methods>
+				<itm>cross_stoch</itm>
+				<itm>cross_stand</itm>
+				<itm>cross_stand_signal</itm>
+				<itm>comp_standline_signal</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_standvalue_signal</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_trend_signal</itm>
+				<itm>comp_turning</itm>
+				<itm>comp_turning_signal</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="trixgradiant" title="TRIX Slope">
+			<sig_methods>
+				<itm>cross_signal</itm>
+				<itm>cross_stand</itm>
+				<itm>cross_stand_signal</itm>
+				<itm>comp_standline_signal</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_standvalue_signal</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_trend_signal</itm>
+				<itm>comp_turning</itm>
+				<itm>comp_turning_signal</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="tr" title="True Range">
+			<sig_methods>
+				<itm>cross_stand</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_turning</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="tsfosc" title="TSF Oscillator">
+			<sig_methods>
+				<itm>cross_stand</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_turning</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="vhf" title="VHF">
+			<sig_methods>
+				<itm>cross_signal</itm>
+				<itm>cross_stand</itm>
+				<itm>cross_stand_signal</itm>
+				<itm>comp_standline_signal</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_standvalue_signal</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_trend_signal</itm>
+				<itm>comp_turning</itm>
+				<itm>comp_turning_signal</itm>
+			</sig_methods>
+		</signal>
+	</indicator_group>
+
+	<indicator_group name="Volume Indicator">
+		<signal  type="indicator" id="adline" title="A/D Line">
+			<sig_methods>
+				<itm>cross_signal</itm>
+				<itm>cross_stand_signal</itm>
+				<itm>comp_standline_signal</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_trend_signal</itm>
+				<itm>comp_turning</itm>
+				<itm>comp_turning_signal</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="bosintra" title="Bostian's Intraday Intensity Index">
+			<sig_methods>
+				<itm>cross_signal</itm>
+				<itm>comp_standline_signal</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_trend_signal</itm>
+				<itm>comp_turning</itm>
+				<itm>comp_turning_signal</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="bpdlrvi" title="BPDL Relative Volume Index">
+			<sig_methods>
+				<itm>cross_signal</itm>
+				<itm>cross_stand</itm>
+				<itm>cross_stand_signal</itm>
+				<itm>comp_standline_signal</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_standvalue_signal</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_trend_signal</itm>
+				<itm>comp_turning</itm>
+				<itm>comp_turning_signal</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="cmf" title="Chaikin's Money Flow">
+			<sig_methods>
+				<itm>cross_stand</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_turning</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="co" title="CO">
+			<sig_methods>
+				<itm>cross_signal</itm>
+				<itm>cross_stand</itm>
+				<itm>cross_stand_signal</itm>
+				<itm>comp_standline_signal</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_standvalue_signal</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_trend_signal</itm>
+				<itm>comp_turning</itm>
+				<itm>comp_turning_signal</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="dvi" title="Daily Volume Index">
+			<sig_methods>
+				<itm>cross_stand</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_turning</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="eom" title="Ease of Movement">
+			<sig_methods>
+				<itm>cross_signal</itm>
+				<itm>cross_stand</itm>
+				<itm>cross_stand_signal</itm>
+				<itm>comp_standline_signal</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_standvalue_signal</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_trend_signal</itm>
+				<itm>comp_turning</itm>
+				<itm>comp_turning_signal</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="fi" title="Force Index">
+			<sig_methods>
+				<itm>cross_term</itm>
+				<itm>cross_stand</itm>
+				<itm>comp_standline_term</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_turning</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="gmmcosc" title="GM McCellan Oscillator">
+			<sig_methods>
+				<itm>cross_stand</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_turning</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="gmmcsum" title="GM McCellan Summation">
+			<sig_methods>
+				<itm>cross_stand</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_turning</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="mfi" title="MFI">
+			<sig_methods>
+				<itm>cross_signal</itm>
+				<itm>cross_stand</itm>
+				<itm>cross_stand_signal</itm>
+				<itm>comp_standline_signal</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_standvalue_signal</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_trend_signal</itm>
+				<itm>comp_turning</itm>
+				<itm>comp_turning_signal</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="morria" title="Morris Intraday Accumulator">
+			<sig_methods>
+				<itm>cross_stand</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_turning</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="mbi" title="Moving Balance Indicator">
+			<sig_methods>
+				<itm>cross_signal</itm>
+				<itm>cross_stand</itm>
+				<itm>cross_stand_signal</itm>
+				<itm>comp_standline_signal</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_standvalue_signal</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_trend_signal</itm>
+				<itm>comp_turning</itm>
+				<itm>comp_turning_signal</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="nvi" title="Negative Volume Index">
+			<sig_methods>
+				<itm>cross_signal</itm>
+				<itm>comp_standline_signal</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_trend_signal</itm>
+				<itm>comp_turning</itm>
+				<itm>comp_turning_signal</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="obv" title="OBV">
+			<sig_methods>
+				<itm>cross_signal</itm>
+				<itm>cross_stand</itm>
+				<itm>cross_stand_signal</itm>
+				<itm>comp_standline_signal</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_standvalue_signal</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_trend_signal</itm>
+				<itm>comp_turning</itm>
+				<itm>comp_turning_signal</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="obvav" title="OBV with Average Volume">
+			<sig_methods>
+				<itm>cross_signal</itm>
+				<itm>cross_stand</itm>
+				<itm>cross_stand_signal</itm>
+				<itm>comp_standline_signal</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_standvalue_signal</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_trend_signal</itm>
+				<itm>comp_turning</itm>
+				<itm>comp_turning_signal</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="obvmid" title="OBV Midpoint">
+			<sig_methods>
+				<itm>cross_signal</itm>
+				<itm>comp_standline_signal</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_trend_signal</itm>
+				<itm>comp_turning</itm>
+				<itm>comp_turning_signal</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="obvosc" title="OBV Oscillator">
+			<sig_methods>
+				<itm>cross_stand</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_turning</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="pvi" title="Positive Volume Index">
+			<sig_methods>
+				<itm>cross_signal</itm>
+				<itm>comp_standline_signal</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_trend_signal</itm>
+				<itm>comp_turning</itm>
+				<itm>comp_turning_signal</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="pvt" title="Price Volume Trend">
+			<sig_methods>
+				<itm>cross_signal</itm>
+				<itm>comp_standline_signal</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_trend_signal</itm>
+				<itm>comp_turning</itm>
+				<itm>comp_turning_signal</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="sov" title="Slope of Volume">
+			<sig_methods>
+				<itm>cross_stand</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_turning</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="smoothad" title="Smooth Accumulation Distribution">
+			<sig_methods>
+				<itm>cross_signal</itm>
+				<itm>comp_standline_signal</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_trend_signal</itm>
+				<itm>comp_turning</itm>
+				<itm>comp_turning_signal</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="specialad" title="Special Accumulation Distribution">
+			<sig_methods>
+				<itm>cross_signal</itm>
+				<itm>comp_standline_signal</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_trend_signal</itm>
+				<itm>comp_turning</itm>
+				<itm>comp_turning_signal</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="trin" title="TRIN(inverted)">
+			<sig_methods>
+				<itm>cross_stand</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_turning</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="tti" title="Trend Thrust Indicator">
+			<sig_methods>
+				<itm>cross_signal</itm>
+				<itm>cross_stand</itm>
+				<itm>cross_stand_signal</itm>
+				<itm>comp_standline_signal</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_standvalue_signal</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_trend_signal</itm>
+				<itm>comp_turning</itm>
+				<itm>comp_turning_signal</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="tradingcost" title="Value">
+			<sig_methods>
+				<itm>cross_stand</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_turning</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="volume" title="Volume">
+			<sig_methods>
+				<itm>cross_stand</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_turning</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="volumemacd" title="Volume MACD">
+			<sig_methods>
+				<itm>cross_signal</itm>
+				<itm>cross_stand_macd</itm>
+				<itm>comp_standline_signal</itm>
+				<itm>comp_standvalue_macd</itm>
+				<itm>comp_trend_macd</itm>
+				<itm>comp_turning_macd</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="vo" title="Volume Oscillator">
+			<sig_methods>
+				<itm>cross_signal</itm>
+				<itm>cross_stand</itm>
+				<itm>cross_stand_signal</itm>
+				<itm>comp_standline_signal</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_standvalue_signal</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_trend_signal</itm>
+				<itm>comp_turning</itm>
+				<itm>comp_turning_signal</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="vpa" title="Volume Price Accumulator">
+			<sig_methods>
+				<itm>cross_stand</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_turning</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="vpma" title="Volume Plus-minus Average">
+			<sig_methods>
+				<itm>cross_stand</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_turning</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="vpci" title="Volume Price Confirmation Indicator">
+			<sig_methods>
+				<itm>cross_signal</itm>
+				<itm>cross_stand</itm>
+				<itm>cross_stand_signal</itm>
+				<itm>comp_standline_signal</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_standvalue_signal</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_trend_signal</itm>
+				<itm>comp_turning</itm>
+				<itm>comp_turning_signal</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="vr" title="Volume Ratio">
+			<sig_methods>
+				<itm>cross_stand</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_turning</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="vroc" title="Volume ROC">
+			<sig_methods>
+				<itm>cross_signal</itm>
+				<itm>cross_stand</itm>
+				<itm>cross_stand_signal</itm>
+				<itm>comp_standline_signal</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_standvalue_signal</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_trend_signal</itm>
+				<itm>comp_turning</itm>
+				<itm>comp_turning_signal</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="volumersi" title="Volume RSI">
+			<sig_methods>
+				<itm>cross_signal</itm>
+				<itm>cross_stand</itm>
+				<itm>cross_stand_signal</itm>
+				<itm>comp_standline_signal</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_standvalue_signal</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_trend_signal</itm>
+				<itm>comp_turning</itm>
+				<itm>comp_turning_signal</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="vstdev" title="Volume Standard Deviation">
+			<sig_methods>
+				<itm>cross_stand</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_turning</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="vwmacd" title="VW-MACD">
+			<sig_methods>
+				<itm>cross_signal</itm>
+				<itm>cross_stand_macd</itm>
+				<itm>cross_stand_signal</itm>
+				<itm>comp_standline_signal</itm>
+				<itm>comp_standvalue_macd</itm>
+				<itm>comp_standvalue_signal</itm>
+				<itm>comp_trend_macd</itm>
+				<itm>comp_trend_signal</itm>
+				<itm>comp_turning_macd</itm>
+				<itm>comp_turning_signal</itm>
+			</sig_methods>
+		</signal>
+	</indicator_group>
+
+	<indicator_group name="Period Indicator">
+		<signal  type="indicator" id="dpo" title="DPO">
+			<sig_methods>
+				<itm>cross_stand</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_turning</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="newpsychol" title="New Psychology">
+			<sig_methods>
+				<itm>cross_stand</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_turning</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="psychol" title="Psychology">
+			<sig_methods>
+				<itm>cross_stand</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_turning</itm>
+			</sig_methods>
+		</signal>
+	</indicator_group>
+
+	<indicator_group name="Special Indicator">
+		<signal  type="indicator" id="prob" title="%B">
+			<sig_methods>
+				<itm>cross_signal</itm>
+				<itm>cross_stand</itm>
+				<itm>cross_stand_signal</itm>
+				<itm>comp_standline_signal</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_standvalue_signal</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_trend_signal</itm>
+				<itm>comp_turning</itm>
+				<itm>comp_turning_signal</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="asi" title="ASI">
+			<sig_methods>
+				<itm>comp_trend</itm>
+				<itm>comp_turning</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="autotrend" title="Auto Trend Line">
+			<sig_methods>
+				<itm>cross_price_autotrend</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="autotrend2" title="Auto Trend Line(Auto Period)">
+			<sig_methods>
+				<itm>cross_price_autotrend</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="bandwidth" title="Band Width">
+			<sig_methods>
+				<itm>cross_signal</itm>
+				<itm>cross_stand</itm>
+				<itm>cross_stand_signal</itm>
+				<itm>comp_standline_signal</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_standvalue_signal</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_trend_signal</itm>
+				<itm>comp_turning</itm>
+				<itm>comp_turning_signal</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="binarywave" title="Binary Wave">
+			<sig_methods>
+				<itm>cross_stand</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_turning</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="macdsar" title="MACD w-SAR">
+			<sig_methods>
+				<itm>cross_stand</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_turning</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="swingindex" title="Swing Index">
+			<sig_methods>
+				<itm>cross_stand</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_turning</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="williams" title="Williams %R">
+			<sig_methods>
+				<itm>cross_stand</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_turning</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="zigzagosc" title="ZigZag Oscillator">
+			<sig_methods>
+				<itm>cross_stand</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_turning</itm>
+			</sig_methods>
+		</signal>
+	</indicator_group>
+
+		<indicator_group name="Indicator by Daishin">
+		<signal  type="indicator" id="goldenpower" title="Golden Power">
+			<sig_methods>
+				<itm>cross_buysell</itm>
+				<itm>comp_standline_gp</itm>
+				<itm>comp_standvalue_gp</itm>
+				<itm>comp_trend_gp</itm>
+				<itm>comp_turning_gp</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="netpower" title="Net Power">
+			<sig_methods>
+				<itm>cross_stand</itm>
+				<itm>comp_standvalue</itm>
+				<itm>comp_trend</itm>
+				<itm>comp_turning</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="trendpower" title="Trend Power">
+			<sig_methods>
+				<itm>cross_buysell</itm>
+				<itm>comp_standline_tp</itm>
+				<itm>comp_standvalue_tp</itm>
+				<itm>comp_trend_tp</itm>
+				<itm>comp_turning_tp</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="volumepowerc" title="Volume Power">
+			<sig_methods>
+				<itm>cross_volumepower</itm>
+				<itm>cross_term_volumepower</itm>
+				<itm>cross_stand_volumepower</itm>
+				<itm>comp_location</itm>
+				<itm>comp_standvalue_volumepower</itm>
+				<itm>comp_volumepower</itm>
+				<itm>comp_trend_volumepower</itm>
+				<itm>comp_turning_volumepower</itm>
+			</sig_methods>
+		</signal>
+		<signal  type="indicator" id="volumepowercosc" title="Volume Power OSC">
+			<sig_methods>
+				<itm>cross_stand_volumepowerosc</itm>
+				<itm>comp_standvalue_volumepowerosc</itm>
+				<itm>comp_trend_volumepowerosc</itm>
+				<itm>comp_turning_volumepowerosc</itm>
+			</sig_methods>
+		</signal>
+	</indicator_group>
+	
+</indicator_signal>

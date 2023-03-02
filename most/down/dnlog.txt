@@ -1,0 +1,536 @@
+
+>19:45:51 ****************
+>19:45:51 ****************
+>19:45:51 MD Update Start
+>19:45:51  DATE 01/06/23(Ver.2.0)
+>19:45:51  SVR 103.120.244.134
+>19:45:51  DNPATH C:\Users\M ADRIAN NATALEGAWA\OneDrive\Desktop
+>19:45:51 MASTER:main_12732_e.datget master file(main_12732_e.dat).  OK
+>19:45:51  Total file size : 64345722
+>19:45:51  (P)bosbar.dll : get dif(0010CCEE=>00111841). err StatusCode=404. get org file. unzip. ok. 
+>19:45:51  (P)cbData.dll : get dif(0003B35F=>0003C003). err StatusCode=404. get org file. unzip. ok. 
+>19:45:52  (P)CBPRTE.dll : get dif(000C96D0=>000C9273). err StatusCode=404. get org file. unzip. ok. 
+>19:45:52  (P)cbsetting.dll : get dif(0008569C=>0008C5CF). err StatusCode=404. get org file. unzip. ok. 
+>19:45:52  (P)cbutility2.dll : get dif(000A38C0=>000A2470). err StatusCode=404. get org file. unzip. ok. 
+>19:45:53  (P)ChartCPlus.dll : get dif(000DACAC=>000D2FEB). err StatusCode=404. get org file. unzip. ok. 
+>19:45:53  (P)cbCommonDlg.dll : get dif(00062CE9=>00066FB2). err StatusCode=404. get org file. unzip. ok. 
+>19:45:53  (P)DibClient.dll : get dif(0005AB82=>00054AC8). err StatusCode=404. get org file. unzip. ok. 
+>19:45:53  (P)DibMain32.dll : get dif(0001313B=>000215DA). err StatusCode=404. get org file. unzip. ok. 
+>19:45:53  (P)DibServer.exe : get dif(0005B4BA=>00078B40). err StatusCode=404. get org file. unzip. ok. 
+>19:45:54  (P)Most.exe : get dif(0008DA78=>000830C2). err StatusCode=404. get org file. unzip. ok. 
+>19:45:54  (P)nccChartControl.dll : get dif(000706B8=>00071415). err StatusCode=404. get org file. unzip. ok. 
+>19:45:54  (P)nccChartRes.dll : get dif(00029763=>0002F030). err StatusCode=404. get org file. unzip. ok. 
+>19:45:54  (P)ncdoData1.dll : get dif(0001FF75=>0002FFFA). err StatusCode=404. get org file. unzip. ok. 
+>19:45:54  (P)ncdoDataObject.dll : get dif(00019303=>0001B22E). err StatusCode=404. get org file. unzip. ok. 
+>19:45:54  (P)ncoView1.dll : get dif(00041325=>0004B973). err StatusCode=404. get org file. unzip. ok. 
+>19:45:55  (P)ncStarter.exe : get dif(00110ABD=>00100CC7). err StatusCode=404. get org file. unzip. ok. 
+>19:45:55  (P)nfxapp.dll : get dif(00017FCE=>0000EBBA). err StatusCode=404. get org file. unzip. ok. 
+>19:45:55  (P)nfxcommondlg.dll : get dif(0004FD70=>0004B3F5). err StatusCode=404. get org file. unzip. ok. 
+>19:45:55  (P)nfxcontrol.dll : get dif(001DE726=>001D8B20). err StatusCode=404. get org file. unzip. ok. 
+>19:45:56  (P)nfxCoreCom.dll : get dif(00063E01=>00064290). err StatusCode=404. get org file. unzip. ok. 
+>19:45:56  (P)nfxdata.dll : get dif(0006A61F=>000799C3). err StatusCode=404. get org file. unzip. ok. 
+>19:45:56  (P)nfxdrawing.dll : get dif(000AF1FF=>000AF967). err StatusCode=404. get org file. unzip. ok. 
+>19:45:56  (P)nfxutil.dll : get dif(0001C5D6=>0001D6AC). err StatusCode=404. get org file. unzip. ok. 
+>19:45:56  (P)qctl.dll : get dif(000CC7FA=>000E3C82). err StatusCode=404. get org file. unzip. ok. 
+>19:45:57  (P)RunTrade.dll : get dif(00029136=>0001D0F2). err StatusCode=404. get org file. unzip. ok. 
+>19:45:57  (N)svrlist.ini : get dif(CEE5F1A7=>9A67E48A). err StatusCode=404. get org file. unzip. ok. 
+>19:45:57  (P)ChartWPlus.dll : get dif(000AAD54=>000A5C3B). err StatusCode=404. get org file. unzip. ok. 
+>19:45:57  (P)tc6api.dll : get dif(0005BE43=>0005617D). err StatusCode=404. get org file. unzip. ok. 
+>19:45:57  (P)trutility.dll : get dif(00030D49=>0002BD34). err StatusCode=404. get org file. unzip. ok. 
+>19:45:57  (P)trutility2.dll : get dif(000449D7=>00045C36). err StatusCode=404. get org file. unzip. ok. 
+>19:45:58  (P)WatchList.dll : get dif(000E144A=>000E488A). err StatusCode=404. get org file. unzip. ok. 
+>19:45:58  (P)XTToolkitPro.dll : get org file. unzip. ok. 
+>19:46:00  (N)CipherServiceID.dat : get dif(F45638D1=>CE98F015). err StatusCode=404. get org file. unzip. ok. 
+>19:46:01  (N)mdbrk.dat : get dif(00440F95=>7722E35E). err StatusCode=404. get org file. unzip. ok. 
+>19:46:01  (N)mdidx.dat : get dif(72C51769=>9BD3CB73). err StatusCode=404. get org file. unzip. ok. 
+>19:46:01  (N)mdstk.dat : get dif(816B450E=>975C4BAA). err StatusCode=404. get org file. unzip. ok. 
+>19:46:01  (N)login_backA1.png : get dif(DD76F69B=>73D50F8D). err StatusCode=404. get org file. unzip. ok. 
+>19:46:01  (N)MainScreen.png : get dif(69F3B3FE=>B39ECEE1). err StatusCode=404. get org file. unzip. ok. 
+>19:46:01  (N)0111help.txt : get dif(330AE940=>40838634). err StatusCode=404. get org file. unzip. ok. 
+>19:46:01  (N)appbar_logo.png : get dif(DFCB51AF=>138EDDB3). err StatusCode=404. get org file. unzip. ok. 
+>19:46:02  (N)def_field.xml : get dif(A0C181E9=>646C20D7). err StatusCode=404. get org file. unzip. ok. 
+>19:46:02  (N)lock_back.bmp : get dif(8282DE92=>7E2F0C8A). err StatusCode=404. get org file. unzip. ok. 
+>19:46:02  (N)logout_back.bmp : get dif(82D9A51C=>BB736BAE). err StatusCode=404. get org file. unzip. ok. 
+>19:46:02  (N)mostmenu.xml : get dif(A45FAE11=>758DFA10). err StatusCode=404. get org file. unzip. ok. 
+>19:46:02  (N)NewGoodMenu.ini : get org file. unzip. ok. 
+>19:46:02  (N)Syslink.ini : get dif(B6694810=>4E718E7C). err StatusCode=404. get org file. unzip. ok. 
+>19:46:02  (N)sys_field.xml : get dif(FD38A9A4=>281E084B). err StatusCode=404. get org file. unzip. ok. 
+>19:46:02  (N)sys_toolbar.ini : get dif(9FA8BD35=>FE7E58D7). err StatusCode=404. get org file. unzip. ok. 
+>19:46:02  (N)sys_toolbar_hts.ini : get dif(97885651=>3C43B734). err StatusCode=404. get org file. unzip. ok. 
+>19:46:02  (N)TRRecentStateD.ini : get dif(9E94BAFB=>CCD983FD). err StatusCode=404. get org file. unzip. ok. 
+>19:46:02  (P)ChartUIFrame.dll : get dif(0008EB73=>0008B456). err StatusCode=404. get org file. unzip. ok. 
+>19:46:03  (P)FinderSystem.dll : get dif(00081D5B=>00083111). err StatusCode=404. get org file. unzip. ok. 
+>19:46:03  (P)PortfolioReport.dll : get dif(00039A8B=>00036F17). err StatusCode=404. get org file. unzip. ok. 
+>19:46:03  (P)SimulationReport.dll : get dif(0007B412=>00074B1D). err StatusCode=404. get org file. unzip. ok. 
+>19:46:03  (P)NCharttoolbar.dll : get dif(0004E8DF=>000509B9). err StatusCode=404. get org file. unzip. ok. 
+>19:46:03  (P)NChartCommon.dll : get dif(000428AC=>00040D10). err StatusCode=404. get org file. unzip. ok. 
+>19:46:03  (P)GraphCtrl.dll : get org file. unzip. ok. 
+>19:46:04  (P)SystradeWizEx.dll : get dif(00089574=>0008E884). err StatusCode=404. get org file. unzip. ok. 
+>19:46:04  (P)STChartComm.dll : get dif(00097F69=>00098F81). err StatusCode=404. get org file. unzip. ok. 
+>19:46:04  (P)STChartDataManager.dll : get dif(00036D47=>000364AC). err StatusCode=404. get org file. unzip. ok. 
+>19:46:04  (P)STChartDraw.dll : get dif(001C71BB=>001BE971). err StatusCode=404. get org file. unzip. ok. 
+>19:46:05  (P)STChartProperty.dll : get dif(0008E1A7=>0009BC8E). err StatusCode=404. get org file. unzip. ok. 
+>19:46:05  (P)STChartWindow.dll : get dif(0017D357=>001753B4). err StatusCode=404. get org file. unzip. ok. 
+>19:46:05  (P)CommonModule.dll : get dif(0028D9C7=>0028AE65). err StatusCode=404. get org file. unzip. ok. 
+>19:46:06  (P)cbutility.dll : get org file. unzip. ok. 
+>19:46:06  (P)TrAcc1.dll : get org file. unzip. ok. 
+>19:46:06  (N)Price MA Crossover.xml : get org file. unzip. ok. 
+>19:46:06  (N)0702toolbutton_defmain.xml : get dif(E56348B0=>513D2EA3). err StatusCode=404. get org file. unzip. ok. 
+>19:46:06  (N)0702toolbutton_defsub1.xml : get dif(1CD27D54=>5DAE25FB). err StatusCode=404. get org file. unzip. ok. 
+>19:46:06  (N)0702toolbutton_defsub2.xml : get dif(F85BB091=>086064EF). err StatusCode=404. get org file. unzip. ok. 
+>19:46:07  (N)0702toolbutton_lstmain.xml : get dif(9CDE3B02=>018CAB95). err StatusCode=404. get org file. unzip. ok. 
+>19:46:07  (N)0702toolbutton_lstsub.xml : get dif(2B248256=>612FE024). err StatusCode=404. get org file. unzip. ok. 
+>19:46:07  (N)0703toolbutton_defBot1.xml : get org file. unzip. ok. 
+>19:46:07  (N)0703toolbutton_defBot2.xml : get org file. unzip. ok. 
+>19:46:07  (N)0703toolbutton_defMain.xml : get org file. unzip. ok. 
+>19:46:07  (N)0703toolbutton_defSub1.xml : get org file. unzip. ok. 
+>19:46:07  (N)0703toolbutton_defSub2.xml : get org file. unzip. ok. 
+>19:46:07  (N)0703toolbutton_lstBot.xml : get org file. unzip. ok. 
+>19:46:07  (N)0703toolbutton_lstMain.xml : get org file. unzip. ok. 
+>19:46:07  (N)0703toolbutton_lstSub.xml : get org file. unzip. ok. 
+>19:46:07  (N)finder_field.dat : get dif(168191BD=>E5B1EA82). err StatusCode=404. get org file. unzip. ok. 
+>19:46:07  (N)sample.cgd : get dif(0C70122E=>7C45EF34). err StatusCode=404. get org file. unzip. ok. 
+>19:46:07  (N)sys_default.tcw : get dif(1C50779C=>CB487293). err StatusCode=404. get org file. unzip. ok. 
+>19:46:07  (N)candle_signal.xml : get org file. unzip. ok. 
+>19:46:07  (N)chartmenulist.dat : get org file. unzip. ok. 
+>19:46:07  (N)indicatorlist.dat : get org file. unzip. ok. 
+>19:46:07  (N)indicator_signal.xml : get org file. unzip. ok. 
+>19:46:07  (N)indicator_sys.xml : get org file. unzip. ok. 
+>19:46:08  (N)signal_def.xml : get org file. unzip. ok. 
+>19:46:08  (P)tr0702.dll : get org file. unzip. ok. 
+>19:46:08  (N)(signal)Price MA Crossover.xml : get org file. unzip. ok. 
+>19:46:08  (P)tr0703.dll : get org file. unzip. ok. 
+>19:46:08  (N)etcdate.txt : get org file. unzip. ok. 
+>19:46:08  (N)Intra Bear Price Gap.xml : get org file. unzip. ok. 
+>19:46:08  (N)Intra Bull Price Gap.xml : get org file. unzip. ok. 
+>19:46:08  (N)Long Term Bear New Low.xml : get org file. unzip. ok. 
+>19:46:08  (N)Long Term Bull New High.xml : get org file. unzip. ok. 
+>19:46:08  (N)Medium Term Bear Head and Shoulder.xml : get org file. unzip. ok. 
+>19:46:08  (N)Medium Term Bull Double Bottom.xml : get org file. unzip. ok. 
+>19:46:08  (N)Short Term Bear Hanging Man.xml : get org file. unzip. ok. 
+>19:46:08  (N)Short Term Bull Hammer.xml : get org file. unzip. ok. 
+>19:46:08  (N)0703.sif : get org file. unzip. ok. 
+>19:46:08  (N)default_daily.tcw : get org file. unzip. ok. 
+>19:46:08  (N)default_replay.tcw : get org file. unzip. ok. 
+>19:46:08  (N)default_minute.tcw : get org file. unzip. ok. 
+>19:46:08  (N)default_monthly.tcw : get org file. unzip. ok. 
+>19:46:08  (N)default_quarterly.tcw : get org file. unzip. ok. 
+>19:46:08  (N)default_second.tcw : get org file. unzip. ok. 
+>19:46:08  (N)default_tick.tcw : get org file. unzip. ok. 
+>19:46:09  (N)default_weekly.tcw : get org file. unzip. ok. 
+>19:46:09  (N)default_yearly.tcw : get org file. unzip. ok. 
+>19:46:09  (N)SpecialNotation.ini : get org file. unzip. ok. 
+>19:46:09  (N)jipyodef.dat : get org file. unzip. ok. 
+>19:46:09  (N)Bollinger Band (Pyramiding).xml : get org file. unzip. ok. 
+>19:46:09  (N)Short Term Fractal.xml : get org file. unzip. ok. 
+>19:46:09  (N)Stochastic Cross.xml : get org file. unzip. ok. 
+>19:46:09  (P)lfbmp10n.dll : get org file. unzip. ok. 
+>19:46:09  (P)lfcmp10n.dll : get org file. unzip. ok. 
+>19:46:09  (P)lfpcx10n.dll : get org file. unzip. ok. 
+>19:46:09  (P)lfpng10n.dll : get org file. unzip. ok. 
+>19:46:09  (P)lftif10n.dll : get org file. unzip. ok. 
+>19:46:09  (P)ltdis10n.dll : get org file. unzip. ok. 
+>19:46:09  (P)ltdlg10n.dll : get org file. unzip. ok. 
+>19:46:09  (P)ltfil10n.dll : get org file. unzip. ok. 
+>19:46:10  (P)ltimg10n.dll : get org file. unzip. ok. 
+>19:46:10  (P)ltkrn10n.dll : get org file. unzip. ok. 
+>19:46:10  (N)MOST - Bollinger Band (long term) (signal).xml : get org file. unzip. ok. 
+>19:46:10  (N)MOST - Bollinger Band (short term) (signal).xml : get org file. unzip. ok. 
+>19:46:10  (N)MOST - CCI (signal).xml : get org file. unzip. ok. 
+>19:46:10  (N)MOST - DMI (simple) (signal).xml : get org file. unzip. ok. 
+>19:46:10  (N)MOST - ELDER RAY (signal).xml : get org file. unzip. ok. 
+>19:46:10  (N)MOST - MACD (signal).xml : get org file. unzip. ok. 
+>19:46:10  (N)MOST - MACD during strong downtrend (singal).xml : get org file. unzip. ok. 
+>19:46:10  (N)MOST - MACD during strong market uptrend (signal).xml : get org file. unzip. ok. 
+>19:46:10  (N)MOST - MFI (signal).xml : get org file. unzip. ok. 
+>19:46:10  (N)MOST - Moving Average Cross Over (signal).xml : get org file. unzip. ok. 
+>19:46:10  (N)MOST - Moving average Price Crossover (signal).xml : get org file. unzip. ok. 
+>19:46:10  (N)MOST - Parabolic SAR (signal).xml : get org file. unzip. ok. 
+>19:46:10  (N)MOST - RSI (signal).xml : get org file. unzip. ok. 
+>19:46:10  (N)MOST - Stochastic (signal).xml : get org file. unzip. ok. 
+>19:46:10  (N)MOST - TRIX (signal).xml : get org file. unzip. ok. 
+>19:46:10  (N)MOST - Bollinger Band (long term).tcw : get org file. unzip. ok. 
+>19:46:10  (N)MOST - Bollinger Band (short term).tcw : get org file. unzip. ok. 
+>19:46:10  (N)MOST - Bollinger Band (standard).tcw : get org file. unzip. ok. 
+>19:46:10  (N)MOST - Default .tcw : get org file. unzip. ok. 
+>19:46:10  (N)MOST - Default B&W.tcw : get org file. unzip. ok. 
+>19:46:10  (N)MOST - DMI.tcw : get org file. unzip. ok. 
+>19:46:11  (N)MOST - Donchian EMA 5-20.tcw : get org file. unzip. ok. 
+>19:46:11  (N)MOST - ENVELOPE (daily).tcw : get org file. unzip. ok. 
+>19:46:11  (N)MOST - ENVELOPE (weekly).tcw : get org file. unzip. ok. 
+>19:46:11  (N)MOST - Exponential Moving Average 4 9 18.tcw : get org file. unzip. ok. 
+>19:46:11  (N)MOST - MA Trend.tcw : get org file. unzip. ok. 
+>19:46:11  (N)MOST - MACD during strong dowtrend.tcw : get org file. unzip. ok. 
+>19:46:11  (N)MOST - MACD during strong Uptrend.tcw : get org file. unzip. ok. 
+>19:46:11  (N)MOST - MACD.tcw : get org file. unzip. ok. 
+>19:46:11  (N)MOST - Momentum 10 D.tcw : get org file. unzip. ok. 
+>19:46:11  (N)MOST - Momentum 13 W.tcw : get org file. unzip. ok. 
+>19:46:11  (N)MOST - Momentum 40 D.tcw : get org file. unzip. ok. 
+>19:46:11  (N)MOST - Popular Indicator.tcw : get org file. unzip. ok. 
+>19:46:11  (N)MOST - Price Channel.tcw : get org file. unzip. ok. 
+>19:46:11  (N)MOST - PSAR.tcw : get org file. unzip. ok. 
+>19:46:11  (N)MOST - RSI 14 D.tcw : get org file. unzip. ok. 
+>19:46:11  (N)MOST - RSI 7 D.tcw : get org file. unzip. ok. 
+>19:46:11  (N)MOST - Simple Moving Average 10 M - long term chart.tcw : get org file. unzip. ok. 
+>19:46:11  (N)MOST - Simple Moving Average 4 9.tcw : get org file. unzip. ok. 
+>19:46:11  (N)MOST - Simple Moving Average 40W - long term chart.tcw : get org file. unzip. ok. 
+>19:46:11  (N)MOST - Simple Moving Average 9 18.tcw : get org file. unzip. ok. 
+>19:46:11  (N)MOST - Stochastic.tcw : get org file. unzip. ok. 
+>19:46:11  (N)MOST - Bollinger Band (short term).xml : get org file. unzip. ok. 
+>19:46:11  (N)MOST - Bollinger Band.xml : get org file. unzip. ok. 
+>19:46:11  (N)MOST - CCI.xml : get org file. unzip. ok. 
+>19:46:12  (N)MOST - DMI (simple).xml : get org file. unzip. ok. 
+>19:46:12  (N)MOST - ELDER RAY.xml : get org file. unzip. ok. 
+>19:46:12  (N)MOST - MACD during strong downtrend.xml : get org file. unzip. ok. 
+>19:46:12  (N)MOST - MACD during strong uptrend.xml : get org file. unzip. ok. 
+>19:46:12  (N)MOST - MACD.xml : get org file. unzip. ok. 
+>19:46:12  (N)MOST - MFI.xml : get org file. unzip. ok. 
+>19:46:12  (N)MOST - Moving Average Cross Over.xml : get org file. unzip. ok. 
+>19:46:12  (N)MOST - Moving Average Price Crossover.xml : get org file. unzip. ok. 
+>19:46:12  (N)MOST - Parabolic SAR.xml : get org file. unzip. ok. 
+>19:46:12  (N)MOST - RSI.xml : get org file. unzip. ok. 
+>19:46:12  (N)MOST - Stochastic (simple).xml : get org file. unzip. ok. 
+>19:46:12  (N)MOST - TRIX.xml : get org file. unzip. ok. 
+>19:46:12  (N)0701.sif : get org file. unzip. ok. 
+>19:46:12  (N)0701toolbutton_defBot1.xml : get org file. unzip. ok. 
+>19:46:12  (N)0701toolbutton_defBot2.xml : get org file. unzip. ok. 
+>19:46:12  (N)0701toolbutton_defMain.xml : get org file. unzip. ok. 
+>19:46:12  (N)0701toolbutton_defSub1.xml : get org file. unzip. ok. 
+>19:46:12  (N)0701toolbutton_defSub2.xml : get org file. unzip. ok. 
+>19:46:12  (N)0701toolbutton_lstBot.xml : get org file. unzip. ok. 
+>19:46:12  (N)0701toolbutton_lstMain.xml : get org file. unzip. ok. 
+>19:46:12  (N)0701toolbutton_lstSub.xml : get org file. unzip. ok. 
+>19:46:12  (N)neosystemlist.dat : get org file. unzip. ok. 
+>19:46:12  (N)cosvrlist.ini : get org file. unzip. ok. 
+>19:46:12  (N)mdstk.dat - old : get org file. unzip. ok. 
+>19:46:12  (N)mdstk.dat_20200106 : get org file. unzip. ok. 
+>19:46:12  (N)mdstk.dat_20200108 : get org file. unzip. ok. 
+>19:46:13  (N)MOST - Net Foreign.tcw : get org file. unzip. ok. 
+>19:46:13  (P)mdHooCore.dll : get org file. unzip. ok. 
+>19:46:13  (N)Thumbs.db : get org file. unzip. ok. 
+>19:46:13  (N)syscodelist.ini : get org file. unzip. ok. 
+>19:46:13  (N)systreecodes.ini : get org file. unzip. ok. 
+>19:46:13  (P)tr0704.dll : get org file. unzip. ok. 
+>19:46:13  (P)tr0705.dll : get org file. unzip. ok. 
+>19:46:13  (P)tr0706.dll : get org file. unzip. ok. 
+>19:46:13  (P)crush32.dll : get org file. unzip. ok. 
+>19:46:13  FileMove bosbar.dll OK
+>19:46:13  FileMove cbData.dll OK
+>19:46:13  FileMove CBPRTE.dll OK
+>19:46:13  FileMove cbsetting.dll OK
+>19:46:13  FileMove cbutility2.dll OK
+>19:46:13  FileMove ChartCPlus.dll OK
+>19:46:13  FileMove cbCommonDlg.dll OK
+>19:46:13  FileMove DibClient.dll OK
+>19:46:13  FileMove DibMain32.dll OK
+>19:46:13  FileMove DibServer.exe OK
+>19:46:13  FileMove Most.exe OK
+>19:46:13  FileMove nccChartControl.dll OK
+>19:46:13  FileMove nccChartRes.dll OK
+>19:46:13  FileMove ncdoData1.dll OK
+>19:46:13  FileMove ncdoDataObject.dll OK
+>19:46:13  FileMove ncoView1.dll OK
+>19:46:13  FileMove ncStarter.exe PENDUPDATE
+>19:46:13  FileMove nfxapp.dll OK
+>19:46:13  FileMove nfxcommondlg.dll OK
+>19:46:13  FileMove nfxcontrol.dll OK
+>19:46:13  FileMove nfxCoreCom.dll OK
+>19:46:13  FileMove nfxdata.dll OK
+>19:46:13  FileMove nfxdrawing.dll OK
+>19:46:13  FileMove nfxutil.dll OK
+>19:46:13  FileMove qctl.dll OK
+>19:46:13  FileMove RunTrade.dll OK
+>19:46:13  FileMove svrlist.ini OK
+>19:46:13  FileMove ChartWPlus.dll OK
+>19:46:13  FileMove tc6api.dll OK
+>19:46:13  FileMove trutility.dll OK
+>19:46:13  FileMove trutility2.dll OK
+>19:46:13  FileMove WatchList.dll OK
+>19:46:13  FileMove XTToolkitPro.dll OK
+>19:46:13  FileMove CipherServiceID.dat OK
+>19:46:13  FileMove mdbrk.dat OK
+>19:46:13  FileMove mdidx.dat OK
+>19:46:13  FileMove mdstk.dat OK
+>19:46:13  FileMove login_backA1.png OK
+>19:46:13  FileMove MainScreen.png OK
+>19:46:13  FileMove 0111help.txt OK
+>19:46:13  FileMove appbar_logo.png OK
+>19:46:13  FileMove def_field.xml OK
+>19:46:13  FileMove lock_back.bmp OK
+>19:46:13  FileMove logout_back.bmp OK
+>19:46:13  FileMove mostmenu.xml OK
+>19:46:13  FileMove NewGoodMenu.ini OK
+>19:46:13  FileMove Syslink.ini OK
+>19:46:13  FileMove sys_field.xml OK
+>19:46:13  FileMove sys_toolbar.ini OK
+>19:46:13  FileMove sys_toolbar_hts.ini OK
+>19:46:13  FileMove TRRecentStateD.ini OK
+>19:46:13  FileMove ChartUIFrame.dll OK
+>19:46:13  FileMove FinderSystem.dll OK
+>19:46:13  FileMove PortfolioReport.dll OK
+>19:46:13  FileMove SimulationReport.dll OK
+>19:46:13  FileMove NCharttoolbar.dll OK
+>19:46:13  FileMove NChartCommon.dll OK
+>19:46:13  FileMove GraphCtrl.dll OK
+>19:46:13  FileMove SystradeWizEx.dll OK
+>19:46:13  FileMove STChartComm.dll OK
+>19:46:13  FileMove STChartDataManager.dll OK
+>19:46:13  FileMove STChartDraw.dll OK
+>19:46:13  FileMove STChartProperty.dll OK
+>19:46:13  FileMove STChartWindow.dll OK
+>19:46:13  FileMove CommonModule.dll OK
+>19:46:13  FileMove cbutility.dll OK
+>19:46:13  FileMove TrAcc1.dll OK
+>19:46:13  FileMove Price MA Crossover.xml OK
+>19:46:13  FileMove 0702toolbutton_defmain.xml OK
+>19:46:13  FileMove 0702toolbutton_defsub1.xml OK
+>19:46:13  FileMove 0702toolbutton_defsub2.xml OK
+>19:46:14  FileMove 0702toolbutton_lstmain.xml OK
+>19:46:14  FileMove 0702toolbutton_lstsub.xml OK
+>19:46:14  FileMove 0703toolbutton_defBot1.xml OK
+>19:46:14  FileMove 0703toolbutton_defBot2.xml OK
+>19:46:14  FileMove 0703toolbutton_defMain.xml OK
+>19:46:14  FileMove 0703toolbutton_defSub1.xml OK
+>19:46:14  FileMove 0703toolbutton_defSub2.xml OK
+>19:46:14  FileMove 0703toolbutton_lstBot.xml OK
+>19:46:14  FileMove 0703toolbutton_lstMain.xml OK
+>19:46:14  FileMove 0703toolbutton_lstSub.xml OK
+>19:46:14  FileMove finder_field.dat OK
+>19:46:14  FileMove sample.cgd OK
+>19:46:14  FileMove sys_default.tcw OK
+>19:46:14  FileMove candle_signal.xml OK
+>19:46:14  FileMove chartmenulist.dat OK
+>19:46:14  FileMove indicatorlist.dat OK
+>19:46:14  FileMove indicator_signal.xml OK
+>19:46:14  FileMove indicator_sys.xml OK
+>19:46:14  FileMove signal_def.xml OK
+>19:46:14  FileMove tr0702.dll OK
+>19:46:14  FileMove (signal)Price MA Crossover.xml OK
+>19:46:14  FileMove tr0703.dll OK
+>19:46:14  FileMove etcdate.txt OK
+>19:46:14  FileMove Intra Bear Price Gap.xml OK
+>19:46:14  FileMove Intra Bull Price Gap.xml OK
+>19:46:14  FileMove Long Term Bear New Low.xml OK
+>19:46:14  FileMove Long Term Bull New High.xml OK
+>19:46:14  FileMove Medium Term Bear Head and Shoulder.xml OK
+>19:46:14  FileMove Medium Term Bull Double Bottom.xml OK
+>19:46:14  FileMove Short Term Bear Hanging Man.xml OK
+>19:46:14  FileMove Short Term Bull Hammer.xml OK
+>19:46:14  FileMove 0703.sif OK
+>19:46:14  FileMove default_daily.tcw OK
+>19:46:14  FileMove default_replay.tcw OK
+>19:46:14  FileMove default_minute.tcw OK
+>19:46:14  FileMove default_monthly.tcw OK
+>19:46:14  FileMove default_quarterly.tcw OK
+>19:46:14  FileMove default_second.tcw OK
+>19:46:14  FileMove default_tick.tcw OK
+>19:46:14  FileMove default_weekly.tcw OK
+>19:46:14  FileMove default_yearly.tcw OK
+>19:46:14  FileMove SpecialNotation.ini OK
+>19:46:14  FileMove jipyodef.dat OK
+>19:46:14  FileMove Bollinger Band (Pyramiding).xml OK
+>19:46:14  FileMove Short Term Fractal.xml OK
+>19:46:14  FileMove Stochastic Cross.xml OK
+>19:46:14  FileMove lfbmp10n.dll OK
+>19:46:14  FileMove lfcmp10n.dll OK
+>19:46:14  FileMove lfpcx10n.dll OK
+>19:46:14  FileMove lfpng10n.dll OK
+>19:46:14  FileMove lftif10n.dll OK
+>19:46:14  FileMove ltdis10n.dll OK
+>19:46:14  FileMove ltdlg10n.dll OK
+>19:46:14  FileMove ltfil10n.dll OK
+>19:46:14  FileMove ltimg10n.dll OK
+>19:46:14  FileMove ltkrn10n.dll OK
+>19:46:14  FileMove MOST - Bollinger Band (long term) (signal).xml OK
+>19:46:14  FileMove MOST - Bollinger Band (short term) (signal).xml OK
+>19:46:14  FileMove MOST - CCI (signal).xml OK
+>19:46:14  FileMove MOST - DMI (simple) (signal).xml OK
+>19:46:14  FileMove MOST - ELDER RAY (signal).xml OK
+>19:46:14  FileMove MOST - MACD (signal).xml OK
+>19:46:14  FileMove MOST - MACD during strong downtrend (singal).xml OK
+>19:46:14  FileMove MOST - MACD during strong market uptrend (signal).xml OK
+>19:46:14  FileMove MOST - MFI (signal).xml OK
+>19:46:14  FileMove MOST - Moving Average Cross Over (signal).xml OK
+>19:46:14  FileMove MOST - Moving average Price Crossover (signal).xml OK
+>19:46:14  FileMove MOST - Parabolic SAR (signal).xml OK
+>19:46:14  FileMove MOST - RSI (signal).xml OK
+>19:46:14  FileMove MOST - Stochastic (signal).xml OK
+>19:46:14  FileMove MOST - TRIX (signal).xml OK
+>19:46:14  FileMove MOST - Bollinger Band (long term).tcw OK
+>19:46:14  FileMove MOST - Bollinger Band (short term).tcw OK
+>19:46:14  FileMove MOST - Bollinger Band (standard).tcw OK
+>19:46:14  FileMove MOST - Default .tcw OK
+>19:46:14  FileMove MOST - Default B&W.tcw OK
+>19:46:14  FileMove MOST - DMI.tcw OK
+>19:46:14  FileMove MOST - Donchian EMA 5-20.tcw OK
+>19:46:14  FileMove MOST - ENVELOPE (daily).tcw OK
+>19:46:14  FileMove MOST - ENVELOPE (weekly).tcw OK
+>19:46:14  FileMove MOST - Exponential Moving Average 4 9 18.tcw OK
+>19:46:14  FileMove MOST - MA Trend.tcw OK
+>19:46:14  FileMove MOST - MACD during strong dowtrend.tcw OK
+>19:46:14  FileMove MOST - MACD during strong Uptrend.tcw OK
+>19:46:14  FileMove MOST - MACD.tcw OK
+>19:46:14  FileMove MOST - Momentum 10 D.tcw OK
+>19:46:14  FileMove MOST - Momentum 13 W.tcw OK
+>19:46:14  FileMove MOST - Momentum 40 D.tcw OK
+>19:46:14  FileMove MOST - Popular Indicator.tcw OK
+>19:46:14  FileMove MOST - Price Channel.tcw OK
+>19:46:14  FileMove MOST - PSAR.tcw OK
+>19:46:14  FileMove MOST - RSI 14 D.tcw OK
+>19:46:14  FileMove MOST - RSI 7 D.tcw OK
+>19:46:14  FileMove MOST - Simple Moving Average 10 M - long term chart.tcw OK
+>19:46:14  FileMove MOST - Simple Moving Average 4 9.tcw OK
+>19:46:14  FileMove MOST - Simple Moving Average 40W - long term chart.tcw OK
+>19:46:14  FileMove MOST - Simple Moving Average 9 18.tcw OK
+>19:46:14  FileMove MOST - Stochastic.tcw OK
+>19:46:14  FileMove MOST - Bollinger Band (short term).xml OK
+>19:46:14  FileMove MOST - Bollinger Band.xml OK
+>19:46:14  FileMove MOST - CCI.xml OK
+>19:46:14  FileMove MOST - DMI (simple).xml OK
+>19:46:14  FileMove MOST - ELDER RAY.xml OK
+>19:46:14  FileMove MOST - MACD during strong downtrend.xml OK
+>19:46:14  FileMove MOST - MACD during strong uptrend.xml OK
+>19:46:14  FileMove MOST - MACD.xml OK
+>19:46:14  FileMove MOST - MFI.xml OK
+>19:46:14  FileMove MOST - Moving Average Cross Over.xml OK
+>19:46:14  FileMove MOST - Moving Average Price Crossover.xml OK
+>19:46:14  FileMove MOST - Parabolic SAR.xml OK
+>19:46:14  FileMove MOST - RSI.xml OK
+>19:46:14  FileMove MOST - Stochastic (simple).xml OK
+>19:46:14  FileMove MOST - TRIX.xml OK
+>19:46:14  FileMove 0701.sif OK
+>19:46:14  FileMove 0701toolbutton_defBot1.xml OK
+>19:46:14  FileMove 0701toolbutton_defBot2.xml OK
+>19:46:14  FileMove 0701toolbutton_defMain.xml OK
+>19:46:14  FileMove 0701toolbutton_defSub1.xml OK
+>19:46:14  FileMove 0701toolbutton_defSub2.xml OK
+>19:46:14  FileMove 0701toolbutton_lstBot.xml OK
+>19:46:14  FileMove 0701toolbutton_lstMain.xml OK
+>19:46:14  FileMove 0701toolbutton_lstSub.xml OK
+>19:46:14  FileMove neosystemlist.dat OK
+>19:46:14  FileMove cosvrlist.ini OK
+>19:46:14  FileMove mdstk.dat - old OK
+>19:46:14  FileMove mdstk.dat_20200106 OK
+>19:46:14  FileMove mdstk.dat_20200108 OK
+>19:46:14  FileMove MOST - Net Foreign.tcw OK
+>19:46:14  FileMove mdHooCore.dll OK
+>19:46:14  FileMove Thumbs.db OK
+>19:46:14  FileMove syscodelist.ini OK
+>19:46:14  FileMove systreecodes.ini OK
+>19:46:14  FileMove tr0704.dll OK
+>19:46:14  FileMove tr0705.dll OK
+>19:46:14  FileMove tr0706.dll OK
+>19:46:14  FileMove crush32.dll OK
+>19:46:14  write PendUpdate.dat
+>19:46:14  PENDINGUPDATE RESUEST
+>19:46:14 MD Update End
+>19:46:15 ************************
+>19:46:15 MD Pending Update Start
+>19:46:15  DATE 01/06/23
+>19:46:15  DNPATH C:\Users\M ADRIAN NATALEGAWA\OneDrive\Desktop
+>19:46:15  update 'C:\Users\M ADRIAN NATALEGAWA\OneDrive\Desktop\Most\ncStarter.exe'(0)
+>19:46:15  update 'C:\Users\M ADRIAN NATALEGAWA\OneDrive\Desktop\Most\ncStarter.exe' (0) : ok
+>19:46:16  Execute : "C:\Users\M ADRIAN NATALEGAWA\OneDrive\Desktop\most\ncStarter.exe"
+>19:46:16 MD Pending Update End
+>19:49:01  (N)s0904sis.mbx : get org file. unzip. ok. 
+>19:49:01  FileMove s0904sis.mbx OK
+>19:50:59  (N)s0201ord.mbx : get org file. unzip. ok. 
+>19:50:59  (N)cOrderTab.mbx : get org file. unzip. ok. 
+>19:50:59  (N)cOrderDlg.mbx : get org file. unzip. ok. 
+>19:50:59  (N)c0201ord.mbx : get org file. unzip. ok. 
+>19:51:00  (N)c0202ord.mbx : get org file. unzip. ok. 
+>19:51:00  (N)c0203ord.mbx : get org file. unzip. ok. 
+>19:51:00  (N)c0204ord.mbx : get org file. unzip. ok. 
+>19:51:00  (N)cAccountInfo.mbx : get org file. unzip. ok. 
+>19:51:00  (N)s0801sis.mbx : get org file. unzip. ok. 
+>19:51:00  (N)s0306sis.mbx : get org file. unzip. ok. 
+>19:51:00  (N)cNcfChart.mbx : get org file. unzip. ok. 
+>19:51:00  (N)c0101acc.mbx : get org file. unzip. ok. 
+>19:51:00  (N)s0319sis.mbx : get org file. unzip. ok. 
+>19:51:00  (N)c0223ord.mbx : get org file. unzip. ok. 
+>19:51:00  FileMove s0201ord.mbx OK
+>19:51:00  FileMove cOrderTab.mbx OK
+>19:51:00  FileMove cOrderDlg.mbx OK
+>19:51:00  FileMove c0201ord.mbx OK
+>19:51:00  FileMove c0202ord.mbx OK
+>19:51:00  FileMove c0203ord.mbx OK
+>19:51:00  FileMove c0204ord.mbx OK
+>19:51:00  FileMove cAccountInfo.mbx OK
+>19:51:00  FileMove s0801sis.mbx OK
+>19:51:00  FileMove s0306sis.mbx OK
+>19:51:00  FileMove cNcfChart.mbx OK
+>19:51:00  FileMove c0101acc.mbx OK
+>19:51:00  FileMove s0319sis.mbx OK
+>19:51:00  FileMove c0223ord.mbx OK
+>19:55:58  (N)s0606sis.mbx : get org file. unzip. ok. 
+>19:55:58  FileMove s0606sis.mbx OK
+>19:56:12  (N)s0401sis.mbx : get org file. unzip. ok. 
+>19:56:12  FileMove s0401sis.mbx OK
+>19:56:27  (N)s0313sis.mbx : get org file. unzip. ok. 
+>19:56:27  FileMove s0313sis.mbx OK
+>19:56:51  (N)s0221ord.mbx : get org file. unzip. ok. 
+>19:56:51  (N)c0221ord.mbx : get org file. unzip. ok. 
+>19:56:51  FileMove s0221ord.mbx OK
+>19:56:51  FileMove c0221ord.mbx OK
+>19:57:51  (P)tr0318.dll : get org file. unzip. ok. 
+>19:57:51  FileMove tr0318.dll OK
+>19:58:04  (P)tr0303.dll : get org file. unzip. ok. 
+>19:58:04  FileMove tr0303.dll OK
+>20:01:07  (N)s0501sis.mbx : get org file. unzip. ok. 
+>20:01:07  (N)s0502sis.mbx : get org file. unzip. ok. 
+>20:01:07  FileMove s0501sis.mbx OK
+>20:01:07  FileMove s0502sis.mbx OK
+>20:01:42  (N)s0318sis.mbx : get org file. unzip. ok. 
+>20:01:42  (N)s0307sis.mbx : get org file. unzip. ok. 
+>20:01:42  (N)s0301sis.mbx : get org file. unzip. ok. 
+>20:01:42  FileMove s0318sis.mbx OK
+>20:01:42  FileMove s0307sis.mbx OK
+>20:01:42  FileMove s0301sis.mbx OK
+>20:06:34  (N)s0601sis.mbx : get org file. unzip. ok. 
+>20:06:34  (N)s0901sis.mbx : get org file. unzip. ok. 
+>20:06:34  (N)s0231ord.mbx : get org file. unzip. ok. 
+>20:06:34  FileMove s0601sis.mbx OK
+>20:06:34  FileMove s0901sis.mbx OK
+>20:06:34  FileMove s0231ord.mbx OK
+>20:15:03  (P)tr0302.dll : get org file. unzip. ok. 
+>20:15:04  FileMove tr0302.dll OK
+>20:15:40  (N)s0205ord.mbx : get org file. unzip. ok. 
+>20:15:40  FileMove s0205ord.mbx OK
+>20:15:54  (N)s0101acc.mbx : get org file. unzip. ok. 
+>20:15:54  FileMove s0101acc.mbx OK
+>20:16:19  (P)tr0211.dll : get org file. unzip. ok. 
+>20:16:20  FileMove tr0211.dll OK
+>20:16:37  (N)s0312sis.mbx : get org file. unzip. ok. 
+>20:16:37  FileMove s0312sis.mbx OK
+>20:17:05  (N)s0503sis.mbx : get org file. unzip. ok. 
+>20:17:05  FileMove s0503sis.mbx OK
+>20:20:37  (N)s1011rpm.mbx : get org file. unzip. ok. 
+>20:20:37  FileMove s1011rpm.mbx OK
+>20:21:12  (N)s0111acc.mbx : get org file. unzip. ok. 
+>20:21:12  FileMove s0111acc.mbx OK
+>20:21:54  (N)s0121acc.mbx : get org file. unzip. ok. 
+>20:21:54  FileMove s0121acc.mbx OK
+>10:39:12 ****************
+>10:39:12 ****************
+>10:39:12 MD Update Start
+>10:39:12  DATE 01/25/23(Ver.2.0)
+>10:39:12  SVR 103.120.244.134
+>10:39:12  DNPATH C:\Users\M ADRIAN NATALEGAWA\OneDrive\Desktop
+>10:39:12 MASTER:main_12750_e.datget master file(main_12750_e.dat).  OK
+>10:39:12  Total file size : 64352737
+>10:39:12  (N)mdstk.dat : get dif(975C4BAA=>4D5AA550). err StatusCode=404. get org file. unzip. ok. 
+>10:39:19  FileMove mdstk.dat OK
+>10:39:19 MD Update End
+>11:44:14 ****************
+>11:44:14 ****************
+>11:44:14 MD Update Start
+>11:44:14  DATE 02/07/23(Ver.2.0)
+>11:44:14  SVR 103.120.244.134
+>11:44:14  DNPATH C:\Users\M ADRIAN NATALEGAWA\OneDrive\Desktop
+>11:44:14 MASTER:main_12762_e.datget master file(main_12762_e.dat).  OK
+>11:44:14  Total file size : 64358520
+>11:44:14  (N)mdstk.dat : get dif(4D5AA550=>09A309C8). err StatusCode=404. get org file. unzip. ok. 
+>11:44:20  FileMove mdstk.dat OK
+>11:44:20 MD Update End
+>11:49:04  (N)s0603sis.mbx : get org file. unzip. ok. 
+>11:49:07  FileMove s0603sis.mbx OK

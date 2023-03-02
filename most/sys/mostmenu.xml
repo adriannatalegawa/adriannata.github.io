@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="KSC_5601" ?>
+<MOST_MENU>
+  <TitleMenu title="Account" >
+    <SUB_MENU num="0101" subnum="0101" icon="" title="Stock Portfolio" minititle="PORTF" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="1" a="1" module="s0101acc" dll="0" submod="cAccountInfo.mbx"></SUB_MENU>
+    <SUB_MENU num="0111" subnum="0111" icon="" title="Fund Withdrawal Instruction" minititle="FUND" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="0" a="1" module="s0111acc" dll="0" submod="cAccountInfo.mbx"></SUB_MENU>
+    <SUB_MENU num="0112" subnum="0112" icon="" title="Fund Transfer List" minititle="FUND TRANS" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="1" a="1" module="s0112acc" dll="0" submod="cAccountInfo.mbx"></SUB_MENU>
+	<SUB_MENU num="" seperator="true" desc=""></SUB_MENU>
+    <SUB_MENU num="0121" subnum="0121" icon="" title="Client Account Info" minititle="CLIENTINFO" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="1" a="1" module="s0121acc" dll="0" submod="cAccountInfo.mbx"></SUB_MENU>
+    <SUB_MENU num="0122" subnum="0122" icon="" title="Haircut" minititle="Haircut" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="1" a="1" module="s0122acc" dll="0"></SUB_MENU> 
+    <SUB_MENU num="0123" subnum="0123" icon="" title="Historical Trade Confirmation" minititle="TRADECONF" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="1" a="1" module="s0123acc" dll="0" submod="cAccountInfo.mbx"></SUB_MENU>
+    <SUB_MENU num="0124" subnum="0124" icon="" title="Monthly Cash &amp; Stock Position" minititle="CASH" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="1" a="1" module="s0124acc" dll="0" submod="cAccountInfo.mbx"></SUB_MENU>
+	<SUB_MENU num="" seperator="true" desc=""></SUB_MENU>
+    <SUB_MENU num="0131" subnum="0131" icon="" title="Change Password" minititle="PASS" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="0" rm="1" a="1" module="s0131acc" dll="0" submod="cAccountInfo.mbx"></SUB_MENU>
+    <SUB_MENU num="0132" subnum="0132" icon="" title="Change PIN" minititle="PIN" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="0" rm="1" a="1" module="s0131acc" dll="0"></SUB_MENU>
+  </TitleMenu>
+  <TitleMenu title="Order">
+    <SUB_MENU num="0201" subnum="0201" icon="" title="Direct Buy Order" minititle="BUY ORDER" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="0" a="1" module="s0201ord" dll="0" submod="cOrderTab.mbx;cOrderDlg.mbx;c0201ord.mbx;c0202ord.mbx;c0203ord.mbx;c0204ord.mbx;cAccountInfo.mbx;s0801sis.mbx;s0306sis.mbx;cNcfChart.mbx;c0101acc.mbx;s0319sis.mbx;c0223ord.mbx"></SUB_MENU>
+    <SUB_MENU num="0202" subnum="0202" icon="" title="Direct Sell Order" minititle="SELL ORDER" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="0" a="1" module="s0201ord" dll="0" submod="cOrderTab.mbx;cOrderDlg.mbx;c0201ord.mbx;c0202ord.mbx;c0203ord.mbx;c0204ord.mbx;cAccountInfo.mbx;s0801sis.mbx;s0306sis.mbx;cNcfChart.mbx;c0101acc.mbx;s0319sis.mbx;c0223ord.mbx"></SUB_MENU>
+    <SUB_MENU num="0203" subnum="0203" icon="" title="Direct Amend Order" minititle="AMENDORDER" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="0" a="1" module="s0201ord" dll="0" submod="cOrderTab.mbx;cOrderDlg.mbx;c0201ord.mbx;c0202ord.mbx;c0203ord.mbx;c0204ord.mbx;cAccountInfo.mbx;s0801sis.mbx;s0306sis.mbx;cNcfChart.mbx;c0101acc.mbx;s0319sis.mbx;c0223ord.mbx"></SUB_MENU>
+    <SUB_MENU num="0204" subnum="0204" icon="" title="Direct Withdraw Order" minititle="WTHDWORDER" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="0" a="1" module="s0201ord" dll="0" submod="cOrderTab.mbx;cOrderDlg.mbx;c0201ord.mbx;c0202ord.mbx;c0203ord.mbx;c0204ord.mbx;cAccountInfo.mbx;s0801sis.mbx;s0306sis.mbx;cNcfChart.mbx;c0101acc.mbx;s0319sis.mbx;c0223ord.mbx"></SUB_MENU>
+	<SUB_MENU num="" seperator="true" desc=""></SUB_MENU>
+    <SUB_MENU num="0205" subnum="0205" icon="" title="Mini Buy Order" minititle="MINI BUY" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="1" a="1" module="s0205ord" dll="0" submod="cAccountInfo.mbx;cOrderDlg.mbx;c0201ord.mbx"></SUB_MENU>
+    <SUB_MENU num="0206" subnum="0206" icon="" title="Mini Sell Order" minititle="MINI SELL" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="1" a="1" module="s0206ord" dll="0" submod="cAccountInfo.mbx;cOrderDlg.mbx;c0101acc.mbx;cOrderDlg.mbx;c0202ord.mbx"></SUB_MENU>
+    <SUB_MENU num="0207" subnum="0207" icon="" title="Mini Amend/Withdraw Order" minititle="MINI AMEND" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="1" a="1" module="s0207ord" dll="0" submod="cAccountInfo.mbx;cOrderDlg.mbx;c0223ord.mbx;c0203ord.mbx"></SUB_MENU>
+	<SUB_MENU num="" seperator="true" desc=""></SUB_MENU>
+    <SUB_MENU num="0208" subnum="0208" icon="" title="Horizontal Order" minititle="WIDTHORDER" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="0" a="1" module="s0208ord" dll="0" submod="cAccountInfo.mbx;cOrderDlg.mbx;c0202ord.mbx;c0201ord.mbx;c0203ord.mbx"></SUB_MENU>
+    <SUB_MENU num="0209" subnum="0209" icon="" title="Vertical Order" minititle="HEIGTORDER" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="0" a="1" module="s0209ord" dll="0" submod="cAccountInfo.mbx;cOrderDlg.mbx;c0202ord.mbx;c0201ord.mbx;c0203ord.mbx"></SUB_MENU>
+	<SUB_MENU num="" seperator="true" desc=""></SUB_MENU>
+    <SUB_MENU num="0211" subnum="0211" icon="" title="Group Buy Order" minititle="GROUPBUY" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="0" a="1" module="tr0211" dll="1"></SUB_MENU>
+    <SUB_MENU num="0212" subnum="0212" icon="" title="Group Sell Order" minititle="GROUPSELL" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="0" a="1" module="tr0211" dll="1"></SUB_MENU>
+    <SUB_MENU num="0213" subnum="0213" icon="" title="Group Amend Order" minititle="GROUPAMEND" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="0" a="1" module="tr0211" dll="1"></SUB_MENU>
+    <SUB_MENU num="0214" subnum="0214" icon="" title="Group Withdraw Order" minititle="GROUPWTHDW" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="0" a="1" module="tr0211" dll="1"></SUB_MENU>
+	<SUB_MENU num="" seperator="true" desc=""></SUB_MENU>
+    <SUB_MENU num="0215" subnum="0215" icon="" title="Click Order" minititle="CLICKORDER" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="0" a="1" module="tr0215" dll="1"></SUB_MENU>
+    <SUB_MENU num="0216" subnum="0216" icon="" title="StopLossPlus!" minititle="STOP LOSS" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="0" a="1" module="tr0216" dll="1"></SUB_MENU>
+    <SUB_MENU num="0217" subnum="0217" icon="" title="Auto Order" minititle="AUTO ORDER" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="0" rm="0" a="0" module="s0217ord" dll="0" submod="cAccountInfo.mbx;c0101acc.mbx;s0319sis.mbx;c0223ord.mbx;c0221ord.mbx"></SUB_MENU>
+    <SUB_MENU num="0218" subnum="0218" icon="" title="Multi-Slice Order" minititle="Multi-Slice Order" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="0" a="1" module="s0218ord" dll="0" submod="cOrderTab.mbx;cOrderDlg.mbx;c0201ord.mbx;c0202ord.mbx;cAccountInfo.mbx;c0101acc.mbx;s0319sis.mbx;c0223ord.mbx"></SUB_MENU>
+    <SUB_MENU num="0219" subnum="0219" icon="" title="Order Monitor" minititle="ORD MON" file="" hide="" c="0" cc="0" ccd="0" scc="0" sccd="0" g="0" rm="1" a="0" module="s0219ord" dll="0" submod="cAccountInfo.mbx"></SUB_MENU>
+	<SUB_MENU num="" seperator="true" desc=""></SUB_MENU>
+    <SUB_MENU num="0221" subnum="0221" icon="" title="Trade List" minititle="TRADELIST" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="1" a="1" module="s0221ord" dll="0" submod="c0221ord.mbx;cAccountInfo.mbx"></SUB_MENU>
+    <SUB_MENU num="0222" subnum="0222" icon="" title="Historical Trade List" minititle="HISTRTRADE" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="1" a="1" module="s0222ord" dll="0" submod="cAccountInfo.mbx"></SUB_MENU>
+    <SUB_MENU num="0223" subnum="0223" icon="" title="Order List" minititle="ORDERLIST" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="1" a="1" module="s0223ord" dll="0" submod="cAccountInfo.mbx;c0223ord.mbx"></SUB_MENU>
+    <SUB_MENU num="0224" subnum="0224" icon="" title="Historical Order List" minititle="HORDELIST" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="1" a="1" module="s0224ord" dll="0" submod="cAccountInfo.mbx"></SUB_MENU>
+	<SUB_MENU num="" seperator="true" desc=""></SUB_MENU>
+    <SUB_MENU num="0231" subnum="0231" icon="" title="Buy Booking Order" minititle="BOOKNBUY" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="0" a="1" module="s0231ord" dll="0" submod="cOrderTab.mbx;cOrderDlg.mbx;c0201ord.mbx;c0202ord.mbx;c0203ord.mbx;c0204ord.mbx;cAccountInfo.mbx;c0101acc.mbx;s0319sis.mbx"></SUB_MENU>
+    <SUB_MENU num="0232" subnum="0232" icon="" title="Sell Booking Order" minititle="BOOKNSELL" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="0" a="1" module="s0231ord" dll="0" submod="cOrderTab.mbx;cOrderDlg.mbx;c0201ord.mbx;c0202ord.mbx;c0203ord.mbx;c0204ord.mbx;cAccountInfo.mbx;c0101acc.mbx;s0319sis.mbx"></SUB_MENU>
+    <SUB_MENU num="0233" subnum="0233" icon="" title="Withdraw Booking Order" minititle="BOOKNWTHDW" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="0" a="1" module="s0231ord" dll="0" submod="cOrderTab.mbx;cOrderDlg.mbx;c0201ord.mbx;c0202ord.mbx;c0203ord.mbx;c0204ord.mbx;cAccountInfo.mbx;c0101acc.mbx;s0319sis.mbx"></SUB_MENU>
+    <SUB_MENU num="0234" subnum="0234" icon="" title="Order Booking Result" minititle="BOOKNRESLT" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="0" a="1" module="s0234ord" dll="0" submod="cAccountInfo.mbx"></SUB_MENU>
+	<SUB_MENU num="" seperator="true" desc=""></SUB_MENU>
+    <SUB_MENU num="0241" subnum="0241" icon="" title="Stock Calculator" minititle="CALCU" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="1" a="1" module="s0241ord" dll="0"></SUB_MENU>
+	<SUB_MENU num="" seperator="true" desc=""></SUB_MENU>
+    <SUB_MENU num="0250" subnum="0250" icon="" title="Risk Management" minititle="RMMON" file="" hide="" c="0" cc="0" ccd="0" scc="0" sccd="0" g="0" rm="1" a="0" module="s0250sis" dll="0"></SUB_MENU>
+  </TitleMenu>
+  <TitleMenu title="Quote">
+    <SUB_MENU num="0301" subnum="0301" icon="" title="Stock Price" minititle="PRICE" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="1" a="1" module="s0301sis" dll="0" submod="cAccountInfo.mbx;s0306sis.mbx;s0307sis.mbx;s0801sis.mbx;cNcfChart.mbx;s0601sis.mbx;s0602sis.mbx;s0901sis.mbx;s0231ord.mbx"></SUB_MENU>
+    <SUB_MENU num="0302" subnum="0302" icon="" title="Mini Stock Price" minititle="MINI PRICE" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="1" a="1" module="tr0302" dll="1"></SUB_MENU>
+	<SUB_MENU num="" seperator="true" desc="" c="1" cc="0" ccd="1" scc="1" sccd="1" g="1" rm="1" a="0"> </SUB_MENU>
+    <SUB_MENU num="0303" subnum="0303" icon="" title="Watch List" minititle="WATCHLIST" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="1" a="1" module="tr0303" dll="1"></SUB_MENU>
+	<SUB_MENU num="" seperator="true" desc="" c="1" cc="0" ccd="1" scc="1" sccd="1" g="1" rm="1" a="0"></SUB_MENU>
+    <SUB_MENU num="0304" subnum="0304" icon="" title="Sector List" minititle="SECTRLIST" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="1" a="1" module="s0304sis" dll="0"></SUB_MENU>
+    <SUB_MENU num="0305" subnum="0305" icon="" title="Board and Stock Type" minititle="BOARDSTOCK" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="1" a="1" module="s0305sis" dll="0" submod="cNcfChart.mbx"></SUB_MENU>
+	<SUB_MENU num="" seperator="true" desc="" c="1" cc="0" ccd="1" scc="1" sccd="1" g="1" rm="1" a="0"></SUB_MENU>
+    <SUB_MENU num="0306" subnum="0306" icon="" title="Stock Done" minititle="STOCKDONE" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="1" a="1" module="s0307sis" dll="0" submod="s0306sis.mbx;cNcfChart.mbx"></SUB_MENU>
+    <SUB_MENU num="0307" subnum="0307" icon="" title="Stock Daily" minititle="STOCKDAILY" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="1" a="1" module="s0307sis" dll="0" submod="s0306sis.mbx;cNcfChart.mbx"></SUB_MENU>
+	<SUB_MENU num="" seperator="true" desc="" c="1" cc="0" ccd="1" scc="1" sccd="1" g="1" rm="1" a="1"></SUB_MENU>
+    <SUB_MENU num="0308" subnum="0308" icon="" title="Broker Transaction by Stock" minititle="BROKR" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="1" a="1" module="s0308sis" dll="0"></SUB_MENU>
+    <SUB_MENU num="0309" subnum="0309" icon="" title="Stock Order Detail" minititle="ORDERDETAL" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="1" a="1" module="s0309sis" dll="0"></SUB_MENU>
+	<SUB_MENU num="" seperator="true" desc=""></SUB_MENU>    
+    <SUB_MENU num="0310" subnum="0310" icon="" title="Stock Filter" minititle="STOCKFILTER" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="1" a="1" module="s0310sis" dll="0"></SUB_MENU>    
+	<SUB_MENU num="" seperator="true" desc=""></SUB_MENU>
+	<SUB_MENU num="0311" subnum="0311" icon="" title="Stock Price Monitor" minititle="STOCKPRICE" file="" hide="" c="0" cc="1" ccd="1" scc="1" sccd="0" g="0" rm="0" a="1" module="tr0311" dll="1"></SUB_MENU>
+    <SUB_MENU num="0312" subnum="0312" icon="" title="Stock Trade History" minititle="TRADEHISTR" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="1" a="1" module="s0312sis" dll="0"></SUB_MENU>
+	<SUB_MENU num="" seperator="true" desc=""></SUB_MENU>
+    <SUB_MENU num="0313" subnum="0313" icon="" title="World Market Data" minititle="WORLDDATA" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="1" a="1" module="s0313sis" dll="0"></SUB_MENU>
+	<SUB_MENU num="" seperator="true" desc=""></SUB_MENU>
+    <SUB_MENU num="0314" subnum="0314" icon="" title="Suspended Broker" minititle="SUSPEBROKR" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="1" a="1" module="s0314sis" dll="0"></SUB_MENU>
+    <SUB_MENU num="0315" subnum="0315" icon="" title="Suspended Stock" minititle="SUSPESTOCK" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="1" a="1" module="s0314sis" dll="0"></SUB_MENU>
+	<SUB_MENU num="" seperator="true" desc=""></SUB_MENU>
+    <SUB_MENU num="0316" subnum="0316" icon="" title="Foreign Buy/Sell by Sector" minititle="FORENSECTR" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="1" a="1" module="s0316sis" dll="0"></SUB_MENU>
+    <SUB_MENU num="0317" subnum="0317" icon="" title="Foreign Buy/Sell Compare with price" minititle="FORENCOMPE" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="1" a="1" module="s0317sis" dll="0"></SUB_MENU>
+	<SUB_MENU num="" seperator="true" desc=""></SUB_MENU>
+    <SUB_MENU num="0318" subnum="0318" icon="" title="Running Trade" minititle="RUNTRADE" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="1" a="1" module="tr0318" dll="1"></SUB_MENU>
+	<SUB_MENU num="" seperator="true" desc=""></SUB_MENU>
+    <SUB_MENU num="0319" subnum="0319" icon="" title="Composite Screen" minititle="COMP" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="1" a="1" module="s0319sis" dll="0" submod="cOrderTab.mbx;cOrderDlg.mbx;c0223ord.mbx;cNcfChart.mbx;s0501sis.mbx;s0502sis.mbx;s0318sis.mbx;s0306sis.mbx;s0307sis.mbx;s0801sis.mbx;c0101acc.mbx;s0221ord.mbx;s0223.mbx;c0201ord.mbx;c0202ord.mbx;c0203ord.mbx;c0204ord.mbx;cAccountInfo.mbx;c0221ord.mbx;s0301sis.mbx"></SUB_MENU>
+    <SUB_MENU num="0320" subnum="0320" icon="" title="Composite Screen (2)" minititle="COMP2" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="1" a="1" module="s0320sis" dll="0" submod="cOrderTab.mbx;cOrderDlg.mbx;cNcfChart.mbx;s0501sis.mbx;s0502sis.mbx;s0318sis.mbx;s0306sis.mbx;s0307sis.mbx;s0801sis.mbx;c0201ord.mbx;c0202ord.mbx;c0203ord.mbx;c0204ord.mbx;cAccountInfo.mbx;s0301sis.mbx"></SUB_MENU>
+	<SUB_MENU num="" seperator="true" desc=""></SUB_MENU>
+	<SUB_MENU num="0331" subnum="0331" icon="" title="Acceleration Board" minititle="Accl Board" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="1" a="1" module="s0331sis" dll="0"></SUB_MENU>
+  </TitleMenu>
+  <TitleMenu title="Broker">
+    <SUB_MENU num="0401" subnum="0401" icon="" title="Broker Transaction" minititle="BROKRTRANS" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="1" a="1" module="s0401sis" dll="0"></SUB_MENU>
+    <SUB_MENU num="0402" subnum="0402" icon="" title="Broker Transction Detail" minititle="BROKRDETAL" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="1" a="1" module="s0402sis" dll="0"></SUB_MENU>
+	<SUB_MENU num="" seperator="true" desc=""></SUB_MENU>
+    <SUB_MENU num="0403" subnum="0403" icon="" title="Total Broker Transaction" minititle="TOTALTRANS" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="1" a="1" module="s0403sis" dll="0"></SUB_MENU>
+  </TitleMenu>
+  <TitleMenu title="Index">
+    <SUB_MENU num="0501" subnum="0501" icon="" title="Index Done" minititle="INDEXDONE" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="1" a="1" module="s0501sis" smodule="s0501sis" dll="0" submod="s0502sis.mbx;cNcfChart.mbx"></SUB_MENU>
+    <SUB_MENU num="0502" subnum="0502" icon="" title="Index Daily" minititle="INDEXDAILY" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="1" a="1" module="s0501sis" smodule="s0501sis" dll="0" submod="cNcfChart.mbx;s0502sis.mbx"></SUB_MENU>
+    <SUB_MENU num="0503" subnum="0503" icon="" title="Index Composite" minititle="INDEXCOMP" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="1" a="1" module="s0503sis" dll="0" submod="cNcfChart.mbx"></SUB_MENU>
+  </TitleMenu>
+  <TitleMenu title="Ranking">
+    <SUB_MENU num="0601" subnum="0601" icon="" title="Stock Gainer/Loser/No Transaction" minititle="GAINRLOSER" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="1" a="1" module="s0601sis" dll="0" submod="s0602sis.mbx"></SUB_MENU>
+    <SUB_MENU num="0603" subnum="0603" icon="" title="Stock Freq/Volume/Value" minititle="STOCKFREQ" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="1" a="1" module="s0603sis" dll="0"></SUB_MENU>
+		<SUB_MENU num="" seperator="true" desc=""></SUB_MENU>
+    <SUB_MENU num="0604" subnum="0604" icon="" title="Broker Freq/Volume/Value" minititle="BROKRFREQ" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="1" a="1" module="s0604sis" dll="0"></SUB_MENU>
+    <SUB_MENU num="0605" subnum="0605" icon="" title="Broker Freq/Volume/Value by Stock" minititle="BROKRSTOCK" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="1" a="1" module="s0605sis" dll="0"></SUB_MENU>
+		<SUB_MENU num="" seperator="true" desc=""></SUB_MENU>
+    <SUB_MENU num="0606" subnum="0606" icon="" title="Foreign Transaction" minititle="FORENTRANS" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="1" a="1" module="s0606sis" dll="0"></SUB_MENU>
+  </TitleMenu>
+  <TitleMenu title="Chart">
+    <SUB_MENU num="0701" subnum="0701" icon="" title="Composite Chart" minititle="CHART"    file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="1" a="1" module="tr0703" dll="1"></SUB_MENU>
+	<SUB_MENU num="0702" subnum="0702" icon="" title="Technical Chart" minititle="TECH CHART" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="1" a="1" module="tr0702" dll="1"></SUB_MENU>
+	<SUB_MENU num="0704" subnum="0704" icon="" title="Comparison Chart" minititle="COMP CHART" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="1" a="1" module="tr0704" dll="1"></SUB_MENU>
+	<SUB_MENU num="0705" subnum="0705" icon="" title="Market Profile Chart" minititle="MARKET PROFILE" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="1" a="1" module="tr0705" dll="1"></SUB_MENU>
+	<SUB_MENU num="0706" subnum="0706" icon="" title="Multi Chart" minititle="MULTI CHART" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="1" a="1" module="tr0706" dll="1"></SUB_MENU>
+  </TitleMenu>
+  <TitleMenu title="News">
+    <SUB_MENU num="0801" subnum="0801" icon="" title="News Composite" minititle="NEWS" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="1" a="1" module="s0801sis" dll="0"></SUB_MENU>
+    <SUB_MENU num="0802" subnum="0802" icon="" title="Research" minititle="RESEARCH" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="1" a="1" module="s0802sis" dll="0"></SUB_MENU>
+  </TitleMenu>
+  <TitleMenu title="Information">
+    <SUB_MENU num="0901" subnum="0901" icon="" title="Company Information" minititle="COMPYINFO" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="1" a="1" module="s0901sis" dll="0"></SUB_MENU>
+    <SUB_MENU num="0902" subnum="0902" icon="" title="Corporate Action" minititle="CORPOACTIN" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="1" a="1" module="s0902sis" dll="0"></SUB_MENU>
+	<SUB_MENU num="" seperator="true" desc=""></SUB_MENU>
+    <SUB_MENU num="0904" subnum="0904" icon="" title="Announcement" minititle="ANMNT" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="1" a="1" module="s0904sis" dll="0"></SUB_MENU>
+  </TitleMenu>
+  <TitleMenu title="Online Service">
+    <SUB_MENU num="1001" subnum="1001" icon="" title="Exercise Instruction" minititle="EXERI" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="0" a="1" module="s1001rpm" dll="0" submod="cAccountInfo.mbx"></SUB_MENU>
+    <SUB_MENU num="1002" subnum="1002" icon="" title="Exercise List" minititle="EXERILIST" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="0" a="1" module="s1001rpm" smodule="s1002rpm" dll="0" submod="cAccountInfo.mbx"></SUB_MENU>
+	<SUB_MENU num="" seperator="true" desc=""></SUB_MENU>
+    <SUB_MENU num="1011" subnum="1011" icon="" title="Stock Withdraw Instruction" minititle="WTHDWINST" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="0" a="1" module="s1011rpm" dll="0" submod="cAccountInfo.mbx"></SUB_MENU>
+    <SUB_MENU num="1012" subnum="1012" icon="" title="Stock Withdraw List" minititle="WTHDWLIST" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="0" a="1" module="s1011rpm" smodule="s1012rpm" dll="0" submod="cAccountInfo.mbx"></SUB_MENU>
+  </TitleMenu>
+  <TitleMenu title="Admin">
+    <SUB_MENU num="9911" subnum="9911" icon="" title="Server Group Monitoring" minititle="SGM" file="" hide="" c="0" cc="0" ccd="0" scc="0" sccd="0" g="0" rm="0" a="0"  module="tr9912" dll="1"></SUB_MENU>
+    <SUB_MENU num="9912" subnum="9912" icon="" title="Server Monitoring" minititle="SM" file="" hide="" c="0" cc="0" ccd="0" scc="0" sccd="0" g="0" rm="0" a="0"  module="tr9912" dll="1"></SUB_MENU>
+    <SUB_MENU num="9914" subnum="9914" icon="" title="Chart Monitoring" minititle="CM" file="" hide="" c="0" cc="0" ccd="0" scc="0" sccd="0" g="0" rm="0" a="0"  module="tr9912" dll="1"></SUB_MENU>
+    <SUB_MENU num="9915" subnum="9915" icon="" title="User Abort" minititle="UA" file="" hide="" c="0" cc="0" ccd="0" scc="0" sccd="0" g="0" rm="0" a="1"  module="s9915sis" dll="0"></SUB_MENU>
+	<SUB_MENU num="" seperator="true" desc=""></SUB_MENU>    
+    <SUB_MENU num="9921" subnum="9921" icon="" title="Auto Order Management" minititle="AOMAN" file="" hide="" c="0" cc="1" ccd="1" scc="1" sccd="1" g="0" rm="0" a="1"  module="s9921sis" dll="0"></SUB_MENU>
+	<SUB_MENU num="" seperator="true" desc=""></SUB_MENU>    
+    <SUB_MENU num="9926" subnum="9926" icon="" title="Connection Status" minititle="CONSTAT" file="" hide="" c="0" cc="1" ccd="1" scc="1" sccd="1" g="0" rm="0" a="1"  module="s9926sis" dll="0"></SUB_MENU>    
+	<SUB_MENU num="" seperator="true" desc=""></SUB_MENU>        
+    <SUB_MENU num="9931" subnum="9931" icon="" title="Mobile Noticie/Version/Menu Configuration" minititle="MCONF" file="" hide="" c="0" cc="0" ccd="0" scc="0" sccd="0" g="0" rm="0" a="1"  module="s9931sis" dll="0"></SUB_MENU>
+    <SUB_MENU num="9932" subnum="9932" icon="" title="Mobile Connection Statistics" minititle="MCONSTAT" file="" hide="" c="0" cc="0" ccd="0" scc="0" sccd="0" g="0" rm="0" a="1"  module="s9932sis" dll="0"></SUB_MENU>
+    <SUB_MENU num="9933" subnum="9933" icon="" title="Mobile Connection Version Statistics" minititle="MCONVERSTAT" file="" hide="" c="0" cc="0" ccd="0" scc="0" sccd="0" g="0" rm="0" a="1"  module="s9933sis" dll="0"></SUB_MENU>
+    <SUB_MENU num="9934" subnum="9934" icon="" title="Mobile Screen Statistics" minititle="MSCRSTAT" file="" hide="" c="0" cc="0" ccd="0" scc="0" sccd="0" g="0" rm="0" a="1"  module="s9934sis" dll="0"></SUB_MENU>
+	<SUB_MENU num="" seperator="true" desc=""></SUB_MENU>        
+    <SUB_MENU num="9941" subnum="9941" icon="" title="Mutual Fund Revenue" minititle="MUTFUNDRV" file="" hide="" c="0" cc="0" ccd="0" scc="1" sccd="0" g="0" rm="0" a="1"  module="s9941sis" dll="0"></SUB_MENU>
+    <SUB_MENU num="9942" subnum="9942" icon="" title="Market Share Report" minititle="M/S-RPT" file="" hide="" c="0" cc="0" ccd="0" scc="1" sccd="0" g="0" rm="0" a="1"  module="s9942sis" dll="0"></SUB_MENU>
+  </TitleMenu>
+  <TitleMenu title="View">
+    <SUB_MENU num="" subnum="" icon="" title="Toolbar" minititle="" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="1" a="1" menuid="7305"></SUB_MENU>
+    <SUB_MENU num="" subnum="" icon="" title="Screen ControlBar" minititle="" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="1" a="1" menuid="11135"></SUB_MENU>
+    <SUB_MENU num="" subnum="" icon="" title="History Search Bar" minititle="" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="1" a="1" menuid="11132"></SUB_MENU>
+    <SUB_MENU num="" subnum="" icon="" title="Ticker Bar" minititle="" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="1" a="0" menuid="11133"></SUB_MENU>
+	<SUB_MENU num="" seperator="true" desc=""></SUB_MENU>
+    <SUB_MENU num="" subnum="" icon="" title="Monitor 1(Ctrl+1)" minititle="" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="1" a="1" menuid="7910"></SUB_MENU>
+    <SUB_MENU num="" subnum="" icon="" title="Monitor 2(Ctrl+2)" minititle="" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="1" a="1" menuid="7911"></SUB_MENU>
+    <SUB_MENU num="" subnum="" icon="" title="Monitor 3(Ctrl+3)" minititle="" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="1" a="1" menuid="7912"></SUB_MENU>
+    <SUB_MENU num="" subnum="" icon="" title="Monitor 4(Ctrl+4)" minititle="" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="1" a="1" menuid="7913"></SUB_MENU>
+    <SUB_MENU num="" subnum="" icon="" title="Monitor 5(Ctrl+5)" minititle="" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="1" a="1" menuid="7914"></SUB_MENU>
+    <SUB_MENU num="" subnum="" icon="" title="Monitor 6(Ctrl+6)" minititle="" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="1" a="1" menuid="7915"></SUB_MENU>
+	<SUB_MENU num="" seperator="true" desc=""></SUB_MENU>
+    <SUB_MENU num="" subnum="" icon="" title="Full Screen" minititle="" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="1" a="1" menuid="11134"></SUB_MENU>
+    <SUB_MENU num="" subnum="" icon="" title="Screen Lock" minititle="" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="1" a="1" menuid="7308"></SUB_MENU>
+	<SUB_MENU num="" seperator="true" desc=""></SUB_MENU>
+    <SUB_MENU num="" subnum="" icon="" title="Cascade(&amp;C)" minititle="" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="1" a="1" menuid="57650"></SUB_MENU>
+    <SUB_MENU num="" subnum="" icon="" title="Horizontal Arragement(&amp;H)" minititle="" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="1" a="1" menuid="57651"></SUB_MENU>
+    <SUB_MENU num="" subnum="" icon="" title="Vertical Arragement(&amp;V)" minititle="" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="1" a="1" menuid="57652"></SUB_MENU>
+	<SUB_MENU num="" seperator="true" desc=""></SUB_MENU>
+    <SUB_MENU num="" subnum="" icon="" title="Close All(&amp;Q)" minititle="" file="" hide="" c="1" cc="1" ccd="1" scc="1" sccd="1" g="1" rm="1" a="1" menuid="7200"></SUB_MENU>
+  </TitleMenu>
+</MOST_MENU>

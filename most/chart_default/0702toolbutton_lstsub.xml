@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<stchart_savefile>
+	<ToolbarButtons>
+		<Button>
+			<text></text>
+			<icon>57</icon>
+			<menuid>6094</menuid>
+			<desc>Change Toolbar</desc>
+			<size>20</size>
+			<style>1</style>
+		</Button>
+		<Button>
+			<text></text>
+			<icon>103</icon>
+			<menuid>6095</menuid>
+			<desc>Edit Toolbar</desc>
+			<size>20</size>
+			<style>1</style>
+		</Button>
+		<Button>
+			<text>Stg.Wizard</text>
+			<icon>0</icon>
+			<menuid>5050</menuid>
+			<desc></desc>
+			<size>70</size>
+			<style>2</style>
+		</Button>
+		<Button>
+			<text>Stg.Setting</text>
+			<icon>0</icon>
+			<menuid>5051</menuid>
+			<desc></desc>
+			<size>70</size>
+			<style>1</style>
+		</Button>
+		<Button>
+			<text>Stg.Report</text>
+			<icon>0</icon>
+			<menuid>5052</menuid>
+			<desc></desc>
+			<size>70</size>
+			<style>2</style>
+		</Button>
+		<Button>
+			<text>Stg.Screener</text>
+			<icon>0</icon>
+			<menuid>5049</menuid>
+			<desc></desc>
+			<size>75</size>
+			<style>1</style>
+		</Button>
+		<Button>
+			<text></text>
+			<icon>170</icon>
+			<menuid>5060</menuid>
+			<desc>Data Window</desc>
+			<size>20</size>
+			<style>1</style>
+		</Button>
+		<Button>
+			<text></text>
+			<icon>179</icon>
+			<menuid>5061</menuid>
+			<desc>Magnifier</desc>
+			<size>20</size>
+			<style>1</style>
+		</Button>
+		<Button>
+			<text></text>
+			<icon>189</icon>
+			<menuid>5062</menuid>
+			<desc>Zoom In</desc>
+			<size>20</size>
+			<style>1</style>
+		</Button>
+		<Button>
+			<text></text>
+			<icon>180</icon>
+			<menuid>5063</menuid>
+			<desc>Cross Line</desc>
+			<size>20</size>
+			<style>1</style>
+		</Button>
+		<Button>
+			<text></text>
+			<icon>329</icon>
+			<menuid>5080</menuid>
+			<desc>Delete Trend Line</desc>
+			<size>20</size>
+			<style>1</style>
+		</Button>
+		<Button>
+			<text></text>
+			<icon>328</icon>
+			<menuid>5079</menuid>
+			<desc>Delete All Trend Lines</desc>
+			<size>20</size>
+			<style>1</style>
+		</Button>
+		<Button>
+			<text></text>
+			<icon>6092</icon>
+			<menuid>100004</menuid>
+			<desc>Swtching Chart</desc>
+			<size>57</size>
+			<style>3</style>
+		</Button>
+		<Button>
+			<text></text>
+			<icon>35</icon>
+			<menuid>5070</menuid>
+			<desc>Auto Play</desc>
+			<size>20</size>
+			<style>1</style>
+		</Button>
+		<Button>
+			<text></text>
+			<icon>314</icon>
+			<menuid>5071</menuid>
+			<desc>Auto Trend Line</desc>
+			<size>20</size>
+			<style>1</style>
+		</Button>
+		<Button>
+			<text></text>
+			<icon>312</icon>
+			<menuid>5072</menuid>
+			<desc>Auto Resistant Line</desc>
+			<size>20</size>
+			<style>1</style>
+		</Button>
+		<Button>
+			<text></text>
+			<icon>313</icon>
+			<menuid>5083</menuid>
+			<desc>Auto Trend Line Manager</desc>
+			<size>20</size>
+			<style>1</style>
+		</Button>
+		<Button>
+			<text></text>
+			<icon>401</icon>
+			<menuid>6034</menuid>
+			<desc>Auto Pattern</desc>
+			<size>20</size>
+			<style>1</style>
+		</Button>
+		<Button>
+			<text></text>
+			<icon>405</icon>
+			<menuid>6035</menuid>
+			<desc>Auto Pattern Manager</desc>
+			<size>20</size>
+			<style>1</style>
+		</Button>
+		<Button>
+			<text></text>
+			<icon>133</icon>
+			<menuid>6049</menuid>
+			<desc>Open All Data Window</desc>
+			<size>20</size>
+			<style>1</style>
+		</Button>
+		<Button>
+			<text></text>
+			<icon>123</icon>
+			<menuid>6047</menuid>
+			<desc>Save Image</desc>
+			<size>20</size>
+			<style>1</style>
+		</Button>
+		<Button>
+			<text></text>
+			<icon>29</icon>
+			<menuid>5078</menuid>
+			<desc>Print</desc>
+			<size>20</size>
+			<style>1</style>
+		</Button>
+		<Button>
+			<text>Replay</text>
+			<icon>0</icon>
+			<menuid>6038</menuid>
+			<desc></desc>
+			<size>60</size>
+			<style>1</style>
+		</Button>
+	</ToolbarButtons>
+</stchart_savefile>

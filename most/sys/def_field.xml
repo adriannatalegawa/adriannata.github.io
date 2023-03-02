@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="KSC_5601"?>
+<INDEX>
+  <TR ID="0211_BUY" COMMENT="Stock Group Buy">
+    <FITEM ID="0001" NAME="Check" UNIT="1" ALIGN="center" COL_WIDTH="3" VNAME="Check" VISIBLE="true" COMMA_USE="false" />
+    <FITEM ID="0002" NAME="Code" UNIT="1" ALIGN="center" COL_WIDTH="5" VNAME="Code" VISIBLE="true" COMMA_USE="false" />
+    <FITEM ID="0003" NAME="Board" UNIT="1" ALIGN="center" COL_WIDTH="4" VNAME="Board" VISIBLE="true" COMMA_USE="false" />
+    <FITEM ID="0004" NAME="Quantity" UNIT="1" ALIGN="right" COL_WIDTH="7" VNAME="Quantity" VISIBLE="true" COMMA_USE="false" />
+    <FITEM ID="0005" NAME="Price" UNIT="1" ALIGN="right" COL_WIDTH="7" VNAME="Price" VISIBLE="true" COMMA_USE="false" />
+    <FITEM ID="0006" NAME="Status" UNIT="1" ALIGN="center" COL_WIDTH="5" VNAME="Status" VISIBLE="true" COMMA_USE="false" />
+    <FITEM ID="0007" NAME="Price Condition" UNIT="1" ALIGN="left" COL_WIDTH="8" VNAME="Price Condition" VISIBLE="true" COMMA_USE="false" />
+    <FITEM ID="0008" NAME="Tick" UNIT="1" ALIGN="right" COL_WIDTH="5" VNAME="Tick" VISIBLE="true" COMMA_USE="false" />
+    <FITEM ID="0009" NAME="Order" UNIT="1" ALIGN="right" COL_WIDTH="5" VNAME="Order" VISIBLE="true" COMMA_USE="false" />
+    <FITEM ID="0010" NAME="Detail" UNIT="1" ALIGN="right" COL_WIDTH="8" VNAME="Detail" VISIBLE="true" COMMA_USE="false" />    
+    <FITEM ID="0011" NAME="Amount" UNIT="1" ALIGN="right" COL_WIDTH="8" VNAME="Amount" VISIBLE="true" COMMA_USE="false" />
+  </TR>
+
+  <TR ID="0211_OFFER" COMMENT="Stock Group Sell">
+    <FITEM ID="0001" NAME="Check" UNIT="1" ALIGN="center" COL_WIDTH="3" VNAME="Check" VISIBLE="true" COMMA_USE="false" />
+    <FITEM ID="0002" NAME="Code" UNIT="1" ALIGN="center" COL_WIDTH="5" VNAME="Code" VISIBLE="true" COMMA_USE="false" />
+    <FITEM ID="0003" NAME="Board" UNIT="1" ALIGN="center" COL_WIDTH="4" VNAME="Board" VISIBLE="true" COMMA_USE="false" />
+    <FITEM ID="0004" NAME="Avg Price" UNIT="1" ALIGN="right" COL_WIDTH="7" VNAME="Avg Price" VISIBLE="true" COMMA_USE="false" />
+    <FITEM ID="0005" NAME="Last Price" UNIT="1" ALIGN="right" COL_WIDTH="7" VNAME="Last Price" VISIBLE="true" COMMA_USE="true" />
+    <FITEM ID="0006" NAME="Stock Value" UNIT="1" ALIGN="right" COL_WIDTH="7" VNAME="Stock Value" VISIBLE="true" COMMA_USE="false" />
+    <FITEM ID="0007" NAME="Market Value" UNIT="1" ALIGN="right" COL_WIDTH="7" VNAME="Market Value" VISIBLE="true" COMMA_USE="false" />
+    <FITEM ID="0008" NAME="Lot" UNIT="1" ALIGN="right" COL_WIDTH="5" VNAME="Lot" VISIBLE="true" COMMA_USE="false" />
+    <FITEM ID="0009" NAME="Quantity" UNIT="1" ALIGN="right" COL_WIDTH="6" VNAME="Quantity" VISIBLE="true" COMMA_USE="false" />
+    <FITEM ID="0010" NAME="Order Price" UNIT="1" ALIGN="right" COL_WIDTH="6" VNAME="Order Price" VISIBLE="true" COMMA_USE="false" />
+    <FITEM ID="0011" NAME="Status" UNIT="1" ALIGN="center" COL_WIDTH="5" VNAME="Status" VISIBLE="true" COMMA_USE="false" />
+    <FITEM ID="0012" NAME="Order" UNIT="1" ALIGN="right" COL_WIDTH="3" VNAME="Order" VISIBLE="true" COMMA_USE="false" />
+  </TR>
+
+  <TR ID="0211_AMEND" COMMENT="Stock Group Amend">
+    <FITEM ID="0001" NAME="Check" UNIT="1" ALIGN="center" COL_WIDTH="4" VNAME="Check" VISIBLE="true" COMMA_USE="false" />
+    <FITEM ID="0002" NAME="Order NO" UNIT="1" ALIGN="right" COL_WIDTH="9" VNAME="Order NO" VISIBLE="true" COMMA_USE="false" />
+    <FITEM ID="0003" NAME="Code" UNIT="1" ALIGN="center" COL_WIDTH="7" VNAME="Code" VISIBLE="true" COMMA_USE="false" />
+    <FITEM ID="0004" NAME="Board" UNIT="1" ALIGN="center" COL_WIDTH="7" VNAME="Board" VISIBLE="true" COMMA_USE="false" />
+    <FITEM ID="0005" NAME="Price" UNIT="1" ALIGN="right" COL_WIDTH="8" VNAME="Price" VISIBLE="true" COMMA_USE="false" />
+    <FITEM ID="0006" NAME="Qty" UNIT="1" ALIGN="right" COL_WIDTH="8" VNAME="Qty" VISIBLE="true" COMMA_USE="false" />
+    <FITEM ID="0007" NAME="Price Input" UNIT="1" ALIGN="right" COL_WIDTH="10" VNAME="Price Input" VISIBLE="true" COMMA_USE="false" />
+    <FITEM ID="0008" NAME="Qty Input" UNIT="1" ALIGN="right" COL_WIDTH="10" VNAME="Qty Input" VISIBLE="true" COMMA_USE="false" />
+    <FITEM ID="0009" NAME="Done Price" UNIT="1" ALIGN="right" COL_WIDTH="8" VNAME="Done Price" VISIBLE="true" COMMA_USE="false" />
+    <FITEM ID="0010" NAME="Done Qty" UNIT="1" ALIGN="right" COL_WIDTH="8" VNAME="Done Qty" VISIBLE="true" COMMA_USE="false" />
+    <FITEM ID="0011" NAME="Rest Qty" UNIT="1" ALIGN="right" COL_WIDTH="8" VNAME="Rest Qty" VISIBLE="true" COMMA_USE="false" />
+    <FITEM ID="0012" NAME="Status" UNIT="1" ALIGN="center" COL_WIDTH="7" VNAME="Status" VISIBLE="true" COMMA_USE="false" />
+    <FITEM ID="0013" NAME="Amend" UNIT="1" ALIGN="right" COL_WIDTH="7" VNAME="Amend" VISIBLE="true" COMMA_USE="false" />
+  </TR>
+
+  <TR ID="0211_WITHDRAW" COMMENT="Stock Group Withdraw">
+    <FITEM ID="0001" NAME="Check" UNIT="1" ALIGN="center" COL_WIDTH="4" VNAME="Check" VISIBLE="true" COMMA_USE="false" />
+    <FITEM ID="0002" NAME="Order NO" UNIT="1" ALIGN="right" COL_WIDTH="9" VNAME="Order NO" VISIBLE="true" COMMA_USE="false" />
+    <FITEM ID="0003" NAME="Code" UNIT="1" ALIGN="center" COL_WIDTH="9" VNAME="Code" VISIBLE="true" COMMA_USE="false" />
+    <FITEM ID="0004" NAME="Board" UNIT="1" ALIGN="center" COL_WIDTH="9" VNAME="Board" VISIBLE="true" COMMA_USE="false" />
+    <FITEM ID="0005" NAME="Price" UNIT="1" ALIGN="right" COL_WIDTH="10" VNAME="Price" VISIBLE="true" COMMA_USE="false" />
+    <FITEM ID="0006" NAME="Qty" UNIT="1" ALIGN="right" COL_WIDTH="9" VNAME="Qty" VISIBLE="true" COMMA_USE="false" />
+    <FITEM ID="0007" NAME="Done Price" UNIT="1" ALIGN="right" COL_WIDTH="10" VNAME="Done Price" VISIBLE="true" COMMA_USE="false" />
+    <FITEM ID="0008" NAME="Done Qty" UNIT="1" ALIGN="right" COL_WIDTH="9" VNAME="Done Qty" VISIBLE="true" COMMA_USE="false" />
+    <FITEM ID="0009" NAME="Rest Qty" UNIT="1" ALIGN="right" COL_WIDTH="11" VNAME="Rest Qty" VISIBLE="true" COMMA_USE="false" />
+    <FITEM ID="0010" NAME="Status" UNIT="1" ALIGN="center" COL_WIDTH="7" VNAME="Status" VISIBLE="true" COMMA_USE="false" />
+    <FITEM ID="0011" NAME="Withdraw" UNIT="1" ALIGN="right" COL_WIDTH="7" VNAME="Withdraw" VISIBLE="true" COMMA_USE="false" />    
+  </TR>
+  <TR ID="STOCKDONE_0302">
+    <FITEM ID="0001" NAME="Time" UNIT="1" ALIGN="center" COL_WIDTH="61" VNAME="Time" VISIBLE="true" COMMA_USE="false" />
+    <FITEM ID="0002" NAME="Change" UNIT="1" ALIGN="right" COL_WIDTH="58" VNAME="Change" VISIBLE="true" COMMA_USE="false" />
+    <FITEM ID="0003" NAME="Change(%)" UNIT="1" ALIGN="right" COL_WIDTH="90" VNAME="Change(%)" VISIBLE="false" COMMA_USE="false" />
+    <FITEM ID="0005" NAME="Last" UNIT="1" ALIGN="right" COL_WIDTH="60" VNAME="Last" VISIBLE="false" COMMA_USE="false" />
+    <FITEM ID="0006" NAME="Offer Price" UNIT="1" ALIGN="right" COL_WIDTH="80" VNAME="Offer Price" VISIBLE="false" COMMA_USE="false" />
+    <FITEM ID="0007" NAME="Bid Price" UNIT="1" ALIGN="right" COL_WIDTH="70" VNAME="Bid Price" VISIBLE="false" COMMA_USE="false" />
+    <FITEM ID="0008" NAME="Volume" UNIT="1" ALIGN="right" COL_WIDTH="70" VNAME="Volume" VISIBLE="false" COMMA_USE="false" />
+    <FITEM ID="0009" NAME="Offer Vol" UNIT="1" ALIGN="right" COL_WIDTH="70" VNAME="Offer Vol" VISIBLE="false" COMMA_USE="false" />
+    <FITEM ID="0010" NAME="Bid Vol" UNIT="1" ALIGN="right" COL_WIDTH="70" VNAME="Bid Vol" VISIBLE="false" COMMA_USE="false" />
+    <FITEM ID="0011" NAME="Done Qty" UNIT="1" ALIGN="right" COL_WIDTH="64" VNAME="Done Qty" VISIBLE="true" COMMA_USE="false" />
+    <FITEM ID="0012" NAME="Strength" UNIT="1" ALIGN="right" COL_WIDTH="64" VNAME="Strength" VISIBLE="true" COMMA_USE="false" />
+	<FITEM ID="0013" NAME="0 - 200" UNIT="1" ALIGN="right" COL_WIDTH="70" VNAME="0 - 200" VISIBLE="true" COMMA_USE="false" />
+  </TR> 
+  <TR ID="STOCKDAILY_0302">
+    <FITEM ID="0001" NAME="Date" UNIT="1" ALIGN="center" COL_WIDTH="80" VNAME="Date" VISIBLE="true" COMMA_USE="false" />
+    <FITEM ID="0002" NAME="Open" UNIT="1" ALIGN="right" COL_WIDTH="70" VNAME="Open" VISIBLE="false" COMMA_USE="false" />
+    <FITEM ID="0003" NAME="High" UNIT="1" ALIGN="right" COL_WIDTH="70" VNAME="High" VISIBLE="false" COMMA_USE="false" />
+    <FITEM ID="0004" NAME="Low" UNIT="1" ALIGN="right" COL_WIDTH="70" VNAME="Low" VISIBLE="false" COMMA_USE="false" />
+    <FITEM ID="0005" NAME="Last" UNIT="1" ALIGN="right" COL_WIDTH="50" VNAME="Last" VISIBLE="true" COMMA_USE="false" />
+    <FITEM ID="0006" NAME="Change" UNIT="1" ALIGN="right" COL_WIDTH="70" VNAME="Change" VISIBLE="true" COMMA_USE="false" />
+    <FITEM ID="0007" NAME="Change(%)" UNIT="1" ALIGN="right" COL_WIDTH="80" VNAME="Change(%)" VISIBLE="true" COMMA_USE="false" />
+    <FITEM ID="0008" NAME="Volume" UNIT="1" ALIGN="right" COL_WIDTH="70" VNAME="Volume" VISIBLE="true" COMMA_USE="false" />
+    <FITEM ID="0009" NAME="Value(T)" UNIT="1" ALIGN="right" COL_WIDTH="80" VNAME="Value(T)" VISIBLE="false" COMMA_USE="false" />
+  </TR>            
+  <TR ID="0701" COMMENT="Power Stock Chart">
+	<FITEM ID="0001" NAME="Time" UNIT="1" ALIGN="center" COL_WIDTH="54" VNAME="time" VISIBLE="true" COMMA_USE="false" />
+	<FITEM ID="0002" NAME="Last" UNIT="1" ALIGN="right" COL_WIDTH="74" VNAME="price" VISIBLE="true" COMMA_USE="false" />
+	<FITEM ID="0003" NAME="Change" UNIT="1" ALIGN="right" COL_WIDTH="60" VNAME="change" VISIBLE="true" COMMA_USE="false" />
+	<FITEM ID="0004" NAME="Change(%)" UNIT="1" ALIGN="right" COL_WIDTH="70" VNAME="change(%)" VISIBLE="true" COMMA_USE="false" />
+	<FITEM ID="0005" NAME="Volume" UNIT="1" ALIGN="right" COL_WIDTH="110" VNAME="volume" VISIBLE="true" COMMA_USE="true" />
+	<FITEM ID="0007" NAME="Offer" UNIT="1" ALIGN="right" COL_WIDTH="70" VNAME="ask price" VISIBLE="true" COMMA_USE="false" />
+	<FITEM ID="0008" NAME="Bid" UNIT="1" ALIGN="right" COL_WIDTH="70" VNAME="bid price" VISIBLE="true" COMMA_USE="false" />
+	<FITEM ID="0009" NAME="Open" UNIT="1" ALIGN="right" COL_WIDTH="70" VNAME="open" VISIBLE="true" COMMA_USE="false" />
+	<FITEM ID="0010" NAME="High" UNIT="1" ALIGN="right" COL_WIDTH="70" VNAME="high" VISIBLE="true" COMMA_USE="false" />
+	<FITEM ID="0011" NAME="Low" UNIT="1" ALIGN="right" COL_WIDTH="70" VNAME="low" VISIBLE="true" COMMA_USE="false" />
+	<FITEM ID="0012" NAME="Value" UNIT="1" ALIGN="right" COL_WIDTH="115" VNAME="value" VISIBLE="true" COMMA_USE="false" />
+	<FITEM ID="0019" NAME="Yesterday Price" UNIT="1" ALIGN="right" COL_WIDTH="102" VNAME="yesterday price" VISIBLE="false" COMMA_USE="false" />
+	<FITEM ID="0020" NAME="Yesterday Volume" UNIT="1" ALIGN="right" COL_WIDTH="110" VNAME="yesterday volume" VISIBLE="false" COMMA_USE="false" />
+  </TR>
+  <TR ID="0318" COMMENT="Running Trade">
+	<FITEM ID="0001" NAME="Time" UNIT="1" ALIGN="center" COL_WIDTH="14" VNAME="Time" VISIBLE="true" COMMA_USE="false" />
+	<FITEM ID="0002" NAME="Code" UNIT="1" ALIGN="left" COL_WIDTH="12" VNAME="Code" VISIBLE="true" COMMA_USE="false" />
+	<FITEM ID="0003" NAME="Price" UNIT="1" ALIGN="right" COL_WIDTH="14" VNAME="Price" VISIBLE="true" COMMA_USE="true" />
+	<FITEM ID="0004" NAME="Change" UNIT="1" ALIGN="right" COL_WIDTH="7" VNAME="Change" VISIBLE="true" COMMA_USE="true" />
+	<FITEM ID="0005" NAME="Change(%)" UNIT="1" ALIGN="right" COL_WIDTH="11" VNAME="Change(%)" VISIBLE="true" COMMA_USE="true" />
+	<FITEM ID="0006" NAME="Volume" UNIT="1" ALIGN="right" COL_WIDTH="10" VNAME="Vol" VISIBLE="true" COMMA_USE="true" />
+	<FITEM ID="0007" NAME="Buyer" UNIT="1" ALIGN="center" COL_WIDTH="4" VNAME="Buyer" VISIBLE="true" COMMA_USE="true" />
+	<FITEM ID="0008" NAME="Buyer Code" UNIT="1" ALIGN="center" COL_WIDTH="6" VNAME="Buyer" VISIBLE="true" COMMA_USE="true" />
+    <FITEM ID="0009" NAME="Seller Code" UNIT="1" ALIGN="center" COL_WIDTH="6" VNAME="Seller" VISIBLE="true" COMMA_USE="true" />
+	<FITEM ID="0010" NAME="Seller" UNIT="1" ALIGN="center" COL_WIDTH="4" VNAME="Seller" VISIBLE="true" COMMA_USE="true" />
+  </TR>
+  <TR ID="0318_Main" COMMENT="Running Trade">
+	<FITEM ID="0001" NAME="Time" UNIT="1" ALIGN="center" COL_WIDTH="14" VNAME="Time" VISIBLE="true" COMMA_USE="false" />
+	<FITEM ID="0002" NAME="Code" UNIT="1" ALIGN="left" COL_WIDTH="12" VNAME="Code" VISIBLE="true" COMMA_USE="false" />
+	<FITEM ID="0003" NAME="Price" UNIT="1" ALIGN="right" COL_WIDTH="14" VNAME="Price" VISIBLE="true" COMMA_USE="true" />
+	<FITEM ID="0004" NAME="Change" UNIT="1" ALIGN="right" COL_WIDTH="7" VNAME="Change" VISIBLE="true" COMMA_USE="true" />
+	<FITEM ID="0005" NAME="Change(%)" UNIT="1" ALIGN="right" COL_WIDTH="11" VNAME="Change(%)" VISIBLE="true" COMMA_USE="true" />
+	<FITEM ID="0006" NAME="Volume" UNIT="1" ALIGN="right" COL_WIDTH="10" VNAME="Vol" VISIBLE="true" COMMA_USE="true" />
+	<FITEM ID="0007" NAME="Buyer" UNIT="1" ALIGN="center" COL_WIDTH="10" VNAME="Buyer" VISIBLE="false" HIDDEN="true" COMMA_USE="true" />
+	<FITEM ID="0008" NAME="Buyer Code" UNIT="1" ALIGN="center" COL_WIDTH="0" VNAME="Buyer" VISIBLE="false" HIDDEN="true" COMMA_USE="true" />
+    <FITEM ID="0009" NAME="Seller Code" UNIT="1" ALIGN="center" COL_WIDTH="0" VNAME="Seller" VISIBLE="false" HIDDEN="true" COMMA_USE="true" />
+	<FITEM ID="0010" NAME="Seller" UNIT="1" ALIGN="center" COL_WIDTH="10" VNAME="Seller" VISIBLE="false" HIDDEN="true" COMMA_USE="true" />
+  </TR>
+<TR ID="0703" COMMENT="Composite Chart">
+	<FITEM ID="0001" NAME="Time" UNIT="1" ALIGN="center" COL_WIDTH="54" VNAME="time" VISIBLE="true" COMMA_USE="false" />
+	<FITEM ID="0002" NAME="Last" UNIT="1" ALIGN="right" COL_WIDTH="74" VNAME="price" VISIBLE="true" COMMA_USE="false" />
+	<FITEM ID="0003" NAME="Change" UNIT="1" ALIGN="right" COL_WIDTH="60" VNAME="change" VISIBLE="true" COMMA_USE="false" />
+	<FITEM ID="0004" NAME="Change(%)" UNIT="1" ALIGN="right" COL_WIDTH="70" VNAME="change(%)" VISIBLE="true" COMMA_USE="false" />
+	<FITEM ID="0005" NAME="Volume" UNIT="1" ALIGN="right" COL_WIDTH="110" VNAME="volume" VISIBLE="true" COMMA_USE="true" />
+	<FITEM ID="0007" NAME="Offer" UNIT="1" ALIGN="right" COL_WIDTH="70" VNAME="ask price" VISIBLE="true" COMMA_USE="false" />
+	<FITEM ID="0008" NAME="Bid" UNIT="1" ALIGN="right" COL_WIDTH="70" VNAME="bid price" VISIBLE="true" COMMA_USE="false" />
+	<FITEM ID="0009" NAME="Open" UNIT="1" ALIGN="right" COL_WIDTH="70" VNAME="open" VISIBLE="true" COMMA_USE="false" />
+	<FITEM ID="0010" NAME="High" UNIT="1" ALIGN="right" COL_WIDTH="70" VNAME="high" VISIBLE="true" COMMA_USE="false" />
+	<FITEM ID="0011" NAME="Low" UNIT="1" ALIGN="right" COL_WIDTH="70" VNAME="low" VISIBLE="true" COMMA_USE="false" />
+	<FITEM ID="0012" NAME="Value" UNIT="1" ALIGN="right" COL_WIDTH="115" VNAME="value" VISIBLE="true" COMMA_USE="false" />
+	<FITEM ID="0019" NAME="Yesterday Price" UNIT="1" ALIGN="right" COL_WIDTH="102" VNAME="yesterday price" VISIBLE="false" COMMA_USE="false" />
+	<FITEM ID="0020" NAME="Yesterday Volume" UNIT="1" ALIGN="right" COL_WIDTH="110" VNAME="yesterday volume" VISIBLE="false" COMMA_USE="false" />
+</TR>
+<TR ID="0705" COMMENT="Time Bias by Stock">
+  <FITEM ID="0001" NAME="#TPO" UNIT="1" ALIGN="center" COL_WIDTH="50" VNAME="#TPO" VISIBLE="true" COMMA_USE="false" />
+  <FITEM ID="0002" NAME="Volume" UNIT="1" ALIGN="center" COL_WIDTH="120" VNAME="Volume" VISIBLE="true" COMMA_USE="false" />
+  <FITEM ID="0003" NAME="#Tick" UNIT="1" ALIGN="center" COL_WIDTH="70" VNAME="#Tick" VISIBLE="false" COMMA_USE="false" />
+  <FITEM ID="0004" NAME="Change" UNIT="1" ALIGN="center" COL_WIDTH="70" VNAME="Change" VISIBLE="false" COMMA_USE="false" />
+  <FITEM ID="0005" NAME="%Change" UNIT="1" ALIGN="center" COL_WIDTH="70" VNAME="%Change" VISIBLE="false" COMMA_USE="false" />
+  <FITEM ID="0006" NAME="Price" UNIT="1" ALIGN="center" COL_WIDTH="80" VNAME="Price" VISIBLE="true" COMMA_USE="false" />
+</TR>
+<TR ID="0705_Stock">
+  <FITEM ID="0001" NAME="Last" UNIT="1" ALIGN="center" COL_WIDTH="74" VNAME="Last" VISIBLE="true" COMMA_USE="false" />
+  <FITEM ID="0002" NAME="Change" UNIT="1" ALIGN="center" COL_WIDTH="60" VNAME="Change" VISIBLE="true" COMMA_USE="false" />
+  <FITEM ID="0003" NAME="%Change" UNIT="1" ALIGN="center" COL_WIDTH="70" VNAME="%Change" VISIBLE="true" COMMA_USE="false" />
+  <FITEM ID="0004" NAME="Volume" UNIT="1" ALIGN="center" COL_WIDTH="92" VNAME="Volume" VISIBLE="true" COMMA_USE="false" />
+  <FITEM ID="0005" NAME="%Volume" UNIT="1" ALIGN="center" COL_WIDTH="75" VNAME="%Volume" VISIBLE="true" COMMA_USE="false" />
+  <FITEM ID="0007" NAME="Bid" UNIT="1" ALIGN="center" COL_WIDTH="64" VNAME="Bid" VISIBLE="true" COMMA_USE="false" />
+  <FITEM ID="0006" NAME="Offer" UNIT="1" ALIGN="center" COL_WIDTH="64" VNAME="Offer" VISIBLE="true" COMMA_USE="false" />
+  <FITEM ID="0008" NAME="Open" UNIT="1" ALIGN="center" COL_WIDTH="64" VNAME="Open" VISIBLE="true" COMMA_USE="false" />
+  <FITEM ID="0009" NAME="High" UNIT="1" ALIGN="center" COL_WIDTH="64" VNAME="High" VISIBLE="true" COMMA_USE="false" />
+  <FITEM ID="0010" NAME="Low" UNIT="1" ALIGN="center" COL_WIDTH="64" VNAME="Low" VISIBLE="true" COMMA_USE="false" />
+  <FITEM ID="0011" NAME="Value(K)" UNIT="1" ALIGN="center" COL_WIDTH="115" VNAME="Value(K)" VISIBLE="true" COMMA_USE="false" />
+  <FITEM ID="0012" NAME="#TPO" UNIT="1" ALIGN="center" COL_WIDTH="60" VNAME="#TPO" VISIBLE="true" COMMA_USE="false" />
+  <FITEM ID="0013" NAME="Shares(K)" UNIT="1" ALIGN="center" COL_WIDTH="110" VNAME="Shares(K)" VISIBLE="false" COMMA_USE="false" />
+  <FITEM ID="0014" NAME="Total Equities(MB)" UNIT="1" ALIGN="center" COL_WIDTH="110" VNAME="Total Equities(MB)" VISIBLE="false" COMMA_USE="false" />
+  <FITEM ID="0015" NAME="Market Cap.(TTM)" UNIT="1" ALIGN="center" COL_WIDTH="110" VNAME="Market Cap.(TTM)" VISIBLE="false" COMMA_USE="false" />
+  <FITEM ID="0016" NAME="P.Close" UNIT="1" ALIGN="center" COL_WIDTH="64" VNAME="P.Close" VISIBLE="false" COMMA_USE="false" />
+</TR>
+<TR ID="sminibar_def">
+  <FITEM ID="0001" NAME="Time" UNIT="1" ALIGN="center" COL_WIDTH="7" VNAME="time" VISIBLE="false" COMMA_USE="false" />
+	<FITEM ID="0002" NAME="Code" UNIT="1" ALIGN="center" COL_WIDTH="14" VNAME="code" VISIBLE="true" COMMA_USE="false" />
+	<FITEM ID="0003" NAME="Name" UNIT="1" ALIGN="center" COL_WIDTH="14" VNAME="name" VISIBLE="false" COMMA_USE="false" />
+	<FITEM ID="0004" NAME="Last" UNIT="1" ALIGN="center" COL_WIDTH="9" VNAME="price" VISIBLE="true" COMMA_USE="true" />
+	<FITEM ID="0005" NAME="Change" UNIT="1" ALIGN="center" COL_WIDTH="9" VNAME="change" VISIBLE="false" COMMA_USE="false" />
+	<FITEM ID="0006" NAME="Change(%)" UNIT="1" ALIGN="center" COL_WIDTH="9" VNAME="%Change" VISIBLE="true" COMMA_USE="false" />
+	<FITEM ID="0007" NAME="Volume" UNIT="1" ALIGN="center" COL_WIDTH="14" VNAME="volume" VISIBLE="true" COMMA_USE="true" />
+	<FITEM ID="0008" NAME="%Volume" UNIT="1" ALIGN="center" COL_WIDTH="10" VNAME="%Volume" VISIBLE="false" COMMA_USE="false" />
+	<FITEM ID="0009" NAME="Value" UNIT="1" ALIGN="center" COL_WIDTH="9" VNAME="value" VISIBLE="false" COMMA_USE="false" />
+</TR>
+<TR ID="sminibar_0706" COMMENT="Multi Chart">
+	<FITEM ID="0002" NAME="Code" UNIT="1" ALIGN="left" COL_WIDTH="14" VNAME="code" VISIBLE="true" COMMA_USE="false" />
+	<FITEM ID="0003" NAME="Name" UNIT="1" ALIGN="left" COL_WIDTH="14" VNAME="name" VISIBLE="false" COMMA_USE="false" />
+	<FITEM ID="0004" NAME="Last" UNIT="1" ALIGN="left" COL_WIDTH="9" VNAME="price" VISIBLE="true" COMMA_USE="true" />
+	<FITEM ID="0005" NAME="Change" UNIT="1" ALIGN="center" COL_WIDTH="9" VNAME="change" VISIBLE="false" COMMA_USE="false" />
+	<FITEM ID="0006" NAME="Change(%)" UNIT="1" ALIGN="left" COL_WIDTH="9" VNAME="%Change" VISIBLE="true" COMMA_USE="false" />
+	<FITEM ID="0007" NAME="Volume" UNIT="1" ALIGN="left" COL_WIDTH="14" VNAME="volume" VISIBLE="true" COMMA_USE="true" />
+	<FITEM ID="0008" NAME="%Volume" UNIT="1" ALIGN="center" COL_WIDTH="10" VNAME="%Volume" VISIBLE="false" COMMA_USE="false" />
+	<FITEM ID="0009" NAME="Value" UNIT="1" ALIGN="center" COL_WIDTH="9" VNAME="value" VISIBLE="false" COMMA_USE="false" />
+</TR>
+
+</INDEX>

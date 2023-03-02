@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="KSC_5601"?>
+<stchart_savefile>
+<ToolbarButtons>
+
+<Button><text>S</text><icon>0</icon><menuid>5016</menuid><desc>Stock/Index</desc><size>20</size><style>2</style></Button>
+<Button><text></text><icon>6093</icon><menuid>5017</menuid><desc>Code editor</desc><size>160</size><style>3</style></Button>
+<Button><text>SP</text><icon>0</icon><menuid>0</menuid><desc>Space</desc><size>20</size><style>6</style></Button>
+<Button><text></text><icon>6090</icon><menuid>100001</menuid><desc>Data Range</desc><size>191</size><style>3</style></Button>
+<Button><text>SP</text><icon>0</icon><menuid>0</menuid><desc>Space</desc><size>20</size><style>6</style></Button>
+<Button><text></text><icon>6064</icon><menuid>100003</menuid><desc>Show Count</desc><size>45</size><style>3</style></Button>
+<Button><text></text><icon>6067</icon><menuid>100002</menuid><desc>Load Count</desc><size>58</size><style>3</style></Button>
+<Button><text></text><icon>216</icon><menuid>6045</menuid><desc>Next</desc><size>20</size><style>3</style></Button>
+<Button><text>SP</text><icon>0</icon><menuid>0</menuid><desc>Space</desc><size>20</size><style>6</style></Button>
+<Button><text>D</text><icon>0</icon><menuid>5032</menuid><desc>Daily Chart</desc><size>20</size><style>1</style></Button>
+<Button><text>W</text><icon>0</icon><menuid>5033</menuid><desc>Weekly Chart</desc><size>20</size><style>1</style></Button>
+<Button><text>M</text><icon>0</icon><menuid>5034</menuid><desc>Monthly Chart</desc><size>20</size><style>1</style></Button>
+<Button><text>Q</text><icon>0</icon><menuid>5035</menuid><desc>Quarterly Chart</desc><size>20</size><style>1</style></Button>
+<Button><text>Y</text><icon>0</icon><menuid>5036</menuid><desc>Yearly Chart</desc><size>20</size><style>1</style></Button>
+<Button><text>m</text><icon>0</icon><menuid>5037</menuid><desc>Minute Chart</desc><size>20</size><style>1</style></Button>
+<Button><text>t</text><icon>0</icon><menuid>5038</menuid><desc>Tick Chart</desc><size>20</size><style>1</style></Button>
+<Button><text>1</text><icon>0</icon><menuid>5039</menuid><desc>Cycle 1</desc><size>20</size><style>1</style></Button>
+<Button><text>2</text><icon>0</icon><menuid>5040</menuid><desc>Cycle 2</desc><size>20</size><style>1</style></Button>
+<Button><text>3</text> <icon>0</icon><menuid>5041</menuid><desc>Cycle 3</desc><size>20</size><style>1</style></Button>
+<Button><text>4</text> <icon>0</icon><menuid>5042</menuid><desc>Cycle 4</desc><size>20</size><style>1</style></Button>
+<Button><text></text><icon>6066</icon><menuid>31522</menuid><desc>Cycle Combo</desc><size>41</size><style>3</style></Button>
+<Button><text>SP</text><icon>0</icon><menuid>0</menuid><desc>Space</desc><size>20</size><style>6</style></Button>
+<Button><text></text><icon>95</icon><menuid>31685</menuid><desc>Load Chart Setting Files</desc><size>20</size><style>1</style></Button>
+<Button><text></text><icon>87</icon><menuid>31684</menuid><desc>Save Chart Setting File</desc><size>20</size><style>1</style></Button>
+<Button><text>SP</text><icon>0</icon><menuid>0</menuid><desc>Space</desc><size>20</size><style>6</style></Button>
+<Button><text>Strategy</text><icon>0</icon><menuid>31530</menuid><desc>Strategy</desc><size>52</size><style>2</style></Button>
+<Button><text>SP</text><icon>0</icon><menuid>0</menuid><desc>Space</desc><size>20</size><style>6</style></Button>
+<Button><text>Buy</text><icon>0</icon><menuid>5084</menuid><desc>Open Mini Buy Order Screen</desc><size>35</size><style>1</style></Button>
+<Button><text>Sell</text><icon>0</icon><menuid>5085</menuid><desc>Open Mini Sell Order Screen</desc><size>35</size><style>1</style></Button>
+</ToolbarButtons>
+</stchart_savefile>

@@ -1,0 +1,65 @@
+
+
+
+
+[11:40] [0] [CncStarterLog::InitLog] <<ncStarter Log Start>>
+[11:44] [1] [CWebService::PostSend_LoginService] LOGONCONTROL [https://ctrl.most.co.id/most/logoncontrol]
+[11:44] [1] [CWebService::PostSend_LoginService] LOGONCONTROL error msg []
+[11:44] [1] [CWebService::PostSend_LoginService] LOGONCONTROL result [{"host":"103.120.244.85","update":"103.120.244.134","port":"1680"}]
+[11:44] [0] [CncStarterDlg::DoFileSvrDNSLookup] LogonContorl update [103.120.244.134 : 1680]
+[11:44] [1] [CncStarterDlg::FileDownLoad] FILEDOWNLOAD [103.120.244.134 : 1680]
+[11:44] [0] [CncStarterDlg::FileDownLoad] Download Succeeded
+[11:44] [0] [CncStarterDlg::WriteTraceLog] Registration secceed(7412) : C:\Users\M ADRIAN NATALEGAWA\OneDrive\Desktop\most\DIBSERVER.EXE(20230106 194554) - (299093) microsec
+[11:44] [0] [CncStarterDlg::WriteTraceLog] Registration secceed(7412) : C:\Users\M ADRIAN NATALEGAWA\OneDrive\Desktop\most\DIBCLIENT.DLL(20230106 194553) - (31283) microsec
+[11:44] [0] [CncStarterDlg::WriteTraceLog] Registration secceed(7412) : C:\Users\M ADRIAN NATALEGAWA\OneDrive\Desktop\most\NCSIGNON.DLL(20170424 143936) - (27928) microsec
+[11:44] [0] [CncStarterDlg::WriteTraceLog] Registration secceed(7412) : C:\Users\M ADRIAN NATALEGAWA\OneDrive\Desktop\most\NCCCHARTCONTROL.DLL(20230106 194554) - (59826) microsec
+[11:44] [0] [CncStarterDlg::WriteTraceLog] Registration secceed(7412) : C:\Users\M ADRIAN NATALEGAWA\OneDrive\Desktop\most\NCCCONTROLS.DLL(20171011 134206) - (137417) microsec
+[11:44] [0] [CncStarterDlg::WriteTraceLog] Registration secceed(7412) : C:\Users\M ADRIAN NATALEGAWA\OneDrive\Desktop\most\NCDODATAOBJECT.DLL(20230106 194554) - (36902) microsec
+[11:44] [0] [CncStarterDlg::WriteTraceLog] Registration secceed(7412) : C:\Users\M ADRIAN NATALEGAWA\OneDrive\Desktop\most\NCDODATA1.DLL(20230106 194554) - (35898) microsec
+[11:44] [0] [CncStarterDlg::WriteTraceLog] Registration secceed(7412) : C:\Users\M ADRIAN NATALEGAWA\OneDrive\Desktop\most\NCOVIEW1.DLL(20230106 194555) - (1177014) microsec
+[11:44] [0] [CncStarterDlg::WriteTraceLog] Registration secceed(7412) : C:\Users\M ADRIAN NATALEGAWA\OneDrive\Desktop\most\STCHARTCOMM.DLL(20230106 194604) - (207699) microsec
+[11:44] [0] [CncStarterDlg::WriteTraceLog] Registration secceed(7412) : C:\Users\M ADRIAN NATALEGAWA\OneDrive\Desktop\most\STCHARTDATAMANAGER.DLL(20230106 194604) - (26823) microsec
+[11:44] [0] [CncStarterDlg::WriteTraceLog] Registration secceed(7412) : C:\Users\M ADRIAN NATALEGAWA\OneDrive\Desktop\most\STCHARTDRAW.DLL(20230106 194605) - (96294) microsec
+[11:44] [0] [CncStarterDlg::WriteTraceLog] Registration secceed(7412) : C:\Users\M ADRIAN NATALEGAWA\OneDrive\Desktop\most\STCHARTPROPERTY.DLL(20230106 194605) - (32682) microsec
+[11:44] [0] [CncStarterDlg::WriteTraceLog] Registration secceed(7412) : C:\Users\M ADRIAN NATALEGAWA\OneDrive\Desktop\most\STCHARTWINDOW.DLL(20230106 194605) - (54646) microsec
+[11:44] [0] [CncStarterDlg::WriteTraceLog] Registration secceed(7412) : C:\Users\M ADRIAN NATALEGAWA\OneDrive\Desktop\most\VSFLEX8L.OCX(20110509 102754) - (31439) microsec
+[11:44] [0] [CncStarterDlg::WriteTraceLog] Registration secceed(7412) : C:\Users\M ADRIAN NATALEGAWA\OneDrive\Desktop\most\TEECHART6.OCX(20110509 102754) - (331509) microsec
+[11:44] [0] [CncStarterDlg::OnTimer] ncStarter : Download and Update : 208310532914 microsec
+[11:44] [0] [CncStarterDlg::EndDownload] Download succeed
+[11:44] [0] [CncStarterDlg::DoDNSLookup] LogonContorl app [103.120.244.85 : 1680]
+[11:44] [0] [CncStarterDlg::DoNextStep] 최종 암호화 적용 모듈(ncStarter)!!
+[11:44] [0] [CncStarterDlg::DoSignOn] PIN Code error.
+[11:46] [1] [CWebService::PostSend_LoginService] LOGONCONTROL [https://ctrl.most.co.id/most/logoncontrol]
+[11:46] [1] [CWebService::PostSend_LoginService] LOGONCONTROL error msg []
+[11:46] [1] [CWebService::PostSend_LoginService] LOGONCONTROL result [{"host":"103.120.244.85","update":"103.120.244.134","port":"1680"}]
+[11:46] [0] [CncStarterDlg::DoNextStep] 최종 암호화 적용 모듈(ncStarter)!!
+[11:46] [0] [CncStarterDlg::DoSignOn] Signon suceed
+
+
+
+[11:54] [0] [CncStarterLog::InitLog] <<ncStarter Log Start>>
+[11:54] [1] [CWebService::PostSend_LoginService] LOGONCONTROL [https://ctrl.most.co.id/most/logoncontrol]
+[11:54] [1] [CWebService::PostSend_LoginService] LOGONCONTROL error msg []
+[11:54] [1] [CWebService::PostSend_LoginService] LOGONCONTROL result [{"host":"103.120.244.85","update":"103.120.244.134","port":"1680"}]
+[11:54] [0] [CncStarterDlg::DoFileSvrDNSLookup] LogonContorl update [103.120.244.134 : 1680]
+[11:54] [1] [CncStarterDlg::FileDownLoad] FILEDOWNLOAD [103.120.244.134 : 1680]
+[11:54] [0] [CncStarterDlg::WriteTraceLog] Registration secceed(10432) : C:\Users\M ADRIAN NATALEGAWA\OneDrive\Desktop\most\DIBSERVER.EXE(20230106 194554) - (198282) microsec
+[11:54] [0] [CncStarterDlg::WriteTraceLog] Registration secceed(10432) : C:\Users\M ADRIAN NATALEGAWA\OneDrive\Desktop\most\DIBCLIENT.DLL(20230106 194553) - (46201) microsec
+[11:54] [0] [CncStarterDlg::WriteTraceLog] Registration secceed(10432) : C:\Users\M ADRIAN NATALEGAWA\OneDrive\Desktop\most\NCSIGNON.DLL(20170424 143936) - (18562) microsec
+[11:54] [0] [CncStarterDlg::WriteTraceLog] Registration secceed(10432) : C:\Users\M ADRIAN NATALEGAWA\OneDrive\Desktop\most\NCCCHARTCONTROL.DLL(20230106 194554) - (35423) microsec
+[11:54] [0] [CncStarterDlg::WriteTraceLog] Registration secceed(10432) : C:\Users\M ADRIAN NATALEGAWA\OneDrive\Desktop\most\NCCCONTROLS.DLL(20171011 134206) - (108617) microsec
+[11:54] [0] [CncStarterDlg::WriteTraceLog] Registration secceed(10432) : C:\Users\M ADRIAN NATALEGAWA\OneDrive\Desktop\most\NCDODATAOBJECT.DLL(20230106 194554) - (23412) microsec
+[11:54] [0] [CncStarterDlg::WriteTraceLog] Registration secceed(10432) : C:\Users\M ADRIAN NATALEGAWA\OneDrive\Desktop\most\NCDODATA1.DLL(20230106 194554) - (25040) microsec
+[11:54] [0] [CncStarterDlg::WriteTraceLog] Registration secceed(10432) : C:\Users\M ADRIAN NATALEGAWA\OneDrive\Desktop\most\NCOVIEW1.DLL(20230106 194555) - (1067044) microsec
+[11:54] [0] [CncStarterDlg::WriteTraceLog] Registration secceed(10432) : C:\Users\M ADRIAN NATALEGAWA\OneDrive\Desktop\most\STCHARTCOMM.DLL(20230106 194604) - (67913) microsec
+[11:54] [0] [CncStarterDlg::WriteTraceLog] Registration secceed(10432) : C:\Users\M ADRIAN NATALEGAWA\OneDrive\Desktop\most\STCHARTDATAMANAGER.DLL(20230106 194604) - (14485) microsec
+[11:54] [0] [CncStarterDlg::WriteTraceLog] Registration secceed(10432) : C:\Users\M ADRIAN NATALEGAWA\OneDrive\Desktop\most\STCHARTDRAW.DLL(20230106 194605) - (41729) microsec
+[11:54] [0] [CncStarterDlg::WriteTraceLog] Registration secceed(10432) : C:\Users\M ADRIAN NATALEGAWA\OneDrive\Desktop\most\STCHARTPROPERTY.DLL(20230106 194605) - (18775) microsec
+[11:54] [0] [CncStarterDlg::WriteTraceLog] Registration secceed(10432) : C:\Users\M ADRIAN NATALEGAWA\OneDrive\Desktop\most\STCHARTWINDOW.DLL(20230106 194605) - (20293) microsec
+[11:54] [0] [CncStarterDlg::WriteTraceLog] Registration secceed(10432) : C:\Users\M ADRIAN NATALEGAWA\OneDrive\Desktop\most\VSFLEX8L.OCX(20110509 102754) - (24514) microsec
+[11:54] [0] [CncStarterDlg::WriteTraceLog] Registration secceed(10432) : C:\Users\M ADRIAN NATALEGAWA\OneDrive\Desktop\most\TEECHART6.OCX(20110509 102754) - (294518) microsec
+[11:54] [0] [CncStarterDlg::OnTimer] ncStarter : Download and Update : 208905181974 microsec
+[11:54] [0] [CncStarterDlg::EndDownload] Download succeed
+[11:54] [0] [CncStarterDlg::DoDNSLookup] LogonContorl app [103.120.244.85 : 1680]
+[11:54] [0] [CncStarterDlg::DoNextStep] 최종 암호화 적용 모듈(ncStarter)!!
+[11:54] [0] [CncStarterDlg::DoSignOn] Signon suceed

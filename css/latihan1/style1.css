@@ -1,0 +1,40 @@
+body {
+
+    font-family: arial;
+}
+
+h1,h2 {
+
+    color: blueviolet;
+}
+
+ul li a {
+
+    color: red;
+}
+ul {
+    color: red;
+}
+
+ol li a {
+    color: orange;
+}
+ol {
+    color: orange;
+}
+
+.p1 {
+    color: yellow;
+}
+
+.p2 {
+    color: green;
+    font-weight: bold;
+}
+
+.p3 {
+    font-style: italic;
+    font-size: 20px;
+    color: black;
+
+}

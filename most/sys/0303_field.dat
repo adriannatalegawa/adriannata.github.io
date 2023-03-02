@@ -1,0 +1,48 @@
+// DEF_FIELD
+DEF;0;Name;1;0;25;;;
+DEF;1;Change;1;2;8;STOCK.GetDiffVal();;
+DEF;2;Last;1;2;8;STOCK.GetCprice();;
+DEF;3;Offer;1;2;8;STOCK.GetOffer();;
+DEF;4;Bid;1;2;8;STOCK.GetBid();;
+DEF;5;Volume;1;2;10;STOCK.GetVolume();;
+DEF;6;Code;1;0;9;;;
+DEF;7;Change(%);1;2;8;STOCK.GetDiffRate();;
+DEF;8;Total Offer Vol;1;2;11;STOCK.GetOfferRest();;
+DEF;9;Total Bid Vol;1;2;10;STOCK.GetBidRest();;
+DEF;10;Holding Vol;1;2;9;STOCK.GetHoldQuantity();;
+DEF;11;Holding Price;1;2;11;STOCK.GetHoldPrice();;
+DEF;12;Return Rate(%);1;2;12;STOCK.GetEarningRate();;
+DEF;13;Estimation Profit;1;2;13;STOCK.GetEvalProfit();;
+DEF;14;Open;1;2;8;STOCK.GetOprice();;
+DEF;15;High;1;2;8;STOCK.GetHprice();;
+DEF;16;Low;1;2;8;STOCK.GetLprice();;
+DEF;17;Memo;1;0;12;;;
+DEF;18;1st Sell Vol;1;2;10;STOCK.GetFirstOfferRest();;
+DEF;19;1st Buy Vol;1;2;10;STOCK.GetFirstBidRest();;
+DEF;23;Y_Volume;1;2;8;STOCK.GetLstVolume();Yesterday Volume;
+DEF;24;Open(%);1;2;8;STOCK.GetCpriceRate();;
+DEF;25;High(%);1;2;8;STOCK.GetHpriceRate();;
+DEF;26;Low(%);1;2;8;STOCK.GetLpriceRate();;
+DEF;27;Strength(%);1;2;8;STOCK.GetIntensity();;
+DEF;29;Y_Volume Change(%);1;2;16;STOCK.GetVolumeRate();Yesterday Volume Change Rate;
+DEF;30;Y_Last;1;2;7;STOCK.GetLastCPrice();Yesterday Last;
+DEF;33;L(Chart)H;1;1;11;;;
+DEF;34;Value;1;2;12;STOCK.GetTradeValue();;
+DEF;48;Middle Price;1;2;10;STOCK.GetMPrice();(High + Low) / 2;
+DEF;49;Fluctuation Change;1;2;15;STOCK.GetDiffRange();High - Low;
+DEF;50;Total Volume Change;1;2;16;STOCK.GetTotalRestRange();Total Buy Volume - Total Sell Volume;
+DEF;52;High Price Change(%);1;2;16;STOCK.GetHODiffRate();;
+DEF;53;Low Price Change(%);1;2;16;STOCK.GetLODiffRate();;
+DEF;54;Strength Graph;1;2;12;;;
+
+// SYS_FIELD
+BEGIN_SYS_FIELD;201;My Field
+ITEM;6;Code;Code;1;0;9;1;0;
+ITEM;2;Last;Last;1;2;8;1;0;
+ITEM;1;Change;Change;1;2;8;1;0;
+ITEM;7;Change(%);Change(%);1;2;9;1;0;
+ITEM;5;Volume;Volume;1;2;10;1;0;
+ITEM;27;Strength(%);Strength(%);1;2;10;1;0;
+ITEM;33;L(Chart)H;L(Chart)H;1;1;11;1;0;
+END_SYS_FIELD
+// SYS_COND

@@ -1,0 +1,50 @@
+// DEF_FIELD
+DEF;8000;Symbol;1;1;0;0;10;20;
+DEF;8001;Code;1;1;0;0;8;20;
+DEF;8002;Last Price;1;100;2;2;8;12;
+DEF;8003;Period;1;1;0;0;7;10;
+DEF;8004;Price Type;1;1;0;0;7;10;
+DEF;8005;Stg.Name;1;1;0;0;15;30;
+DEF;8006;Change;1;100;2;2;8;12;
+DEF;8007;Change(%);1;100;2;2;8;12;
+DEF;8008;Volume;1;1;2;1;10;12;
+DEF;8009;Close;1;100;2;2;8;12;
+DEF;8010;High;1;100;2;2;8;12;
+DEF;8011;Low;1;100;2;2;8;12;
+DEF;8101;Net Profit;1;100;2;2;10;12;
+DEF;8102;Gross Profit;1;100;2;2;10;12;
+DEF;8103;Gross Loss;1;100;2;2;10;12;
+DEF;8104;Open Pos. P/L;1;100;2;2;10;12;
+DEF;8105;Fee;1;100;2;2;10;12;
+DEF;8106;Slippage;1;1;2;2;10;12;
+DEF;8107;Avg. Net Profit;1;100;2;2;10;12;
+DEF;8108;Avg. Win;1;100;2;2;10;12;
+DEF;8109;Avg. Loss;1;100;2;2;10;12;
+DEF;8110;Max. Win;1;100;2;2;10;12;
+DEF;8111;Max. Loss;1;100;2;2;10;12;
+DEF;8112;# Trade;1;1;2;1;8;12;
+DEF;8113;# Win;1;1;2;1;8;12;
+DEF;8114;# Loss;1;1;2;1;8;12;
+DEF;8115;Max. # Consecutive Win;1;1;2;1;8;12;
+DEF;8116;Max. # Consecutive Loss;1;1;2;1;8;12;
+DEF;8117;Win(%);1;100;2;2;8;12;
+DEF;8118;Profit Factor;1;100;2;2;8;12;
+DEF;8119;P/L(%);1;100;2;2;8;12;
+DEF;8120;Max. Drawdown;1;100;2;2;10;12;
+DEF;8121;Compensation Ratio;1;100;2;2;8;12;
+DEF;8122;Max. Acc. Drawdown;1;100;2;2;10;12;
+DEF;8123;Avg. Gross Efficiency;1;100;2;2;8;12;
+DEF;8124;Sharpe Ratio;1;100;2;2;8;12;
+DEF;8125;RINA Index;1;100;2;2;10;12;
+DEF;8126;Status;1;1;0;0;10;15;
+DEF;8127;Signal(Y/N);1;1;0;0;10;15;
+
+// SYS_FIELD
+BEGIN_SYS_FIELD;201;Basic field;
+ITEM;8101;Net Profit;Net Profit;1;100;2;2;10;12;1;
+ITEM;8117;Win(%);Win(%);1;100;2;2;8;12;1;
+ITEM;8112;# Trades;# Trades;1;1;2;1;8;12;1;
+ITEM;8107;Avg. Net Profit;Avg. Net Profit;1;100;2;2;10;12;1;
+ITEM;8126;Status;Status;1;1;0;0;10;15;1;
+ITEM;8127;Signal(Y/N);Signal(Y/N);1;1;0;0;10;15;1;
+END_SYS_FIELD

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stchart_systrade_file is_trade="true"><signal_conflist><buy isroot="yes" operator="and"><signal type="indicator" id="simpledmi" title="DMI(simple)" operator="and">
+				<sig_methods>
+					<itm>cross_dmi</itm>
+					<itm>cross_dmi_adx</itm>
+					<itm>comp_dmi_adx</itm>
+					<itm>comp_standline_dmi</itm>
+					<itm>comp_standvalue_dmi</itm>
+					<itm>comp_trend_dmi</itm>
+					<itm>comp_turning_dmi</itm>
+				</sig_methods>
+				<signal_method id="cross_dmi" title="Crossover(+DI/-DI)">
+					<m_mainIndicator>1</m_mainIndicator>
+					<combo label="(+DI)" postlabel="(-DI)" name="m_trend" is_control="true" selected_index="1">
+						<item value="1">Cross Above</item>
+						<item value="2">Cross Below</item>
+					</combo>
+					<m_subIndicator>2</m_subIndicator>
+					<crlf is_control="true"/>
+					<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+					<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+				</signal_method>
+				<tab_var title="Condition">
+					<edit label="DI" name="nDI" data_type="decimal" is_control="true" min="1" max="100000">14</edit>
+					<edit label="ADX" name="nADX" data_type="decimal" is_control="true" min="0" max="100000">14</edit>
+					<edit label="ADXR" name="nADXR" data_type="decimal" is_control="true" min="0" max="100000">14</edit>
+				</tab_var>
+			</signal>
+		</buy><sell isroot="yes" operator="and"><signal type="indicator" id="simpledmi" title="DMI(simple)" operator="and">
+				<sig_methods>
+					<itm>cross_dmi</itm>
+					<itm>cross_dmi_adx</itm>
+					<itm>comp_dmi_adx</itm>
+					<itm>comp_standline_dmi</itm>
+					<itm>comp_standvalue_dmi</itm>
+					<itm>comp_trend_dmi</itm>
+					<itm>comp_turning_dmi</itm>
+				</sig_methods>
+				<signal_method id="cross_dmi" title="Crossover(+DI/-DI)">
+					<m_mainIndicator>1</m_mainIndicator>
+					<combo label="(+DI)" postlabel="(-DI)" name="m_trend" is_control="true" selected_index="2">
+						<item value="1">Cross Above</item>
+						<item value="2">Cross Below</item>
+					</combo>
+					<m_subIndicator>2</m_subIndicator>
+					<crlf is_control="true"/>
+					<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+					<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+				</signal_method>
+				<tab_var title="Condition">
+					<edit label="DI" name="nDI" data_type="decimal" is_control="true" min="1" max="100000">14</edit>
+					<edit label="ADX" name="nADX" data_type="decimal" is_control="true" min="0" max="100000">14</edit>
+					<edit label="ADXR" name="nADXR" data_type="decimal" is_control="true" min="0" max="100000">14</edit>
+				</tab_var>
+			</signal>
+		</sell></signal_conflist></stchart_systrade_file>

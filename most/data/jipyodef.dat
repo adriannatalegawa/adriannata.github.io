@@ -1,0 +1,595 @@
+// Indicator default setting
+[10]
+NAME=Price
+LineName =
+CondName=
+VAR=
+COLOR=
+WIDTH=
+STYLE=
+BLINE=
+
+[11]
+NAME=Volume
+LineName =
+CondName=
+VAR=
+COLOR=
+WIDTH=
+STYLE=
+BLINE=
+
+[12]
+NAME=MACD
+LineName =MACD,Signal,Oscillator
+CondName=Short, Long, Signal
+VAR=12,26,9
+COLOR=e97272,9da600,4c72c4
+WIDTH=1,1,1
+STYLE=0,0,10
+BLINE=0
+
+
+[13]
+NAME=STOCHASTIC
+LineName =Slow %K,Slow %D
+CondName=Period,Slow %K,Slow %D
+VAR=5,3,3
+COLOR=e97272,9da600
+WIDTH=1,1
+STYLE=0,0
+BLINE=20,50,80
+
+[14]
+NAME=Envelope
+LineName =Env.Up,Env.Down
+CondName=Period,Mul,MA Method,Price
+VAR=20,2,0,0
+COLOR=e97272,4c72c4
+WIDTH=1,1
+STYLE=0,0
+BLINE=
+MAMETHOD=2
+DATASOURCE=3
+
+
+
+
+[15]
+NAME=Trend Power Buy
+LineName =T.P.Buy1,T.P.Buy2,T.P.Buy3,T.P.Buy4
+CondName=Period1,Period2,Period3,Period4
+VAR=20,60,120,240
+COLOR=e97272,9da600,4c72c4,f3ba40
+WIDTH=2,1,1,1
+STYLE=0,0,0,0
+BLINE=100
+
+[16]
+NAME=Trend Power Sell
+LineName =T.P.Sell1,T.P.Sell2,T.P.Sell3,T.P.Sell4
+CondName=Period1,Period2,Period3,Period4
+VAR=20,60,120,240
+COLOR=e97272,9da600,4c72c4,f3ba40
+WIDTH=2,1,1,1
+STYLE=0,0,0,0
+BLINE=100
+
+[17]
+NAME=Net Power
+LineName =Net1,Net2,Net3,Net4
+CondName=Period1,Period2,Period3,Period4
+VAR=20,60,120,240
+COLOR=e97272,9da600,4c72c4,f3ba40
+WIDTH=2,1,1,1
+STYLE=0,0,0,0
+BLINE=0
+
+[18]
+NAME=Golden Power
+LineName =Golden Buy,Golden Sell
+CondName=Period
+VAR=20
+COLOR=e97272,4c72c4
+WIDTH=2,2
+STYLE=0,0
+BLINE=
+
+[19]
+NAME=Price ROC
+LineName =Price ROC,Signal
+CondName=Period,Signal,MA Method
+VAR=20,9,0
+COLOR=e97272,9da600
+WIDTH=1,1
+STYLE=0,0
+BLINE=0
+MAMETHOD=2
+
+[20]
+NAME=Momentum
+LineName =Momentum
+CondName=Period,Price 
+VAR=20,0
+COLOR=e97272
+WIDTH=1
+STYLE=0
+BLINE=100
+MAMETHOD=
+DATASOURCE=1
+
+[21]
+NAME=MAO
+LineName =MAO,Signal
+CondName=Short,Long,Signal,MA Method
+VAR=12,26,9,0
+COLOR=e97272,9da600
+WIDTH=1,1
+STYLE=0,0
+BLINE=0
+MAMETHOD=3
+DATASOURCE=
+
+[22]
+NAME=TRIX
+LineName =TRIX,Signal
+CondName=Period,Signal,Price 
+VAR=20,9,0
+COLOR=e97272,9da600
+WIDTH=1,1
+STYLE=0,0
+BLINE=0
+MAMETHOD=
+DATASOURCE=2
+
+[23]
+NAME=CCI
+LineName =CCI,Signal
+CondName=Period,Signal,MA Method
+VAR=20,9,0
+COLOR=e97272,9da600
+WIDTH=1,1
+STYLE=0,0
+BLINE=-100,0,100
+MAMETHOD=2
+DATASOURCE=
+
+
+[24]
+NAME=SONAR
+LineName =Sonar,Siganl
+CondName=Period,Signal,MA Method
+VAR=20,9,0
+COLOR=e97272,9da600
+WIDTH=1,1
+STYLE=0,0
+BLINE=0
+MAMETHOD=2
+DATASOURCE=
+
+[25]
+NAME=TSI
+LineName =TSI,Signal
+CondName=MA1,MA2,Signal,MA Method
+VAR=12,26,9,0
+COLOR=e97272,9da600
+WIDTH=1,1
+STYLE=0,0
+BLINE=0
+MAMETHOD=3
+DATASOURCE=
+
+[26]
+NAME=Stochastic Fast
+LineName =Fast %K,Fast %D
+CondName=Period,Fast %D
+VAR=5,3
+COLOR=e97272,9da600
+WIDTH=1,1
+STYLE=0,0
+BLINE=20,50,80
+MAMETHOD=
+DATASOURCE=
+
+[27]
+NAME=RSI
+LineName =RSI,Signal
+CondName=Period,Signal,Price
+VAR=20,9,0
+COLOR=e97272,9da600
+WIDTH=1,1
+STYLE=0,0
+BLINE=30,50,70
+MAMETHOD=
+DATASOURCE=2
+
+
+[28]
+NAME=DMI
+LineName =+DI,-DI,ADX,ADXR
+CondName=+DI,-DI,ADX
+VAR=20,20,20
+COLOR=e97272,9da600,4c72c4,f3ba40
+WIDTH=1,1,1,1
+STYLE=0,0,0,0
+BLINE=20
+MAMETHOD=
+DATASOURCE=
+
+[29]
+NAME=LRS
+LineName =LRS
+CondName=Period,Price
+VAR=20,0
+COLOR=e97272
+WIDTH=1
+STYLE=0
+BLINE=
+MAMETHOD=
+DATASOURCE=1
+
+
+[30]
+NAME=LRI
+LineName =LRI
+CondName=Period,Price
+VAR=20,0
+COLOR=e97272
+WIDTH=1
+STYLE=0
+BLINE=
+MAMETHOD=
+DATASOURCE=1
+
+
+[31]
+NAME=TSF
+LineName =TSF
+CondName=Period,Price
+VAR=20,0
+COLOR=e97272
+WIDTH=1
+STYLE=0
+BLINE=
+MAMETHOD=
+DATASOURCE=1
+
+[32]
+NAME=TSF Oscillator
+LineName =TSF Oscillator
+CondName=Short,Long,Price
+VAR=20,40,0
+COLOR=e97272
+WIDTH=1
+STYLE=10
+BLINE=0
+MAMETHOD=
+DATASOURCE=2
+
+
+
+[33]
+NAME=Standard Error
+LineName =Standard Error
+CondName=Period,Price
+VAR=20,0
+COLOR=e97272
+WIDTH=1
+STYLE=0
+BLINE=
+MAMETHOD=
+DATASOURCE=1
+
+[34]
+NAME=Standard Deviation
+LineName =Standard Deviation
+CondName=Period,Mul,Price
+VAR=20,2,0
+COLOR=e97272
+WIDTH=1
+STYLE=0
+BLINE=
+MAMETHOD=
+DATASOURCE=2
+
+[35]
+NAME=R-Squared
+LineName =R-Squared
+CondName=Period,Price
+VAR=20,0
+COLOR=e97272
+WIDTH=1
+STYLE=0
+BLINE=0,1
+MAMETHOD=
+DATASOURCE=1
+
+
+[36]
+NAME=ENERGY
+LineName=Energy1,Energy2
+CondName=Period
+VAR=20
+COLOR=e97272,9da600
+WIDTH=1,1
+STYLE=0,0
+BLINE=35,68,130,330
+MAMETHOD=
+DATASOURCE=
+
+[37]
+NAME=Disparity
+LineName =D1,D2,D3,D4
+CondName=D1,D2,D3,D4
+VAR=5,10,20,60
+COLOR=e97272,9da600,4c72c4,f3ba40
+WIDTH=1,1,1,1
+STYLE=0,0,0,0
+BLINE=100
+MAMETHOD=
+DATASOURCE=
+
+[38]
+NAME=ATR
+LineName =ATR
+CondName=Period
+VAR=20
+COLOR=e97272
+WIDTH=1
+STYLE=0
+BLINE=
+MAMETHOD=
+DATASOURCE=
+
+[39]
+NAME=VHF
+LineName =VHF
+CondName=Period
+VAR=20
+COLOR=e97272
+WIDTH=1
+STYLE=0
+BLINE=
+MAMETHOD=
+DATASOURCE=
+
+[40]
+NAME=Volume ROC
+LineName =Volume ROC,Signal
+CondName=Period,Signal,MA Method
+VAR=20,9,0
+COLOR=e97272,9da600
+WIDTH=1,1
+STYLE=0,0
+BLINE=0
+MAMETHOD=2
+DATASOURCE=
+
+
+
+[41]
+NAME=Volume Osillator
+LineName =Volume Osillator, Signal
+CondName=Short,Long,Signal,MA Method
+VAR=10,20,9,0
+COLOR=e97272,9da600
+WIDTH=1,1
+STYLE=10,0
+BLINE=0
+MAMETHOD=3
+DATASOURCE=
+
+
+[42]
+NAME=A/D Line
+LineName =A/D Line,Signal
+CondName=Signal
+VAR=9
+COLOR=e97272,9da600
+WIDTH=1,1
+STYLE=0,0
+BLINE=0
+MAMETHOD=
+DATASOURCE=
+
+[43]
+NAME=CO
+LineName =CO
+CondName=Short,Long
+VAR=3,10
+COLOR=e97272
+WIDTH=1
+STYLE=0
+BLINE=0
+MAMETHOD=
+DATASOURCE=
+
+
+[44]
+NAME=MFI
+LineName =MFI
+CondName=Period
+VAR=20
+COLOR=e97272
+WIDTH=1
+STYLE=0
+BLINE=20,80
+MAMETHOD=
+DATASOURCE=
+
+[45]
+NAME=OBV
+LineName =OBV
+CondName=
+VAR=
+COLOR=e97272
+WIDTH=1
+STYLE=0
+BLINE=
+MAMETHOD=
+DATASOURCE=
+
+
+[46]
+NAME=VR
+LineName =VR
+CondName=Period
+VAR=20
+COLOR=e97272
+WIDTH=1
+STYLE=0
+BLINE=70,150,350
+MAMETHOD=
+DATASOURCE=
+
+
+[47]
+NAME=DPO
+LineName =DPO
+CondName=Period
+VAR=14
+COLOR=e97272
+WIDTH=1
+STYLE=0
+BLINE=0
+MAMETHOD=
+DATASOURCE=
+
+[48]
+NAME=Psycological
+LineName =Psycological
+CondName=Period
+VAR=20
+COLOR=e97272
+WIDTH=1
+STYLE=0
+BLINE=25,75
+MAMETHOD=
+DATASOURCE=
+
+
+[49]
+NAME=NewPsycological
+LineName =NP1,NP2
+CondName=Period1,Period2
+VAR=5,20
+COLOR=e97272,9da600
+WIDTH=1,1
+STYLE=0,0
+BLINE=25,75
+MAMETHOD=
+DATASOURCE=
+
+[50]
+NAME=NCO
+LineName =NCO
+CondName=Period
+VAR=10
+COLOR=e97272
+WIDTH=1
+STYLE=0
+BLINE=0
+MAMETHOD=
+DATASOURCE=
+
+[51]
+NAME=Williams %R
+LineName =Williams %R, Signal
+CondName=Period, Signal
+VAR=20, 9
+COLOR=e97272, 9da600
+WIDTH=1, 1
+STYLE=0, 0
+BLINE=-20,-80
+MAMETHOD=
+DATASOURCE=
+
+
+[52]
+NAME=Swing Index
+LineName =Swing Index
+CondName=
+VAR=
+COLOR=e97272
+WIDTH=1
+STYLE=0
+BLINE=0
+MAMETHOD=
+DATASOURCE=
+
+
+[53]
+NAME=ASI
+LineName =ASI
+CondName=
+VAR=
+COLOR=e97272
+WIDTH=1
+STYLE=0
+BLINE=
+MAMETHOD=
+DATASOURCE=
+
+
+[54]
+NAME=Binary Wave
+LineName =Binary Wave
+CondName=MA,Roc Period,Stoc Period,Stock %K
+VAR=5,20,5,3
+COLOR=e97272
+WIDTH=1
+STYLE=0
+BLINE=0
+MAMETHOD=
+DATASOURCE=
+
+[55]
+NAME=Bollinger Band
+LineName =Boll.U,Boll.M,Boll.L
+CondName=Period,Mul,MA Method,Price
+VAR=20,2,0,0
+COLOR=e97272,4c72c4,f3ba40
+WIDTH=1,1,1
+STYLE=0,0,0
+BLINE=
+MAMETHOD=2
+DATASOURCE=3
+
+
+[56]
+NAME=Price & BOX
+LineName =Box.U,Box.M,Box.L
+CondName=Period,MA Method,Price
+VAR=20,0,0
+COLOR=e97272,4c72c4,f3ba40
+WIDTH=1,1,1
+STYLE=0,0,0
+BLINE=
+MAMETHOD=1
+DATASOURCE=2
+
+
+[57]
+NAME=Price Channel
+LineName =Upper,Lower
+CondName=Period
+VAR=5
+COLOR=e97272,9da600
+WIDTH=1,1
+STYLE=0,0
+BLINE=
+MAMETHOD=
+DATASOURCE=
+
+[58]
+NAME=Parabolic SAR
+LineName = sar
+CondName=AF,EP
+VAR=0.02,0.2
+COLOR=e97272
+WIDTH=1
+STYLE=11
+BLINE=
+MAMETHOD=
+DATASOURCE=
+

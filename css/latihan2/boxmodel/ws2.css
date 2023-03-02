@@ -1,0 +1,259 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+.navbar li {
+    display:inline-block;
+    font-size: 11px ;
+    font-family: arial sans-serif;
+    margin-right: 5px;
+    
+}
+
+.navbar .li-1 {
+    margin-left: 140px;
+    
+}
+
+.navbar .li-4 {
+    margin-left: 50px;
+}
+
+.navbar {
+    background-color: #2A2A2A;
+    height: 25px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+    
+} 
+
+.navbar li a:hover {
+    color:tomato ;
+    transition: .2s ease-in-out;
+    transition-delay: .1s;
+}
+
+.search {
+    float: right;
+  padding: 6px 10px;
+  margin-top: -50px;
+  margin-right: 400px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+
+.hero {
+    height: 80px;
+    background-color: #000;
+    border-bottom: 2px solid gray;
+    box-sizing: border-box;
+}
+
+.img {
+    background-image: url(../img/kompas.png);
+    height: 69px;
+    background-repeat: no-repeat;
+    background-size: 250px;
+    margin-left: 135px;
+    box-sizing: border-box;
+   
+}
+
+
+
+.hero2 {
+    height: 50px;
+    background-color: gray;
+}
+
+.hero2 ul {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: #000;
+}
+
+.hero2 li {
+    font-size: 12px;
+    font-weight: 900;
+    padding: 4px;
+}
+
+.hero2 li a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+.hero2 a:hover {
+    color: #e55225
+}
+
+.hero3 {
+    width: 1100px;
+    
+    margin: auto;
+    background-image: url(../img/itachi_adobespark.png);
+    background-position: 0 250px;
+   
+    height: 160px;
+    
+}
+
+.content {
+    padding: 20px;
+    margin-left: 110px;
+    background-color: #2A2A2A;
+    width: 700px;
+    font-family:sans-serif;
+    
+}
+
+.content h1 {
+    color: white;
+}
+
+.content .penulis {
+    margin-bottom: 17px;
+}
+
+.content .penulis a {
+    font-weight: 800;
+    text-decoration: none;
+    color : black;
+}
+
+.content h1 {
+
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 11px;
+}
+
+.content .penulis2 {
+    margin-bottom: 27px;
+}
+.content .penulis2 a {
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+
+}
+
+.content .penulis3 {
+    font-weight: bold;
+    margin-bottom: 26px;
+}
+
+.hero4 {
+    background-image: url(../img/christian3.jpg);
+    width: 700px;
+    height: 400px;
+}
+
+.content2 {
+    width: 700px;
+}
+
+.content2 p {
+    margin-bottom: 15px;
+    font-size: 19px;
+    color: #FFFFFFDE;
+}
+
+.content2 h2 {
+    margin-bottom: 20px;
+}
+
+.content2 .contentp {
+    font-size: 25px;
+}
+
+.content2 .baca a {
+    text-decoration: none;
+    color: black;
+}
+
+.baca a:hover {
+    color: lightblue;
+}
+
+.content2 .baca2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.baca2 a:hover {
+    color: lightblue;
+}
+
+.penulis a:hover {
+    color: lightgreen;
+}
+
+.footer {
+    background-color: blueviolet;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer .copy {
+    font-size: 15px;
+    font-weight: bold;
+}
+

@@ -1,0 +1,17 @@
+' com µî·Ï FileName, Server Type, 
+[Register]
+$SYS/dibserver.exe
+$SYS/dibclient.dll
+$SYS/ncSignOn.dll
+$SYS/nccChartControl.dll
+$SYS/nccControls.dll
+$SYS/ncdoDataObject.dll	
+$SYS/ncdoData1.dll
+$SYS/ncoView1.dll
+$SYS/STChartComm.dll
+$SYS/STChartDataManager.dll
+$SYS/STChartDraw.dll
+$SYS/STChartProperty.dll
+$SYS/STChartWindow.dll
+$SYS/vsflex8l.ocx,1
+$SYS/TeeChart6.ocx,1

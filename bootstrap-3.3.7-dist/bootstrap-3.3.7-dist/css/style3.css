@@ -1,0 +1,29 @@
+nav {
+    width: 790px;
+    margin: 20px auto;
+}
+
+.jumbotron {
+    width: 790px;
+    margin: auto;
+}
+
+section {
+    margin-top: 40px ;
+   
+}
+
+hr {
+    width: 790px;
+}
+
+.footer {
+    
+    width: 790px;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.footer p {
+    color: gray;
+}

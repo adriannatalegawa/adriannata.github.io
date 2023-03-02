@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stchart_systrade_file is_trade="true"><signal_conflist><buy isroot="yes" operator="and"><signal type="indicator" id="autotrend" title="Auto Trend Line" operator="and">
+				<sig_methods>
+					<itm>cross_price_autotrend</itm>
+				</sig_methods>
+				<signal_method id="cross_price_autotrend" title="Price Crossover">
+					<combo label="Price " name="m_trend" is_control="true" selected_index="1">
+						<item value="1">Cross Above</item>
+						<item value="2">Cross Below</item>
+					</combo>
+					<combo postlabel="" name="m_mainIndicator" is_control="true" selected_index="1">
+						<item value="1">RH Line</item>
+						<item value="2">RL Line</item>
+					</combo>
+					<crlf is_control="true"/>
+					<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+					<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+				</signal_method>
+				<tab_var title="Condition">
+					<edit label="Period" name="nTimePeriod1" data_type="decimal" is_control="true" min="1" max="100000">2</edit>
+					<crlf is_control="true"/>
+					<check label="Terraced Line" name="nTimePeriod2" data_type="decimal" is_control="true">1</check>
+				</tab_var>
+			</signal>
+		</buy><sell isroot="yes" operator="and"><signal type="indicator" id="autotrend" title="Auto Trend Line" operator="and">
+				<sig_methods>
+					<itm>cross_price_autotrend</itm>
+				</sig_methods>
+				<signal_method id="cross_price_autotrend" title="Price Crossover">
+					<combo label="Price " name="m_trend" is_control="true" selected_index="2">
+						<item value="1">Cross Above</item>
+						<item value="2">Cross Below</item>
+					</combo>
+					<combo postlabel="" name="m_mainIndicator" is_control="true" selected_index="1">
+						<item value="1">RH Line</item>
+						<item value="2">RL Line</item>
+					</combo>
+					<crlf is_control="true"/>
+					<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+					<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+				</signal_method>
+				<tab_var title="Condition">
+					<edit label="Period" name="nTimePeriod1" data_type="decimal" is_control="true" min="1" max="100000">2</edit>
+					<crlf is_control="true"/>
+					<check label="Terraced Line" name="nTimePeriod2" data_type="decimal" is_control="true">1</check>
+				</tab_var>
+			</signal>
+		</sell></signal_conflist></stchart_systrade_file>

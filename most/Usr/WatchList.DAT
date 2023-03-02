@@ -1,0 +1,11 @@
+// USR_FIELD
+BEGIN_USR_FIELD;1;My Field
+ITEM;6;Code;Code;1;0;9;1;0;
+ITEM;2;Last;Last;1;2;8;1;0;
+ITEM;1;Change;Change;1;2;8;1;0;
+ITEM;7;Change(%);Change(%);1;2;9;1;0;
+ITEM;5;Volume;Volume;1;2;10;1;0;
+ITEM;27;Strength(%);Strength(%);1;2;10;1;0;
+ITEM;33;L(Chart)H;L(Chart)H;1;1;11;1;0;
+END_USR_FIELD
+// USR_COND

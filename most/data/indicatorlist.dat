@@ -1,0 +1,382 @@
+8,Moving Average(1),ma1,0,0
+12,Moving Average(2),hshiftedma,0,0
+7,Moving Average(3),ma,0,0
+151,2Division(m/t),2lineblock,0,0
+152,3Division(m/t),3lineblock,0,0
+153,4Division(m/t),4lineblock,0,0
+18,Alligator,alligator,0,0
+80,Bollinger Band,bollinger,0,0
+5120,DEMA,dema,0,0
+23,DEMA(Simple),simpledema,0,0
+133,Demark,demark,0,0
+144,Demark(m/t),demarkblock,0,0
+17,Different Interval,overaycandle,0,0
+112,Envelope,envelope,0,0
+154,Fibonacci(m/t),fiborblock,0,0
+6213,Heikin-Ashi,heikinashi,0,0
+19,High Low Moving Average,highlowma,0,0
+32,Ichimoku Cloud,ilmok,0,0
+20,Keltner Channels,kchannel,0,0
+4384,LRI,lri,0,0
+21,McGinley Dynamic,mcdynamic,0,0
+147,Median Price,median,0,0
+150,Median Price(m/t),medianblock,0,0
+9,MovingAverage(m/t),mablock,0,0
+146,Moving Average Channel,mac,0,0
+64,MA Ribbon,net,0,0
+48,Parabolic SAR,parabolic,0,0
+117,Percent Channel(m/t),perchannel,0,0
+96,Pivot Lines,pivot,0,0
+5344,Pivot Lines(m/t),pivotblock,0,0
+5248,Price,price,1,0
+128,Price Channel,channel,0,0
+16,Price & BOX Chart,box,0,0
+22,Projection Bands,projband,0,0
+25,Standard Error Band,stderrband,0,0
+24,Starc Bands,starcband,0,0
+5136,TEMA,tema,0,0
+149,TEMA(Simple),simpletema,0,0
+26,Tirone Level,tironelevel,0,0
+27,VIDYA,vidya,0,0
+28,VWMA,vwma,0,0
+148,Weighted Close,weightedclose,0,0
+145,ZigZag,zigzag,0,0
+1280,Binary Wave MACD,bwmacd,0,1
+1281,BPDL Hilo Index,bpdlhilo,0,1
+1282,BPDL Short Trend,bpdlst,0,1
+1283,BPDL Trend Filter,bpdltf,0,1
+4192,CCI,cci,0,1
+4226,Elder-Ray,elderray,0,1
+4144,MACD,macd,0,1
+5152,MACD(DEMA),demamacd,0,1
+5168,MACD(TEMA),temamacd,0,1
+4547,MACD Oscillator,oscillator,0,1
+4160,MAO,mao,0,1
+1284,McCellan Oscillator,mcosc,0,1
+1285,McCellan Summation,mcsum,0,1
+4128,Momentum,momentum,0,1
+1286,North Price Action Line,npal,0,1
+1287,On Balance Price,obp,0,1
+1288,Price Change Line,pricechangeline,0,1
+4112,Price ROC,proc,0,1
+1289,Relative Momentum Index,rmi,0,1
+1290,Relative Vigor Indicator,rvigori,0,1
+1291,Slope of Price,sop,0,1
+1292,Smoothed ROC,sroc,0,1
+4208,SONAR,sonar,0,1
+4176,TRIX,trix,0,1
+4400,TSF,tsf,0,1
+4224,TSI,tsi,0,1
+1293,Ultimate Oscillator,uosc,0,1
+1294,Velocity Index,velindex,0,1
+1295,Williams Accumulation Distribution,willad,0,1
+1536,AB Ratio,abratio,0,2
+4304,ADX,adx,0,2
+4336,ADXR,adxr,0,2
+4545,Aroon,aroon,0,2
+4546,Aroon Osillator,aroonosc,0,2
+4528,ATR,atr,0,2
+4549,BB-RSI,bbrsi,0,2
+1537,BPDL RSI,bpdlrsi,0,2
+1538,BPDL Stochastic,bpdlstoch,0,2
+1539,Chande Momentum Oscillator,cmo,0,2
+1540,Chaikin's Volatility,chaikinvol,0,2
+1541,CompuTrac Volatility,comvol,0,2
+4288,DMI,dmi,0,2
+5296,DMI(Simple),simpledmi,0,2
+4496,Disparity,disparity,0,2
+4480,Energy,energy,0,2
+1542,High Low Envelope,hlenv,0,2
+1543,High Low Oscillator,hlosc,0,2
+1544,Inertia,inertia,0,2
+1545,Klinger Oscillator,ko,0,2
+1546,Linear Trend Oscillator,lto,0,2
+4368,LRS,lrs,0,2
+1547,Mass Index,massindex,0,2
+1548,Morris Mixed Momentum,morrmm,0,2
+1549,New BPDL HiLo Index MA,newbpdlhli,0,2
+1550,Open Difference,opendiff,0,2
+1551,QStick,qstick,0,2
+1554,Random Walk Index,rwi,0,2
+4227,RCI,rci,0,2
+1553,Relative Volatility Index,rvi,0,2
+1552,Reverse,reverse,0,2
+4272,RSI,rsi,0,2
+5312,RSI(simple),simplersi,0,2
+5216,RSI(stochastic),rsistochastic,0,2
+4464,R-Squared,rsquared,0,2
+5280,Sigma,sigma,0,2
+4261,SMI,smi,0,2
+4448,Standard Deviation,stdev,0,2
+4432,Standard Error,stdeverr,0,2
+4256,Stochastic Fast,stochfast,0,2
+4240,Stochastic Slow,stochslow,0,2
+5328,Stochastic(Simple),simplestoch,0,2
+4550,Stochastic Oscillator,stochosc,0,2
+4548,TRIX Slope,trixgradiant,0,2
+1555,True Range,tr,0,2
+4416,TSF Oscillator,tsfosc,0,2
+4544,VHF,vhf,0,2
+5264,Volume,volume,1,3
+5424,Value,tradingcost,0,3
+6416,Foreign(Net),foreigntotbuy,0,3
+4592,A/D Line,adline,0,3
+1792,Bostian's Intraday Intensity Index,bosintra,0,3
+1793,BPDL Relative Volume Index,bpdlrvi,0,3
+1794,Chaikin's Money Flow,cmf,0,3
+4608,CO,co,0,3
+1795,Daily Volume Index,dvi,0,3
+4225,Ease of Movement,eom,0,3
+4675,Force Index,fi,0,3
+1796,GM McCellan Oscillator,gmmcosc,0,3
+1797,GM McCellan Summation,gmmcsum,0,3
+4624,MFI,mfi,0,3
+1798,Morris Intraday Accumulator,morria,0,3
+1799,Moving Balance Indicator,mbi,0,3
+1800,Negative Volume Index,nvi,0,3
+4640,OBV,obv,0,3
+4672,OBV and VR,obvr,0,3
+1801,OBV with Average Volume,obvav,0,3
+1802,OBV Midpoint,obvmid,0,3
+1803,OBV Oscillator,obvosc,0,3
+1804,Positive Volume Index,pvi,0,3
+1805,Price Volume Trend,pvt,0,3
+1806,Slope of Volume,sov,0,3
+1807,Smooth Accumulation Distribution,smoothad,0,3
+1808,Special Accumulation Distribution,specialad,0,3
+1809,TRIN(Inverted),trin,0,3
+1810,Trend Thrust Indicator,tti,0,3
+5184,Volume MACD,volumemacd,0,3
+4565,Volume Oscillator,vo,0,3
+1811,Volume Price Confirmation Indicator,vpci,0,3
+1812,Volume Price Accumulator,vpa,0,3
+1813,Volume Plus-minus Average,vpma,0,3
+4656,Volume Ratio,vr,0,3
+4560,Volume ROC,vroc,0,3
+5200,Volume RSI,volumersi,0,3
+1814,Volume Standard Deviation,vstdev,0,3
+1815,VW-MACD,vwmacd,0,3
+4688,DPO,dpo,0,4
+4720,New Psychological Line,newpsychol,0,4
+4704,Psychological Line,psychol,0,4
+5232,%B,prob,0,5
+4784,ASI,asi,0,5
+6293,Auto Trend Line,autotrend,0,5
+6294,Auto Trend Line(Auto Period),autotrend2,0,5
+4725,Band Width,bandwidth,0,5
+9296,Beta,beta,0,5
+4800,Binary Wave,binarywave,0,5
+2049,Breath Trust,breath,0,5
+9233,Equity Curve with Open Profit,equitycurve,0,5
+2050,MACD W-SAR,macdsar,0,5
+4848,News Count,news,0,5
+9234,Performance,performance,0,5
+5717,Relative Performance,marketrsi,0,5
+4768,Swing Index,swingindex,0,5
+4752,Williams %R,williams,0,5
+4233,ZigZag Oscillator,zigzagosc,0,5
+1024,Golden Power,goldenpower,0,6
+768,Net Power,netpower,0,6
+848,Net Power(4),netpower4,0,6
+256,Trend Power,trendpower,0,6
+272,Trend Power Buy,trendpowerbuy,0,6
+288,Trend Power Sell,trendpowersell,0,6
+5633,Volume Power,volumepowerc,0,6
+6129,Volume Power Oscillator,volumepowercosc,0,6
+5765,ADL,adl,0,7
+5776,ADR,adr,0,7
+5733,ADR and VR,adrvr,0,7
+5669,Foreign(Limit),foreignnum,0,7
+5680,Foreign(Orderable),foreignorder,0,7
+5653,Listed Shares,stocknum,0,7
+5664,Market Cap,marketcap,0,7
+5728,OBV and ADL,obvadl,0,7
+5797,Trade Matching Rate,traderate,0,7
+5792,Turnover Rate,stockturnover,0,7
+5749,Value Turnover,costturnover,0,7
+5744,Volume Turnover,volumeturnover,0,7
+8208,Composite Index,index_001,0,9
+8209,Agriculture,index_002,0,9
+8210,Mining,index_003,0,9
+8211,Basic Industry and Chemicals,index_004,0,9
+8212,Miscellaneous Industry,index_005,0,9
+8213,Consumer Goods,index_006,0,9
+8214,Construction,index_007,0,9
+8215,Infrastructure,index_008,0,9
+8216,Finance,index_009,0,9
+8217,Trade and Service,index_010,0,9
+8218,Manufacture,index_011,0,9
+8219,LQ45,index_012,0,9
+8220,Jakarta Islamic Index,index_013,0,9
+8221,Main Board Index,index_014,0,9
+8222,Development Board Index,index_015,0,9
+8223,Kompas100,index_016,0,9
+8224,Bisnis-27,index_017,0,9
+8225,Pefindo25,index_018,0,9
+8226,Sri-Kehati,index_019,0,9
+8227,ISSI,index_020,0,9
+8228,IDX30,index_021,0,9
+8229,INFOBANK15,index_022,0,9
+8230,SMinfra18,index_023,0,9
+8257,Sector,index_sector,0,9
+2465,Revenue (MB),fin_1001,0,10
+2466,Gross Profit (MB),fin_1002,0,10
+2467,Operating Income (MB),fin_1003,0,10
+2470,Pre-Tax Profit (MB),fin_1006,0,10
+2471,Net Profit (MB),fin_1007,0,10
+2472,Cash Flows (MB),fin_1008,0,10
+2474,Dividend Yield,fin_1010,0,10
+2307,ROA(%),fin_103,0,11
+2309,ROE(%),fin_105,0,11
+2311,ROCE(%),fin_107,0,11
+2312,EBIT Margin(%),fin_108,0,11
+2313,EBT Margin(%),fin_109,0,11
+2314,Net Profit Margin(%),fin_110,0,11
+2315,Gross Profit Margin(%),fin_111,0,11
+2316,EBITDA Margin(%),fin_112,0,11
+2321,Asset Growth Rate(%),fin_201,0,12
+2322,Equity Growth Rate(%),fin_202,0,12
+2386,EPS Growth Rate(%),fin_502,0,12
+2323,Revenue Growth Rate(%),fin_203,0,12
+2324,Net Profit Growth Rate(%),fin_204,0,12
+2339,D/E(X),fin_303,0,13
+2341,Liabilities to Assets Ratio(%),fin_305,0,13
+2344,TIE Ratio(X),fin_308,0,13
+2369,Total Asset Turnover(X),fin_401,0,14
+2370,Total Equity Turnover(X),fin_402,0,14
+2372,Receivables Turnover(X),fin_404,0,14
+2373,Inventory Turnover(X),fin_405,0,14
+2385,EPS (THB),fin_501,0,15
+2387,Book Value Per Share (THB),fin_503,0,15
+2473,Dividend Per Share (THB),fin_1009,0,15
+2504,PER Band,fin_611,0,16
+2505,PBR Band,fin_612,0,16
+2401,PE Ratio(X),fin_601,0,16
+2402,PBV Ratio(X),fin_602,0,16
+2403,Price to Sales Ratio,fin_603,0,16
+2404,EV,fin_604,0,16
+2405,EBITDA,fin_605,0,16
+2406,EV/EBITDA,fin_606,0,16
+2417,Total Asset (MB),fin_701,0,17
+2419,Quick Asset (MB),fin_703,0,17
+2420,Inventories (MB),fin_704,0,17
+2421,Account Receivable (MB),fin_705,0,17
+2433,Total Liabilities (MB),fin_801,0,18
+2434,Current Liabilities (MB),fin_802,0,18
+2435,Non-Current Liabilities (MB),fin_803,0,18
+2449,Total Equity (MB),fin_901,0,19
+2450,Paid-In Capital (MB),fin_902,0,19
+#
+600,Entire Bullish Reversal,EntireTurnUp,0,0,0
+100,Inverted Hammer,invertedhammer,0,0,0
+101,Hammer,hammer,0,0,0
+102,Bullish Belt Holdline,bullishbeltholdline,0,0,0
+200,Bullish Engulfing,bullishengulfing,0,0,0
+201,Bullish Harami,bullishharami,0,0,0
+202,Bullish Haramicross,bullishharamicross,0,0,0
+203,Bullish Counterattackline,bullishcounterattackline,0,0,0
+204,Piercing Pattern,piercingpattern,0,0,0
+205,Bullish Kicking,bullishkicking,0,0,0
+206,Homing Pigeon,homingpigeon,0,0,0
+207,Matching Low,matchinglow,0,0,0
+300,Morning Star,morningstar,0,0,0
+301,Morning Doji Star,morningdojistar,0,0,0
+302,Bullish Abandoned Baby,abandonedbabyindowntrend,0,0,0
+303,Three Inside Up,threeinsideup,0,0,0
+304,Three Outside Up,threeoutsideup,0,0,0
+305,Bullish Tri-Star,bullishtristar,0,0,0
+306,Unique Three River Bottom,uniquethreeriverbottom,0,0,0
+307,Three Stars in the South,threestarsinthesouth,0,0,0
+308,Stick Sandwich,sticksandwich,0,0,0
+309,Three White Soliders,threewhitesolider,0,0,0
+400,Concealling Baby Swallow,concellingbabyswallow,0,0,0
+500,Bullish Breakaway,bullishbreakaway,0,0,0
+501,Ladder Bottom,ladderbottom,0,0,0
+601,Entire Bearish Reversal,EntireTurnDn,0,0,1
+150,Shooting Star,shootingstar,0,0,1
+151,Hanging Man,hangingman,0,0,1
+152,Bearish Belt Holdline,bearishbeltholdline,0,0,1
+250,Bearish Engulfing,bearishengulfing,0,0,1
+251,Bearish Harami,bearishharami,0,0,1
+252,Bearish Harami Cross,bearishharamicross,0,0,1
+253,Bearish Counter Attackline,bearishcounterattackline,0,0,1
+254,Darkcloud Cover,darkcloudcover,0,0,1
+255,Bearish Kicking,bearishkicking,0,0,1
+350,Evening Star,eveningstar,0,0,1
+351,Evening Doji Star,eveningdojistar,0,0,1
+352,Bearish Abandoned Baby,abandonedbabyinuptrend,0,0,1
+353,Three Inside Down,threeinsidedown,0,0,1
+354,Three Outside Down,threeoutsidedown,0,0,1
+355,Upside Gap Two Crows,upsidegaptwocrowsinuptrend,0,0,1
+356,Bearish Tri-Star,bearishtristar,0,0,1
+357,Identical Three Crows,identicalthreecrows,0,0,1
+358,Two Crows,twocrows,0,0,1
+359,Three Black Crow,threeblackcrow,0,0,1
+550,Bearish Breakaway,bearishbreakaway,0,0,1
+602,Entire Bullish Continuation,EntireTrendUp,0,0,2
+103,Long White Body,longwhitebody,0,0,2
+208,Bullish Separating Lines,bullishseparatinglines,0,0,2
+314,Advance Block,advanceblock,0,0,2
+311,Stalled Pattern,stalledpattern,0,0,2
+310,Upside Gap Tasuki,upsidegaptasuki,0,0,2
+312,Bullish Side-by-Side White Line,bullishsidebysidewhiteline,0,0,2
+313,Upside Gap Three Methods,upsidegapthreemethods,0,0,2
+401,Bullish Three Line Strike,bullishthreelinestrike,0,0,2
+502,Mathold,mathold,0,0,2
+503,Rising Three Methods,risingthreemethods,0,0,2
+603,Entire Bearish Continuation,EntireTrendDn,0,0,3
+153,Long Black Body,longblackbody,0,0,3
+256,Bearish Separating Lines,bearishseparatinglines,0,0,3
+257,On-Neck,onneck,0,0,3
+258,In-Neck,inneck,0,0,3
+259,Thrusting Line,thrustingline,0,0,3
+360,Downside Tasuki Gap,downsidetasukigap,0,0,3
+361,Bearish Side-By-Side White Lines,bearishsidebysidewhiteline,0,0,3
+362,Bearish Downside Gap 3 methods,bearishdownsidegap3methods,0,0,3
+450,Bearish Three-Line Strike,bearishthreelinestrike,0,0,3
+551,Falling Three Methods,fallingthreemethods,0,0,3
+1,Continuous White Body,continuous_whitebody,0,1,0
+2,Continuous Black Body,continuous_blackbody,0,1,1
+3,Continuous Bullish,continuous_bullish,0,1,0
+4,Continuous Bearish,continuous_bearish,0,1,1
+5,Bullish Gap,bullish_gap,0,1,0
+6,Bearish Gap,bearish_gap,0,1,1
+7,Bullish Open Gap,bullish_opengap,0,1,0
+8,Bearish Open Gap,bearish_opengap,0,1,1
+9,New High,new_high,0,1,0
+10,New Low,new_low,0,1,1
+11,Change(%),updownrate,0,1,0
+12,Compare Price,comparing_price,0,1,0
+13,Inside Day,insideday,0,1,0
+14,Outside Day,outsideday,0,1,0
+15,Continuous Volume Increase,continuous_increase,0,1,0
+16,Continuous Volume Decrease,continuous_decrease,0,1,1
+17,Maximum Volume,new_maximum,0,1,0
+18,Minimum Volume,new_minimum,0,1,1
+50,Entire Bullish Pattern,autopattern_bull,0,2,0
+75,Entire Bearish Pattern,autopattern_bear,0,2,1
+51,Bullish Flag,bull_flag,0,2,0
+52,Bullish Pennant,bull_pennant,0,2,0
+53,Bullish Rectangle,bull_rectangle,0,2,0
+54,Bullish Symmetric Triangle,bull_symtriangle,0,2,0
+55,Bullish Triangle,bull_triangle,0,2,0
+56,Bullish Wedge,bull_wedge,0,2,0
+57,Bullish Inverse Head and Shoulder,bull_inverseheadnshoulder,0,2,0
+58,Bullish Double Bottom,bull_doublebottom,0,2,0
+59,Bullish Triple Bottom,bull_triplebottom,0,2,0
+61,Bullish Gatley,bull_gatley,0,2,0
+62,Bullish Butterfly,bull_butterfly,0,2,0
+63,Bullish Wolf Wave,bull_wolfwave,0,2,0
+76,Bearish Flag,bear_flag,0,2,1
+77,Bearish Pennant,bear_pennant,0,2,1
+78,Bearish Rectangle,bear_rectangle,0,2,1
+79,Bearish Symmetric Triangle,bear_symtriangle,0,2,1
+80,Bearish Triangle,bear_triangle,0,2,1
+81,Bearish Wedge,bear_wedge,0,2,1
+82,Bearish Head and Shoulder,bear_headnshoulder,0,2,1
+83,Bearish Double Top,bear_doubletop,0,2,1
+84,Bearish Triple Top,bear_tripletop,0,2,1
+85,Bearish Megaphone,bear_megaphone,0,2,1
+86,Bearish Gatley,bear_gatley,0,2,1
+87,Bearish Butterfly,bear_butterfly,0,2,1
+88,Bearish Wolf Wave,bear_wolfwave,0,2,1

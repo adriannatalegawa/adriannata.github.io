@@ -1,0 +1,50 @@
+//AxControlList
+//foramt:groupname,iconnum,typename,fullname,progid,licname,defaultWidth,defaultHeight,PrefixName,DualInterface(1:Áö¿ø)
+//
+CommonControl,1,Button,Button,,,40,20,btn
+CommonControl,2,CheckBox,CheckBox,,,74,20,chk
+//CommonControl,3,ColorPicker,ColorPicker,,,74,20,chk
+CommonControl,4,ComboBox,ComboBox,,,76,20,cmb
+CommonControl,4,ComboLabel,ComboLabel,,,200,20,cbl
+CommonControl,5,CommentCtrl,CommentCtrl,,,400,20,cmtc
+CommonControl,6,CustomCtrl,CustomCtrl,,,210,210,cctrl
+CommonControl,7,DatePicker,DatePicker,,,82,20,dtc
+CommonControl,8,DialogCtrl,DialogCtrl,,,40,40,dlg
+CommonControl,9,Edit,Edit Control,,,60,20,edt
+CommonControl,10,GroupBox,GroupBox,,,210,210,grp
+CommonControl,11,GroupButton,GroupButton,,,200,20,grpbtn
+CommonControl,12,Label,Label,,,60,20,lbl
+CommonControl,12,LinkLabel,LinkLabel,,,60,20,lnklbl
+CommonControl,13,ListCtrl,List Control,,,200,200,lstc
+CommonControl,14,NumericEdit,NumericEdit,,,60,20,nedt
+CommonControl,15,PictureBox,PictureBox,,,200,200,img
+//CommonControl,16,PopupMenu,PopupMenu,,,20,20,pmnu
+CommonControl,17,ProgressBar,ProgressBar,,,100,20,prg
+CommonControl,18,RadioButton,RadioButton,,,74,20,rdo
+CommonControl,19,RichEdit,RichEdit,,,200,200,red
+CommonControl,20,HScrollBar,HScrollBar,,,150,20,hscrb
+CommonControl,21,VScrollBar,VScrollBar,,,20,150,vscrb
+CommonControl,22,SliderCtrl,SliderCtrl,,,100,20,sld
+CommonControl,23,SpinButton,SpinButton,,,13,20,spn
+CommonControl,24,SplitButton,SplitButton,,,80,20,splbtn
+CommonControl,25,Splitter,Splitter,,,200,4,splt
+CommonControl,26,TimerCtrl,TimerCtrl,,,20,20,tmc
+CommonControl,27,ToolTip,ToolTip,,,20,20,tooltip
+CommonControl,28,TreeCtrl,TreeCtrl,,,200,200,tree
+CommonControl,29,WebBrowser,WebBrowser,,,200,200,web
+//CommonControl,42,GraphSysMon,GraphSysMon,,,200,200,grp
+//
+BizControl,34,AccountEditor,AccountEditor,,,574,20,aedt
+BizControl,35,CodeEditor,CodeEditor,,,286,20,cdedt
+BizControl,36,PriceEditor,PriceEditor,,,100,20,pedt
+BizControl,37,VolumeEditor,VolumeEditor,,,100,20,vedt
+BizControl,33,CalendarCtrl,CalendarCtrl,,,171,229,cal
+BizControl,42,StockPrice,StockPrice,,,300,400,stkpr
+BizControl,42,WatchList,WatchList,,,560,230,wtl
+//
+Activex,38,ITChart,TeeChart,TeeChart.TChart.6,,300,200,tcht,1
+Activex,39,IVSFlexGrid,Flex Grid,VSFlexGrid8.VSFlexGridL.1,vsflexgrid8.lic,300,200,fgrid,1
+Activex,41,ICoSMTTodayChart,NCFChart,ncoView1M.CoSMTTodayChart.1,,300,200,ncfcht,1
+//
+Container,30,Canvas,Canvas,,,200,200,cvs
+Container,33,TabCtrl,Tab Control,,,220,220,tab

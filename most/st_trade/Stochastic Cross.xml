@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stchart_systrade_file is_trade="true"><signal_conflist><buy isroot="yes" operator="and"><signal type="indicator" id="stochslow" title="Stochastic Slow" operator="and">
+				<sig_methods>
+					<itm>cross_stoch</itm>
+					<itm>cross_stand</itm>
+					<itm>cross_stand_signal</itm>
+					<itm>comp_standline_signal</itm>
+					<itm>comp_standvalue</itm>
+					<itm>comp_standvalue_signal</itm>
+					<itm>comp_trend</itm>
+					<itm>comp_trend_signal</itm>
+					<itm>comp_turning</itm>
+					<itm>comp_turning_signal</itm>
+				</sig_methods>
+				<signal_method id="cross_stoch" title="Crossover(%K/%D)">
+					<m_mainIndicator>1</m_mainIndicator>
+					<m_subIndicator>3</m_subIndicator>
+					<edit label="[ " postlabel="bar before ]" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+					<edit label="%K-%D" postlabel="Within" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+					<combo label="" name="m_trend" is_control="true" selected_index="1">
+						<item value="1">CrossUp</item>
+						<item value="2">CrossDown</item>
+					</combo>
+				</signal_method>
+				<tab_var title="Condition">
+					<edit label="Length" name="nTimePeriod" data_type="decimal" is_control="true" min="1" max="100000">10</edit>
+					<edit label="Slow %K" name="nSlowK" data_type="decimal" is_control="true" min="1" max="100000">6</edit>
+					<edit label="Slow %D" name="nSlowD" data_type="decimal" is_control="true" min="0" max="100000">6</edit>
+				</tab_var>
+			</signal>
+			<signal type="indicator" id="adx" title="ADX" operator="and">
+				<sig_methods>
+					<itm>cross_stand</itm>
+					<itm>comp_standvalue</itm>
+					<itm>comp_trend</itm>
+					<itm>comp_turning</itm>
+				</sig_methods>
+				<signal_method id="comp_trend" title="Trend">
+					<m_mainIndicator>1</m_mainIndicator>
+					<edit label="[ " postlabel="bar before ]" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+					<edit label="Indicator " postlabel="Within" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+					<combo label="" name="m_trend" is_control="true" selected_index="1">
+						<item value="1">Uptrend</item>
+						<item value="2">Downtrend</item>
+					</combo>
+					<edit label="(continuous " postlabel="above)" name="m_keepingBarNum" data_type="decimal" is_control="true" min="1" max="100">2</edit>
+				</signal_method>
+				<tab_var title="Condition">
+					<edit label="DI" name="nDI" data_type="decimal" is_control="true" min="1" max="100000">14</edit>
+					<edit label="ADX" name="nADX" data_type="decimal" is_control="true" min="1" max="100000">14</edit>
+				</tab_var>
+			</signal>
+		</buy><sell isroot="yes" operator="and"><signal type="indicator" id="stochslow" title="Stochastic Slow" operator="and">
+				<sig_methods>
+					<itm>cross_stoch</itm>
+					<itm>cross_stand</itm>
+					<itm>cross_stand_signal</itm>
+					<itm>comp_standline_signal</itm>
+					<itm>comp_standvalue</itm>
+					<itm>comp_standvalue_signal</itm>
+					<itm>comp_trend</itm>
+					<itm>comp_trend_signal</itm>
+					<itm>comp_turning</itm>
+					<itm>comp_turning_signal</itm>
+				</sig_methods>
+				<signal_method id="cross_stoch" title="Crossover(%K/%D)">
+					<m_mainIndicator>1</m_mainIndicator>
+					<m_subIndicator>3</m_subIndicator>
+					<edit label="[ " postlabel="bar before ]" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+					<edit label="%K-%D" postlabel="Within" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+					<combo label="" name="m_trend" is_control="true" selected_index="2">
+						<item value="1">CrossUp</item>
+						<item value="2">CrossDown</item>
+					</combo>
+				</signal_method>
+				<tab_var title="Condition">
+					<edit label="Length" name="nTimePeriod" data_type="decimal" is_control="true" min="1" max="100000">10</edit>
+					<edit label="Slow %K" name="nSlowK" data_type="decimal" is_control="true" min="1" max="100000">6</edit>
+					<edit label="Slow %D" name="nSlowD" data_type="decimal" is_control="true" min="0" max="100000">6</edit>
+				</tab_var>
+			</signal>
+			<signal type="indicator" id="stochslow" title="Stochastic Slow" operator="and">
+				<sig_methods>
+					<itm>cross_stoch</itm>
+					<itm>cross_stand</itm>
+					<itm>cross_stand_signal</itm>
+					<itm>comp_standline_signal</itm>
+					<itm>comp_standvalue</itm>
+					<itm>comp_standvalue_signal</itm>
+					<itm>comp_trend</itm>
+					<itm>comp_trend_signal</itm>
+					<itm>comp_turning</itm>
+					<itm>comp_turning_signal</itm>
+				</sig_methods>
+				<signal_method id="comp_standvalue" title="Compare(Value)">
+					<m_mainIndicator>1</m_mainIndicator>
+					<edit label="[ " postlabel="bar before ]" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+					<edit postlabel="Within" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+					<combo label="(indicator value" name="m_trend" is_control="true" selected_index="1">
+						<item value="1"> &gt; </item>
+						<item value="2"> &lt; </item>
+						<item value="3"> = </item>
+						<item value="4"> &gt;= </item>
+						<item value="5"> &lt;= </item>
+					</combo>
+					<edit postlabel=")" name="m_standLine" data_type="decimal" is_control="true" min="-2147483648" max="2147483647">50</edit>
+					<edit label="(" postlabel="bar continuous)" name="m_keepingBarNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+				</signal_method>
+				<tab_var title="Condition">
+					<edit label="Length" name="nTimePeriod" data_type="decimal" is_control="true" min="1" max="100000">10</edit>
+					<edit label="Slow %K" name="nSlowK" data_type="decimal" is_control="true" min="1" max="100000">6</edit>
+					<edit label="Slow %D" name="nSlowD" data_type="decimal" is_control="true" min="0" max="100000">6</edit>
+				</tab_var>
+			</signal>
+		</sell></signal_conflist></stchart_systrade_file>

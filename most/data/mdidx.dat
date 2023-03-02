@@ -1,0 +1,182 @@
+#20110221
+001 |I|COMPOSITE||Composite Index|
+012 |I|LQ45||LQ45|
+013 |I|JII||Jakarta Islamic Index|
+014 |I|MBX||Main Board Index|
+015 |I|DBX||Development Board Index|
+016 |I|KOMPAS100||Kompas100|
+017 |I|BISNIS-27||Bisnis-27|
+018 |I|PEFINDO25||Pefindo25|
+019 |I|SRI-KEHATI||Sri-Kehati|
+020 |I|ISSI||ISSI|
+021 |I|IDX30||IDX30|
+022 |I|INFOBANK15||INFOBANK15|
+023 |I|SMinfra18||SMinfra18|
+024 |I|MNC36||MNC36|
+025 |I|Investor33||Investor33|
+026 |I|I-GRADE||PEFINDO i-Grade|
+027 |I|IDXSMC-COM||IDX Small-Mid Cap (SMC) Composite|
+028 |I|IDXSMC-LIQ||IDX Small-Mid Cap (SMC) Liquid|
+029 |I|IDXHIDIV20||IDX High Dividend 20|
+030 |I|IDXBUMN20||IDX BUMN20|
+031 |I|JII70||Jakarta Islamic Index 70|
+032 |I|IDX80||IDX80|
+033 |I|IDXV30||IDX Value30|
+034 |I|IDXG30||IDX Growth30|
+035 |I|IDXQ30||IDX Quality30|
+036 |I|IDXESGL||IDX ESG Leaders|
+037 |I|IDXBASIC||IDX Sector Basic Materials|
+038 |I|IDXCYCLIC||IDX Sector Consumer Cyclicals|
+039 |I|IDXENERGY||IDX Sector Energy|
+040 |I|IDXFINANCE||IDX Sector Financials|
+041 |I|IDXHEALTH||IDX Sector Healthcare|
+042 |I|IDXINDUST||IDX Sector Industrials|
+043 |I|IDXINFRA||IDX Sector Infrastructures|
+044 |I|IDXNONCYC||IDX Sector Consumer Non-Cyclicals|
+045 |I|IDXPROPERT||IDX Sector Properties & Real Estate|
+046 |I|IDXTECHNO||IDX Sector Technology|
+047 |I|IDXTRANS||IDX Sector Transportation & Logistic|
+048 |I|IDXSHAGROW||IDXSharia Growth|
+049 |I|IDXLQ45LCL||IDX JII ESG Tilted|
+A   |R|||Energy|
+B   |R|||Basic Materials|
+C   |R|||Industrials|
+D   |R|||Consumer Non-Cyclicals|
+E   |R|||Consumer Cyclicals|
+F   |R|||Healthcare|
+G   |R|||Financials|
+H   |R|||Properties & Real Estate|
+I   |R|||Technology|
+J   |R|||Infrastructures|
+K   |R|||Transportation & Logistic|
+Z   |R|||Listed Investment Product|
+A111|S|||Oil & Gas Production & Refinery|
+A112|S|||Oil & Gas Storage & Distribution|
+A121|S|||Coal Production|
+A122|S|||Coal Distribution|
+A131|S|||Oil & Gas Drilling Service|
+A132|S|||Oil, Gas & Coal Equipment & Services|
+A211|S|||Alternative Energy Equipment|
+A221|S|||Alternative Fuels|
+B111|S|||Basic Chemicals|
+B112|S|||Agricultural Chemicals|
+B113|S|||Specialty Chemicals|
+B121|S|||Construction Materials|
+B131|S|||Containers & Packaging|
+B141|S|||Aluminum|
+B142|S|||Cooper|
+B143|S|||Gold|
+B144|S|||Iron & Steel|
+B145|S|||Precious Metals & Minerals|
+B146|S|||Diversified Metals & Minerals|
+B147|S|||Mining Equipment & Services|
+B151|S|||Timber|
+B152|S|||Paper|
+B153|S|||Diversified Forest|
+C111|S|||Aerospace & Defense|
+C121|S|||Building Products & Fixtures|
+C131|S|||Electrical Components & Equipment|
+C132|S|||Heavy Electrical Equipment|
+C141|S|||Construction Machinery & Heavy Vehicles|
+C142|S|||Agricultural & Farm Machinery|
+C143|S|||Industrial Machinery & Components|
+C211|S|||Diversified Industrial Trading|
+C221|S|||Commercial Printing|
+C222|S|||Environmental & Facilities Services|
+C223|S|||Office Supplies|
+C224|S|||Business Support Services|
+C231|S|||Human Resource & Employment Services|
+C232|S|||Research & Consulting Services|
+C311|S|||Multi-sector Holdings|
+D111|S|||Drug Retail & Distributors|
+D112|S|||Food Retail & Distributors|
+D113|S|||Supermarkets & Convenience Store|
+D211|S|||Liquors|
+D212|S|||Soft Drinks|
+D221|S|||Dairy Products|
+D222|S|||Processed Foods|
+D231|S|||Fish, Meat, & Poultry|
+D232|S|||Plantations & Crops|
+D311|S|||Tobacco|
+D411|S|||Household Products|
+D421|S|||Personal Care Products|
+E111|S|||Auto Parts & Equipment|
+E112|S|||Tires|
+E121|S|||Car Manufacturers|
+E122|S|||Motorcycle Manufacturers|
+E211|S|||Home Furnishings|
+E212|S|||Household Appliances|
+E213|S|||Housewares & Specialties|
+E311|S|||Consumer Electronics|
+E321|S|||Sport Equipment & Hobbies Goods|
+E411|S|||Clothing, Accessories & Bags|
+E412|S|||Footwear|
+E413|S|||Textiles|
+E511|S|||Gaming Venue|
+E512|S|||Hotels, Resorts & Cruise Lines|
+E513|S|||Travel Agencies|
+E514|S|||Recreational & Sports Facilities|
+E515|S|||Restaurants|
+E521|S|||Education Services|
+E522|S|||Consumer Support Services|
+E611|S|||Advertising|
+E612|S|||Broadcasting|
+E613|S|||Cable & Satellite|
+E614|S|||Consumer Publishing|
+E621|S|||Entertainment & Movie Production|
+E711|S|||Consumer Distributors|
+E721|S|||Internet & Homeshop Retail|
+E731|S|||Department Stores|
+E741|S|||Apparel & Textile Retail|
+E742|S|||Electronics Retail|
+E743|S|||Home Improvement Retail|
+E744|S|||Specialty Stores|
+E745|S|||Automotive Retail|
+F111|S|||Healthcare Equipment|
+F112|S|||Healthcare Supplies & Distributions|
+F121|S|||Healthcare Providers|
+F211|S|||Pharmaceuticals|
+F221|S|||Healthcare Research|
+G111|S|||Banks|
+G211|S|||Consumer Financing|
+G221|S|||Venture Capital|
+G222|S|||Specialize Business Financing|
+G311|S|||Investment Management|
+G312|S|||Investment Banking & Brokerage Services|
+G313|S|||Market Operators|
+G314|S|||Investment Service Support|
+G411|S|||Insurance Brokers|
+G412|S|||General Insurance|
+G413|S|||Life Insurance|
+G414|S|||Reinsurance|
+G511|S|||Financial Holdings|
+G512|S|||Investment Companies|
+H111|S|||Real Estate Development & Management|
+H112|S|||Real Estate Services|
+I111|S|||Online Applications & Services|
+I121|S|||IT Services & Consulting|
+I131|S|||Software|
+I211|S|||Networking Equipment|
+I221|S|||Computer Hardware|
+I231|S|||Electronic Equipment & Instruments|
+I232|S|||Electronic Components & Semiconductors|
+J111|S|||Airport Operators|
+J112|S|||Highways & Railtracks|
+J113|S|||Marine Ports & Services|
+J211|S|||Heavy Constructions & Civil Engineering|
+J311|S|||Wired Telecommunication Service|
+J312|S|||Integrated Telecommunication Service|
+J321|S|||Wireless Telecommunication Services|
+J411|S|||Electric Utilities|
+J421|S|||Gas Utilities|
+J431|S|||Water Utilities|
+K111|S|||Airlines|
+K121|S|||Passenger Marine Transportation|
+K131|S|||Rail|
+K132|S|||Road Transportation|
+K211|S|||Logistics & Deliveries|
+Z111|S|||Mutual Fund / ETFs|
+Z112|S|||Real Estate Investment Trusts|
+Z113|S|||Infrastructure Investment Trusts|
+Z211|S|||Government Bonds|
+Z212|S|||Corporate Bonds|

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stchart_systrade_file is_trade="false"><signal_conflist><buy isroot="yes" operator="and"><signal type="indicator" id="parabolic" title="Parabolic SAR" operator="and">
+				<sig_methods>
+					<itm>cross_sar</itm>
+					<itm>comp_trend</itm>
+				</sig_methods>
+				<signal_method id="cross_sar" title="Price Crossover">
+					<combo label="Price" postlabel="Indicator Value" name="m_trend" is_control="true" selected_index="1">
+						<item value="1">Cross Above</item>
+						<item value="2">Cross Below</item>
+					</combo>
+					<m_mainIndicator>1</m_mainIndicator>
+					<crlf is_control="true"/>
+					<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+					<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+				</signal_method>
+				<tab_var title="Condition">
+					<edit label="AF" name="dTerm1" data_type="decimal" is_control="true" min="0.001" max="100">0.02</edit>
+					<edit label="EP" name="dTerm2" data_type="decimal" is_control="true" min="0.01" max="100">0.2</edit>
+					<crlf is_control="true"/>
+					<combo label="Price" name="nPriceField" is_control="true" selected_index="8">
+						<item value="8">High/Low</item>
+						<item value="1">Open</item>
+						<item value="2">High</item>
+						<item value="3">Low</item>
+						<item value="4">Close</item>
+						<item value="5">Median</item>
+						<item value="6">Typical</item>
+					</combo>
+				</tab_var>
+			</signal>
+		</buy><sell isroot="yes" operator="and"><signal type="indicator" id="parabolic" title="Parabolic SAR" operator="and">
+				<sig_methods>
+					<itm>cross_sar</itm>
+					<itm>comp_trend</itm>
+				</sig_methods>
+				<signal_method id="cross_sar" title="Price Crossover">
+					<combo label="Price" postlabel="Indicator Value" name="m_trend" is_control="true" selected_index="2">
+						<item value="1">Cross Above</item>
+						<item value="2">Cross Below</item>
+					</combo>
+					<m_mainIndicator>1</m_mainIndicator>
+					<crlf is_control="true"/>
+					<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+					<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+				</signal_method>
+				<tab_var title="Condition">
+					<edit label="AF" name="dTerm1" data_type="decimal" is_control="true" min="0.001" max="100">0.02</edit>
+					<edit label="EP" name="dTerm2" data_type="decimal" is_control="true" min="0.01" max="100">0.2</edit>
+					<crlf is_control="true"/>
+					<combo label="Price" name="nPriceField" is_control="true" selected_index="8">
+						<item value="8">High/Low</item>
+						<item value="1">Open</item>
+						<item value="2">High</item>
+						<item value="3">Low</item>
+						<item value="4">Close</item>
+						<item value="5">Median</item>
+						<item value="6">Typical</item>
+					</combo>
+				</tab_var>
+			</signal>
+		</sell></signal_conflist></stchart_systrade_file>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stchart_systrade_file is_trade="true"><signal_conflist><buy isroot="yes" operator="and"><signal type="indicator" id="ma1" title="Moving Average(1)" operator="or">
+				<sig_methods>
+					<itm>cross_price</itm>
+					<itm>comp_price</itm>
+					<itm>comp_trend</itm>
+					<itm>comp_turning</itm>
+				</sig_methods>
+				<signal_method id="comp_trend" title="Trend">
+					<m_mainIndicator>1</m_mainIndicator>
+					<edit label="[ " postlabel="bar before ]" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+					<edit label="Indicator " postlabel="Within" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+					<combo label="" name="m_trend" is_control="true" selected_index="1">
+						<item value="1">Uptrend</item>
+						<item value="2">Downtrend</item>
+					</combo>
+					<edit label="(continuous " postlabel="above)" name="m_keepingBarNum" data_type="decimal" is_control="true" min="1" max="100">3</edit>
+				</signal_method>
+				<tab_var title="Condition">
+					<edit label="Length" name="nShortTerm" data_type="decimal" is_control="true" min="0" max="100000">20</edit>
+					<combo label="Calculation" name="nMaMethod" is_control="true" selected_index="1">
+						<item value="1">Simple</item>
+						<item value="2">Exponential</item>
+						<item value="3">Cumulative</item>
+						<item value="4">Weighted</item>
+						<item value="5">Geometric</item>
+						<item value="6">Triangular</item>
+						<item value="7">Smoothed</item>
+						<item value="8">LinearRegression</item>
+					</combo>
+					<combo label="Price" name="nPriceField" is_control="true" selected_index="4">
+						<item value="1">Open</item>
+						<item value="2">High</item>
+						<item value="3">Low</item>
+						<item value="4">Close</item>
+						<item value="5">Median</item>
+						<item value="6">Typical</item>
+						<item value="7">Volume</item>
+					</combo>
+				</tab_var>
+				<signal type="indicator" id="bollinger" title="Bollinger Band" operator="and">
+					<sig_methods>
+						<itm>cross_bound</itm>
+						<itm>comp_price_bound</itm>
+						<itm>comp_trend_bound</itm>
+						<itm>comp_turning_bound</itm>
+					</sig_methods>
+					<signal_method id="cross_bound" title="Price Crossover">
+						<edit label="[ " postlabel="bar before ]" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+						<combo postlabel="" name="m_price" is_control="true" selected_index="4">
+							<item value="1">Open</item>
+							<item value="2">High</item>
+							<item value="3">Low</item>
+							<item value="4">Close</item>
+						</combo>
+						<combo postlabel="" name="m_mainIndicator" is_control="true" selected_index="2">
+							<item value="1">Upper Band</item>
+							<item value="2">Lower Band</item>
+						</combo>
+						<edit postlabel="Within" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+						<combo label="" name="m_trend" is_control="true" selected_index="1">
+							<item value="1">CrossUp</item>
+							<item value="2">CrossDown</item>
+						</combo>
+					</signal_method>
+					<tab_var title="Condition">
+						<edit label="Length" name="nTimePeriod" data_type="decimal" is_control="true" min="1" max="100000">20</edit>
+						<edit label="Mul" name="dMult" data_type="decimal" is_control="true" min="0.1" max="100">2</edit>
+						<combo label="Calculation" name="nMaMethod" is_control="true" selected_index="1">
+							<item value="1">Simple</item>
+							<item value="2">Exponential</item>
+							<item value="3">Cumulative</item>
+							<item value="4">Weighted</item>
+							<item value="5">Geometric</item>
+							<item value="6">Triangular</item>
+							<item value="7">Smoothed</item>
+							<item value="8">LinearRegression</item>
+						</combo>
+						<combo label="Price" name="nPriceField" is_control="true" selected_index="4">
+							<item value="1">Open</item>
+							<item value="2">High</item>
+							<item value="3">Low</item>
+							<item value="4">Close</item>
+							<item value="5">Median</item>
+							<item value="6">Typical</item>
+						</combo>
+					</tab_var>
+				</signal>
+				<signal type="indicator" id="bollinger" title="Bollinger Band" operator="and">
+					<sig_methods>
+						<itm>cross_bound</itm>
+						<itm>comp_price_bound</itm>
+						<itm>comp_trend_bound</itm>
+						<itm>comp_turning_bound</itm>
+					</sig_methods>
+					<signal_method id="cross_bound" title="Price Crossover">
+						<edit label="[ " postlabel="bar before ]" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+						<combo postlabel="" name="m_price" is_control="true" selected_index="4">
+							<item value="1">Open</item>
+							<item value="2">High</item>
+							<item value="3">Low</item>
+							<item value="4">Close</item>
+						</combo>
+						<combo postlabel="" name="m_mainIndicator" is_control="true" selected_index="1">
+							<item value="1">Upper Band</item>
+							<item value="2">Lower Band</item>
+						</combo>
+						<edit postlabel="Within" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+						<combo label="" name="m_trend" is_control="true" selected_index="1">
+							<item value="1">CrossUp</item>
+							<item value="2">CrossDown</item>
+						</combo>
+					</signal_method>
+					<tab_var title="Condition">
+						<edit label="Length" name="nTimePeriod" data_type="decimal" is_control="true" min="1" max="100000">20</edit>
+						<edit label="Mul" name="dMult" data_type="decimal" is_control="true" min="0.1" max="100">2</edit>
+						<combo label="Calculation" name="nMaMethod" is_control="true" selected_index="1">
+							<item value="1">Simple</item>
+							<item value="2">Exponential</item>
+							<item value="3">Cumulative</item>
+							<item value="4">Weighted</item>
+							<item value="5">Geometric</item>
+							<item value="6">Triangular</item>
+							<item value="7">Smoothed</item>
+							<item value="8">LinearRegression</item>
+						</combo>
+						<combo label="Price" name="nPriceField" is_control="true" selected_index="4">
+							<item value="1">Open</item>
+							<item value="2">High</item>
+							<item value="3">Low</item>
+							<item value="4">Close</item>
+							<item value="5">Median</item>
+							<item value="6">Typical</item>
+						</combo>
+					</tab_var>
+				</signal>
+			</signal>
+		</buy><sell isroot="yes" operator="or"><signal type="indicator" id="ma1" title="Moving Average(1)" operator="and">
+				<sig_methods>
+					<itm>cross_price</itm>
+					<itm>comp_price</itm>
+					<itm>comp_trend</itm>
+					<itm>comp_turning</itm>
+				</sig_methods>
+				<signal_method id="cross_price" title="Price Crossover">
+					<edit label="[ " postlabel="bar before ]" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+					<combo postlabel="" name="m_price" is_control="true" selected_index="4">
+						<item value="1">Open</item>
+						<item value="2">High</item>
+						<item value="3">Low</item>
+						<item value="4">Close</item>
+					</combo>
+					<m_mainIndicator>1</m_mainIndicator>
+					<edit postlabel="bar" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+					<combo name="m_trend" is_control="true" selected_index="2">
+						<item value="1">CrossUp</item>
+						<item value="2">CrossDown</item>
+					</combo>
+				</signal_method>
+				<tab_var title="Condition">
+					<edit label="Length" name="nShortTerm" data_type="decimal" is_control="true" min="0" max="100000">20</edit>
+					<combo label="Calculation" name="nMaMethod" is_control="true" selected_index="1">
+						<item value="1">Simple</item>
+						<item value="2">Exponential</item>
+						<item value="3">Cumulative</item>
+						<item value="4">Weighted</item>
+						<item value="5">Geometric</item>
+						<item value="6">Triangular</item>
+						<item value="7">Smoothed</item>
+						<item value="8">LinearRegression</item>
+					</combo>
+					<combo label="Price" name="nPriceField" is_control="true" selected_index="4">
+						<item value="1">Open</item>
+						<item value="2">High</item>
+						<item value="3">Low</item>
+						<item value="4">Close</item>
+						<item value="5">Median</item>
+						<item value="6">Typical</item>
+						<item value="7">Volume</item>
+					</combo>
+				</tab_var>
+			</signal>
+		</sell></signal_conflist></stchart_systrade_file>

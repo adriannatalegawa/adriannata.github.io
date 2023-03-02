@@ -1,0 +1,2095 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<signal_def xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="st.xsd" ver="4">
+<!-- cross price-ma, pivot, Parabolic SAR, Bollinger Band, Envelope, Channel -->
+	<signal_method id="cross_price" title="Price Crossover">
+		<combo postlabel="" name="m_price" is_control="true" selected_index="4">
+			<item value="1" >Open</item>
+			<item value="2" >High</item>
+			<item value="3" >Low</item>
+			<item value="4" >Close</item>
+		</combo>
+		<combo name="m_trend" postlabel="Indicator Value" is_control="true" selected_index="1">
+			<item value="1" >Cross Above</item>
+			<item value="2" >Cross Below</item>
+		</combo>
+		<m_mainIndicator>1</m_mainIndicator>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="cross_price_pivot" title="Price Crossover">
+		<combo postlabel="" name="m_price" is_control="true" selected_index="4">
+			<item value="1" >Open</item>
+			<item value="2" >High</item>
+			<item value="3" >Low</item>
+			<item value="4" >Close</item>
+		</combo>
+		<combo label ="" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Cross Above</item>
+			<item value="2" >Cross Below</item>
+		</combo>
+		<combo name="m_mainIndicator" is_control="true" selected_index="1">
+			<item value="1" >Pivot Line</item>
+			<item value="2" >Resistance 1</item>
+			<item value="3" >Resistance 2</item>
+			<item value="4" >Support 1</item>
+			<item value="5" >Support 2</item>
+		</combo>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="cross_bound" title="Price Crossover">
+		<combo postlabel="" name="m_price" is_control="true" selected_index="4">
+			<item value="1" >Open</item>
+			<item value="2" >High</item>
+			<item value="3" >Low</item>
+			<item value="4" >Close</item>
+		</combo>
+		<combo label ="" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Cross Above</item>
+			<item value="2" >Cross Below</item>
+		</combo>
+		<combo postlabel="" name="m_mainIndicator" is_control="true" selected_index="1">
+			<item value="1" >Upper Band</item>
+			<item value="2" >Lower Band</item>
+		</combo>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="cross_sar" title="Price Crossover">
+		<combo label ="Price" postlabel="Indicator Value" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Cross Above</item>
+			<item value="2" >Cross Below</item>
+		</combo>
+		<m_mainIndicator>1</m_mainIndicator>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="cross_price_ilmok" title="Price Crossover">
+		<combo postlabel="" name="m_price" is_control="true" selected_index="4">
+			<item value="1" >Open</item>
+			<item value="2" >High</item>
+			<item value="3" >Low</item>
+			<item value="4" >Close</item>
+		</combo>
+		<combo label ="" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Cross Above</item>
+			<item value="2" >Cross Below</item>
+		</combo>
+		<combo name="m_mainIndicator" is_control="true" selected_index="1">
+			<item value="1" >Conversion Line</item>
+			<item value="2" >Base Line</item>
+			<item value="3" >Leading Span1</item>
+			<item value="4" >Leading Span2</item>
+			<item value="5" >Lagging Span</item>
+			<item value="8" >Cloud</item>
+		</combo>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="cross_price_mac" title="Price Crossover">
+		<combo postlabel=" " name="m_price" is_control="true" selected_index="4">
+			<item value="1" >Open</item>
+			<item value="2" >High</item>
+			<item value="3" >Low</item>
+			<item value="4" >Close</item>
+		</combo>
+		<combo label ="" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Cross Above</item>
+			<item value="2" >Cross Below</item>
+		</combo>
+		<combo postlabel="" name="m_mainIndicator" is_control="true" selected_index="1">
+			<item value="1" >MAC Upper</item>
+			<item value="2" >MAC High</item>
+			<item value="3" >MAC Low</item>
+			<item value="4" >MAC Lower</item>
+		</combo>
+
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="cross_price_zigzag" title="Price Crossover">
+		<combo postlabel="" name="m_price" is_control="true" selected_index="4">
+			<item value="1" >Open</item>
+			<item value="2" >High</item>
+			<item value="3" >Low</item>
+			<item value="4" >Close</item>
+		</combo>
+		<combo name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Cross Above</item>
+			<item value="2" >Cross Below</item>
+		</combo>
+		<combo postlabel="" name="m_mainIndicator" is_control="true" selected_index="1">
+			<item value="1" >ZigZag</item>
+			<item value="0" >ZigZag Base Line</item>
+		</combo>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="cross_price_alligator" title="Price Crossover">
+		<combo postlabel="" name="m_price" is_control="true" selected_index="4">
+			<item value="1" >Open</item>
+			<item value="2" >High</item>
+			<item value="3" >Low</item>
+			<item value="4" >Close</item>
+		</combo>
+		<combo name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Cross Above</item>
+			<item value="2" >Cross Below</item>
+		</combo>
+		<combo postlabel="" name="m_mainIndicator" is_control="true" selected_index="1">
+			<item value="1" >Jaw</item>
+			<item value="2" >Teeth</item>
+			<item value="3" >Lips</item>
+		</combo>
+				
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="cross_price_2lineblock" title="Price Crossover">
+		<combo postlabel="" name="m_price" is_control="true" selected_index="4">
+			<item value="1" >Open</item>
+			<item value="2" >High</item>
+			<item value="3" >Low</item>
+			<item value="4" >Close</item>
+		</combo>
+		<combo label ="" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Cross Above</item>
+			<item value="2" >Cross Below</item>
+		</combo>
+		<combo name="m_mainIndicator" is_control="true" selected_index="1">
+			<item value="3" >1/2</item>
+		</combo>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="cross_price_3lineblock" title="Price Crossover">
+		<combo postlabel="" name="m_price" is_control="true" selected_index="4">
+			<item value="1" >Open</item>
+			<item value="2" >High</item>
+			<item value="3" >Low</item>
+			<item value="4" >Close</item>
+		</combo>
+		<combo label ="" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Cross Above</item>
+			<item value="2" >Cross Below</item>
+		</combo>
+		<combo name="m_mainIndicator" is_control="true" selected_index="1">
+			<item value="4" >1/3</item>
+			<item value="3" >2/3</item>
+		</combo>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="cross_price_4lineblock" title="Price Crossover">
+		<combo postlabel="" name="m_price" is_control="true" selected_index="4">
+			<item value="1" >Open</item>
+			<item value="2" >High</item>
+			<item value="3" >Low</item>
+			<item value="4" >Close</item>
+		</combo>
+		<combo label ="" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Cross Above</item>
+			<item value="2" >Cross Below</item>
+		</combo>
+		<combo name="m_mainIndicator" is_control="true" selected_index="1">
+			<item value="5" >1/4</item>
+			<item value="4" >2/4</item>
+			<item value="3" >3/4</item>
+		</combo>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="cross_price_fiborblock" title="Price Crossover">
+		<combo postlabel="" name="m_price" is_control="true" selected_index="4">
+			<item value="1" >Open</item>
+			<item value="2" >High</item>
+			<item value="3" >Low</item>
+			<item value="4" >Close</item>
+		</combo>
+		<combo label ="" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Cross Above</item>
+			<item value="2" >Cross Below</item>
+		</combo>
+		<combo name="m_mainIndicator" is_control="true" selected_index="1"> 
+			<item value="6" >1th Line</item>
+			<item value="5" >2th Line</item>
+			<item value="4" >3th Line</item>
+			<item value="3" >4th Line</item>
+		</combo>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<!-- BB-RSI-->
+	<signal_method id="cross_bound_ind" title="Crossover">
+		<combo postlabel="" name="m_subIndicator" is_control="true" selected_index="1">
+			<item value="2" >Upper Band</item>
+			<item value="3" >Lower Band</item>
+		</combo>
+		
+		<combo name="m_trend" postlabel="Indicator Value" is_control="true" selected_index="1">
+			<item value="1" >Cross Above</item>
+			<item value="2" >Cross Below</item>
+		</combo>
+		<m_mainIndicator>1</m_mainIndicator>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="cross_volumepower" title="Crossover MA">
+		<combo label ="Volume Power " postlabel=" MA" name="m_subIndicator" is_control="true" selected_index="1">
+			<item value="1" >Short Term</item>
+			<item value="2" >Long Term</item>
+			<item value="3" >Medium Term</item>
+		</combo>
+		<combo name="m_trend" postlabel="Indicator Value" is_control="true" selected_index="1">
+			<item value="1" >Cross Above</item>
+			<item value="2" >Cross Below</item>
+		</combo>
+		<m_mainIndicator>0</m_mainIndicator>
+
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="cross_term" title="Crossover(short-long)">
+		<m_mainIndicator>1</m_mainIndicator>
+		<combo label ="Short-term" postlabel="Long-term" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Cross Above</item>
+			<item value="2" >Cross Below</item>
+		</combo>
+		<m_subIndicator>2</m_subIndicator>		
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="cross_term_volumepower" title="Crossover(short-long)">
+		<m_mainIndicator>1</m_mainIndicator>
+		<combo label ="Short-term" postlabel="Long-term" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Cross Above</item>
+			<item value="2" >Cross Below</item>
+		</combo>
+		<m_subIndicator>2</m_subIndicator>
+
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="cross_term_ilmok" title="Crossover">
+		<m_mainIndicator>1</m_mainIndicator>
+		<combo label ="Conversion Line" postlabel="Base Line" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Cross Above</item>
+			<item value="2" >Cross Below</item>
+		</combo>
+		<m_subIndicator>2</m_subIndicator>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="cross_longshort" title="Crossover(short-long)">
+		<m_mainIndicator>1</m_mainIndicator>
+		<combo label ="Short-term" postlabel="Long-term" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Cross Above</item>
+			<item value="2" >Cross Below</item>
+		</combo>
+		<m_subIndicator>2</m_subIndicator>		
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="cross_term_alligator" title="Crossover">
+		<combo postlabel="" name="m_mainIndicator" is_control="true" selected_index="3">
+			<item value="1" >Jaw</item>
+			<item value="2" >Teeth</item>
+			<item value="3" >Lips</item>
+		</combo>
+		<combo label ="" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Cross Above</item>
+			<item value="2" >Cross Below</item>
+		</combo>
+		<combo postlabel="Line" name="m_subIndicator" is_control="true" selected_index="2">
+			<item value="1" >Jaw</item>
+			<item value="2" >Teeth</item>
+			<item value="3" >Lips</item>
+		</combo>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+<!-- Crossover(Cloud) -->
+	<signal_method id="cross_cloud" title="Crossover(Cloud)">
+		<combo name="m_mainIndicator" is_control="true" selected_index="1">
+			<item value="1" >Conversion Line</item>
+			<item value="2" >Base Line</item>
+			<item value="5" >Lagging Span</item>
+		</combo>
+		<combo postlabel ="Cloud" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Cross Above</item>
+			<item value="2" >Cross Below</item>
+		</combo>
+		<m_subIndicator>3</m_subIndicator>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+<!-- Crossover(Signal)-exist signal line(except, dmi, energy, adx, stochastic, goldenpower, trendpower  -->
+	<signal_method id="cross_signal" title="Crossover(Signal)">
+		<m_mainIndicator>1</m_mainIndicator>
+		<combo label ="Indicator Value" postlabel="Signal" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Cross Above</item>
+			<item value="2" >Cross Below</item>
+		</combo>
+		<m_subIndicator>3</m_subIndicator>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="cross_dmi" title="Crossover(+DI/-DI)">
+		<m_mainIndicator>1</m_mainIndicator>
+		<combo label ="(+DI)" postlabel="(-DI)" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Cross Above</item>
+			<item value="2" >Cross Below</item>
+		</combo>
+		<m_subIndicator>2</m_subIndicator>
+
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="cross_adx" title="Crossover(ADX/ADXR)">
+		<m_mainIndicator>3</m_mainIndicator>
+		<combo label ="ADX" postlabel="ADXR" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Cross Above</item>
+			<item value="2" >Cross Below</item>
+		</combo>
+		<m_subIndicator>4</m_subIndicator>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="cross_dmi_adx" title="Crossover(ADX)">
+		<combo label ="" name="m_mainIndicator" is_control="true" selected_index="0">
+			<item value="1" >+DI</item>
+			<item value="2" >-DI</item>
+		</combo>
+		<combo label ="" postlabel="ADX" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Cross Above</item>
+			<item value="2" >Cross Below</item>
+		</combo>
+		<m_subIndicator>3</m_subIndicator>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="cross_stoch" title="Crossover(%K/%D)">
+		<m_mainIndicator>1</m_mainIndicator>
+		<combo label ="%K" postlabel="%D" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Cross Above</item>
+			<item value="2" >Cross Below</item>
+		</combo>
+		<m_subIndicator>3</m_subIndicator>
+
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="cross_buysell" title="Crossover(BUY/SELL)">
+		<m_mainIndicator>1</m_mainIndicator>
+		<combo label ="BUY" postlabel="SELL" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Cross Above</item>
+			<item value="2" >Cross Below</item>
+		</combo>
+		<m_subIndicator>2</m_subIndicator>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="cross_plusminus" title="Crossover(+/-)">
+		<m_mainIndicator>1</m_mainIndicator>
+		<combo label ="Energy+" postlabel="Energey-" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Cross Above</item>
+			<item value="2" >Cross Below</item>
+		</combo>
+		<m_subIndicator>2</m_subIndicator>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="cross_ilmok" title="Crossover(Leading Span)">
+		<m_mainIndicator>3</m_mainIndicator>
+		<combo label ="Leading Span1" postlabel="Leading Span2" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Cross Above</item>
+			<item value="2" >Cross Below</item>
+		</combo>
+		<m_subIndicator>4</m_subIndicator>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="cross_aroon" title="Crossover(Up/Down)">
+		<m_mainIndicator>1</m_mainIndicator>
+		<combo label ="Up" postlabel="Down" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Cross Above</item>
+			<item value="2" >Cross Below</item>
+		</combo>
+		<m_subIndicator>2</m_subIndicator>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="cross_abratio" title="Crossover(A ratio/B ratio)">
+		<m_mainIndicator>1</m_mainIndicator>
+		<combo label ="A ratio" postlabel="B ratio" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Cross Above</item>
+			<item value="2" >Cross Below</item>
+		</combo>
+		<m_subIndicator>2</m_subIndicator>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+<!-- Crossover(Base Value) -->
+	<signal_method id="cross_stand" title="Crossover(Base Value)">
+		<m_mainIndicator>1</m_mainIndicator>
+		<combo label ="Indicator Value" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Cross Above</item>
+			<item value="2" >Cross Below</item>
+		</combo>
+		<edit label = "Base Value" postlabel="" name="m_standLine" data_type="decimal" is_control="true" min="-2147483648" max="2147483647">0</edit>
+
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="cross_stand_signal" title="Crossover(Signal-Value)">
+		<m_mainIndicator>0</m_mainIndicator>
+		<combo label ="Signal Value" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Cross Above</item>
+			<item value="2" >Cross Below</item>
+		</combo>
+		<edit label = "Base Value" postlabel="" name="m_standLine" data_type="decimal" is_control="true" min="-2147483648" max="2147483647">0</edit>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="cross_stand_disparity" title="Crossover(Base Value)">
+		<m_mainIndicator>1</m_mainIndicator>
+		<combo label ="Indicator Value" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Cross Above</item>
+			<item value="2" >Cross Below</item>
+		</combo>
+		<edit label = "Base Value" postlabel="" name="m_standLine" data_type="decimal" is_control="true" min="-999999" max="999999">100</edit>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="cross_stand_aroon" title="Crossover(Base Value)">
+		<combo label ="" name="m_mainIndicator" is_control="true" selected_index="0">
+			<item value="1" >Aroon Up</item>
+			<item value="2" >Aroon Down</item>
+		</combo>
+		<edit label = "Indicator-Base Value " postlabel=" Value " name="m_standLine" data_type="decimal" is_control="true" min="-999999" max="999999">50</edit>
+		
+		<combo label ="" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Cross Above</item>
+			<item value="2" >Cross Below</item>
+		</combo>
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="cross_stand_abratio" title="Crossover(Base Value)">
+		<combo label ="" name="m_mainIndicator" is_control="true" selected_index="0">
+			<item value="1" >A ratio</item>
+			<item value="2" >B ratio</item>
+		</combo>
+		<combo label ="" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Cross Above</item>
+			<item value="2" >Cross Below</item>
+		</combo>
+		<edit label = "Base Value " postlabel="" name="m_standLine" data_type="decimal" is_control="true" min="-999999" max="999999">50</edit>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="cross_stand_elderray" title="Crossover(Base Value)">
+		<combo label ="" name="m_mainIndicator" is_control="true" selected_index="0">
+			<item value="1" >Bull Power</item>
+			<item value="2" >Bear Power</item>
+		</combo>
+		<combo label ="" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Cross Above</item>
+			<item value="2" >Cross Below</item>
+		</combo>
+		<edit label = "Base Value" postlabel="" name="m_standLine" data_type="decimal" is_control="true" min="-999999" max="999999">0</edit>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="cross_stand_macd" title="Crossover(Base Value)">
+		<combo label ="" name="m_mainIndicator" is_control="true" selected_index="1">
+			<item value="1" >MACD</item>
+			<item value="0" >Signal</item>
+			<item value="50" >Oscillator</item>
+		</combo>
+		<combo label ="" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Cross Above</item>
+			<item value="2" >Cross Below</item>
+		</combo>
+		<edit label = "Base Value" postlabel="" name="m_standLine" data_type="decimal" is_control="true" min="-999999" max="999999">0</edit>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="cross_stand_volumepower" title="Crossover(Base Value)">
+		<combo label ="" name="m_mainIndicator" is_control="true" selected_index="0">
+			<item value="0" >Volume Power</item>
+			<item value="1" >Short MA</item>
+			<item value="2" >Long MA</item>
+			<item value="3" >Medium MA</item>
+		</combo>
+		<combo label ="" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Cross Above</item>
+			<item value="2" >Cross Below</item>
+		</combo>
+		<edit label = "Base Value" postlabel="" name="m_standLine" data_type="decimal" is_control="true" min="-999999" max="999999">100</edit>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="cross_stand_volumepowerosc" title="Crossover(Base Value)">
+		<m_mainIndicator>0</m_mainIndicator>
+		<combo label ="Indicator Value" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Cross Above</item>
+			<item value="2" >Cross Below</item>
+		</combo>
+		<edit label = "Base Value " postlabel="" name="m_standLine" data_type="decimal" is_control="true" min="-999999" max="999999">0</edit>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="comp_location" title="Arrangement">
+		<m_mainIndicator>1</m_mainIndicator>
+		<m_subIndicator>2</m_subIndicator>
+		<m_anotherIndicator>3</m_anotherIndicator>
+		<combo label ="Short-term Mid-term Long-term" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Bullish</item>
+			<item value="2" >Bearish</item>
+		</combo>
+		<edit label="(For Consecutive" postlabel="Bar(s))" name="m_keepingBarNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="comp_location_alligator" title="Arrangement">
+		<m_mainIndicator>3</m_mainIndicator>
+		<m_subIndicator>2</m_subIndicator>
+		<m_anotherIndicator>1</m_anotherIndicator>
+		<combo label ="Lips,Teeth,Jaw" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Bullish</item>
+			<item value="2" >Bearish</item>
+		</combo>
+		<edit label="(For Consecutive" postlabel="Bar(s))" name="m_keepingBarNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+<!-- Trend Indicator   -->
+	<signal_method id="comp_trend" title="Trend">
+		<m_mainIndicator>1</m_mainIndicator>
+		<combo label ="" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Uptrend</item>
+			<item value="2" >Downtrend</item>
+		</combo>
+		<edit label="(For Consecutive" postlabel="Bar(s))" name="m_keepingBarNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="comp_trend_signal" title="Trend(Signal)">
+		<m_mainIndicator>0</m_mainIndicator>
+		<combo label ="Signal" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Uptrend</item>
+			<item value="2" >Downtrend</item>
+		</combo>
+		<edit label="(For Consecutive" postlabel="Bar(s))" name="m_keepingBarNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="comp_trend_aroon" title="Trend">
+		<combo label ="" name="m_mainIndicator" is_control="true" selected_index="1">
+			<item value="1" >Aroon Up</item>
+			<item value="2" >Aroon Down</item>
+		</combo>
+		<combo label ="" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Uptrend</item>
+			<item value="2" >Downtrend</item>
+		</combo>
+		<edit label="(For Consecutive" postlabel="Bar(s))" name="m_keepingBarNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="comp_trend_abratio" title="Trend">
+		<combo label ="" name="m_mainIndicator" is_control="true" selected_index="1">
+			<item value="1" >A ratio</item>
+			<item value="2" >B ratio</item>
+		</combo>
+		<combo label ="" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Uptrend</item>
+			<item value="2" >Downtrend</item>
+		</combo>
+		<edit label="(For Consecutive" postlabel="Bar(s))" name="m_keepingBarNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="comp_trend_dmi" title="Trend">
+		<combo label ="" name="m_mainIndicator" is_control="true" selected_index="1">
+			<item value="1" >+DI</item>
+			<item value="2" >-DI</item>
+		</combo>
+		<combo label ="" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Uptrend</item>
+			<item value="2" >Downtrend</item>
+		</combo>
+		<edit label="(For Consecutive" postlabel="Bar(s))" name="m_keepingBarNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="comp_trend_energy" title="Trend">
+		<combo label ="" name="m_mainIndicator" is_control="true" selected_index="1">
+			<item value="1" >Energy+</item>
+			<item value="2" >Energy-</item>
+		</combo>
+		<combo label ="" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Uptrend</item>
+			<item value="2" >Downtrend</item>
+		</combo>
+		<edit label="(For Consecutive" postlabel="Bar(s))" name="m_keepingBarNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="comp_trend_elderray" title="Trend">
+		<combo label ="" name="m_mainIndicator" is_control="true" selected_index="1">
+			<item value="1" >Bull Power</item>
+			<item value="2" >Bear Power</item>
+		</combo>
+		<combo label ="" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Uptrend</item>
+			<item value="2" >Downtrend</item>
+		</combo>
+		<edit label="(For Consecutive" postlabel="Bar(s))" name="m_keepingBarNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="comp_trend_gp" title="Trend">
+		<combo label ="" name="m_mainIndicator" is_control="true" selected_index="1">
+			<item value="1" >Golden Buy</item>
+			<item value="2" >Golden Sell</item>
+		</combo>
+		<combo label ="" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Uptrend</item>
+			<item value="2" >Downtrend</item>
+		</combo>
+		<edit label="(For Consecutive" postlabel="Bar(s))" name="m_keepingBarNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="comp_trend_tp" title="Trend">
+		<combo label ="" name="m_mainIndicator" is_control="true" selected_index="1">
+			<item value="1" >T.P. BUY</item>
+			<item value="2" >T.P. SELL</item>
+		</combo>
+		<combo label ="" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Uptrend</item>
+			<item value="2" >Downtrend</item>
+		</combo>
+		<edit label="(For Consecutive" postlabel="Bar(s))" name="m_keepingBarNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="comp_trend_bound" title="Trend">
+		<combo label ="" name="m_mainIndicator" is_control="true" selected_index="1">
+			<item value="1" >Upper Band</item>
+			<item value="2" >Lower Band</item>
+		</combo>
+		<combo label ="" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Uptrend</item>
+			<item value="2" >Downtrend</item>
+		</combo>
+		<edit label="(For Consecutive" postlabel="Bar(s))" name="m_keepingBarNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="comp_trend_pivot" title="Trend">
+		<combo label ="" name="m_mainIndicator" is_control="true" selected_index="1">
+			<item value="1" >Pivot Line</item>
+			<item value="2" >Resistance 1</item>
+			<item value="3" >Resistance 2</item>
+			<item value="4" >Support 1</item>
+			<item value="5" >Support 2</item>
+		</combo>
+		<combo label ="" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Uptrend</item>
+			<item value="2" >Downtrend</item>
+		</combo>
+		<edit label="(For Consecutive" postlabel="Bar(s))" name="m_keepingBarNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="comp_trend_macd" title="Trend">
+		<combo label ="" name="m_mainIndicator" is_control="true" selected_index="1">
+			<item value="1" >MACD</item>
+			<item value="0" >Signal</item>
+			<item value="50" >Oscillator</item>
+		</combo>
+		<combo label ="" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Uptrend</item>
+			<item value="2" >Downtrend</item>
+		</combo>
+		<edit label="(For Consecutive" postlabel="Bar(s))" name="m_keepingBarNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="comp_trend_volumepower" title="Trend">
+		<combo label ="" name="m_mainIndicator" is_control="true" selected_index="0">
+			<item value="0" >Volume Power</item>
+			<item value="1" >Short Term</item>
+			<item value="2" >Long Term</item>
+			<item value="3" >Medium Term</item>
+		</combo>
+		<combo label ="" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Uptrend</item>
+			<item value="2" >Downtrend</item>
+		</combo>
+		<edit label="(For Consecutive" postlabel="Bar(s))" name="m_keepingBarNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="comp_trend_volumepowerosc" title="Trend">
+		<m_mainIndicator>0</m_mainIndicator>
+		<combo label ="MA" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Uptrend</item>
+			<item value="2" >Downtrend</item>
+		</combo>
+		<edit label="(For Consecutive" postlabel="Bar(s))" name="m_keepingBarNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="comp_trend_ilmok" title="Trend">
+		<combo label ="" name="m_mainIndicator" is_control="true" selected_index="1">
+			<item value="1" >Conversion Line</item>
+			<item value="2" >Base Line</item>
+			<item value="3" >Leading Span1</item>
+			<item value="4" >Leading Span2</item>
+			<item value="5" >Lagging Span</item>
+			<item value="8" >Range of Cloud</item>
+			<item value="9" >Gap of Conv-Base Line</item>
+		</combo>
+		<combo label ="" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Uptrend</item>
+			<item value="2" >Downtrend</item>
+		</combo>
+		<edit label="(For Consecutive" postlabel="Bar(s))" name="m_keepingBarNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="comp_trend_mac" title="Trend">
+		<combo label ="" name="m_mainIndicator" is_control="true" selected_index="1">
+			<item value="1" >MAC Upper Band</item>
+			<item value="2" >MAC High </item>
+			<item value="3" >MAC Low</item>
+			<item value="4" >MAC Lower Band</item>
+		</combo>
+		<combo label ="" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Uptrend</item>
+			<item value="2" >Downtrend</item>
+		</combo>
+		<edit label="(For Consecutive" postlabel="Bar(s))" name="m_keepingBarNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="comp_trend_alligator" title="Trend">
+		<combo label ="" name="m_mainIndicator" is_control="true" selected_index="1">
+		<item value="1" >Jaw</item>
+		<item value="2" >Teeth</item>
+		<item value="3" >Lips</item>
+	</combo>
+		<combo label ="" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Uptrend</item>
+			<item value="2" >Downtrend</item>
+		</combo>
+		<edit label="(For Consecutive" postlabel="Bar(s))" name="m_keepingBarNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<!-- BB-RSI-->
+	<signal_method id="comp_trend_bound_bbrsi" title="Trend">
+		<combo label ="" name="m_mainIndicator" is_control="true" selected_index="1">
+			<item value="1" >Indicator</item>
+			<item value="2" >Upper Band</item>
+			<item value="3" >Lower Band</item>
+		</combo>
+		<combo label ="" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Uptrend</item>
+			<item value="2" >Downtrend</item>
+		</combo>
+		<edit label="(For Consecutive" postlabel="Bar(s))" name="m_keepingBarNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="comp_turning" title="Reversal">
+		<m_mainIndicator>1</m_mainIndicator>
+		<combo label ="" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Bullish Reversal</item>
+			<item value="2" >Bearish Reversal</item>
+		</combo>
+
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="comp_turning_signal" title="Reversal(Signal)">
+		<m_mainIndicator>0</m_mainIndicator>
+		<combo label ="Signal" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Bullish Reversal</item>
+			<item value="2" >Bearish Reversal</item>
+		</combo>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="comp_turning_aroon" title="Reversal">
+		<combo label ="" name="m_mainIndicator" is_control="true" selected_index="1">
+			<item value="1" >Aroon Up</item>
+			<item value="2" >Aroon Down</item>
+		</combo>
+		<combo label ="" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Bullish Reversal</item>
+			<item value="2" >Bearish Reversal</item>
+		</combo>
+
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="comp_turning_abratio" title="Reversal">
+		<combo label ="" name="m_mainIndicator" is_control="true" selected_index="1">
+			<item value="1" >A ratio</item>
+			<item value="2" >B ratio</item>
+		</combo>
+		<combo label ="" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Bullish Reversal</item>
+			<item value="2" >Bearish Reversal</item>
+		</combo>
+
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="comp_turning_dmi" title="Reversal">
+		<combo label ="" name="m_mainIndicator" is_control="true" selected_index="1">
+			<item value="1" >+DI</item>
+			<item value="2" >-DI</item>
+		</combo>
+		<combo label ="" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Bullish Reversal</item>
+			<item value="2" >Bearish Reversal</item>
+		</combo>
+
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="comp_turning_energy" title="Reversal">
+		<combo label ="" name="m_mainIndicator" is_control="true" selected_index="1">
+			<item value="1" >Energy+</item>
+			<item value="2" >Energy-</item>
+		</combo>
+		<combo label ="" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Bullish Reversal</item>
+			<item value="2" >Bearish Reversal</item>
+		</combo>
+
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="comp_turning_gp" title="Reversal">
+		<combo label ="" name="m_mainIndicator" is_control="true" selected_index="1">
+			<item value="1" >Golden Buy</item>
+			<item value="2" >Golden Sell</item>
+		</combo>
+		<combo label ="" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Bullish Reversal</item>
+			<item value="2" >Bearish Reversal</item>
+		</combo>
+
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="comp_turning_tp" title="Reversal">
+		<combo label ="" name="m_mainIndicator" is_control="true" selected_index="1">
+			<item value="1" >T.P. BUY</item>
+			<item value="2" >T.P. SELL</item>
+		</combo>
+		<combo label ="" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Bullish Reversal</item>
+			<item value="2" >Bearish Reversal</item>
+		</combo>
+
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="comp_turning_elderray" title="Reversal">
+		<combo label ="" name="m_mainIndicator" is_control="true" selected_index="1">
+			<item value="1" >Bull Power</item>
+			<item value="2" >Bear Power</item>
+		</combo>
+		<combo label ="" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Bullish Reversal</item>
+			<item value="2" >Bearish Reversal</item>
+		</combo>
+
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="comp_turning_bound" title="Reversal">
+		<combo label ="" name="m_mainIndicator" is_control="true" selected_index="1">
+			<item value="1" >Upper Band</item>
+			<item value="2" >Lower Band</item>
+		</combo>
+		<combo label ="" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Bullish Reversal</item>
+			<item value="2" >Bearish Reversal</item>
+		</combo>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="comp_turning_pivot" title="Reversal">
+		<combo label ="" name="m_mainIndicator" is_control="true" selected_index="1">
+			<item value="1" >Pivot Line</item>
+			<item value="2" >Resistance 1</item>
+			<item value="3" >Resistance 2</item>
+			<item value="4" >Support 1</item>
+			<item value="5" >Support 2</item>
+		</combo>
+		<combo label ="" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Bullish Reversal</item>
+			<item value="2" >Bearish Reversal</item>
+		</combo>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="comp_turning_macd" title="Reversal">
+		<combo label ="" name="m_mainIndicator" is_control="true" selected_index="1">
+			<item value="1" >MACD</item>
+			<item value="0" >Signal</item>
+			<item value="50" >Oscillator</item>
+		</combo>
+		<combo label ="" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Bullish Reversal</item>
+			<item value="2" >Bearish Reversal</item>
+		</combo>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="comp_turning_volumepower" title="Reversal">
+		<combo label ="" name="m_mainIndicator" is_control="true" selected_index="0">
+			<item value="0" >Volume Power</item>
+			<item value="1" >Short Term</item>
+			<item value="2" >Long Term</item>
+			<item value="3" >Medium Term</item>
+		</combo>
+		<combo label ="" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Bullish Reversal</item>
+			<item value="2" >Bearish Reversal</item>
+		</combo>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="comp_turning_volumepowerosc" title="Reversal">
+		<m_mainIndicator>0</m_mainIndicator>
+		<combo label ="MA" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Bullish Reversal</item>
+			<item value="2" >Bearish Reversal</item>
+		</combo>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="comp_turning_ilmok" title="Reversal">
+		<combo label ="" name="m_mainIndicator" is_control="true" selected_index="1">
+			<item value="1" >Conversion Line</item>
+			<item value="2" >Base Line</item>
+			<item value="3" >Leading Span1</item>
+			<item value="4" >Leading Span2</item>
+			<item value="5" >Lagging Span</item>
+		<item value="8" >Range of Cloud</item>
+		<item value="9" >Gap of Conv-Base Line</item>
+	</combo>
+		<combo label ="" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Bullish Reversal</item>
+			<item value="2" >Bearish Reversal</item>
+		</combo>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="comp_turning_mac" title="Reversal">
+		<combo label ="" name="m_mainIndicator" is_control="true" selected_index="1">
+			<item value="1" >MAC Upper Band</item>
+			<item value="2" >MAC High</item>
+			<item value="3" >MAC Low</item>
+			<item value="4" >MAC Lower Band</item>
+		</combo>
+		<combo label ="" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Bullish Reversal</item>
+			<item value="2" >Bearish Reversal</item>
+		</combo>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="comp_turning_alligator" title="Reversal">
+		<combo label ="" name="m_mainIndicator" is_control="true" selected_index="1">
+		<item value="1" >Jaw</item>
+		<item value="2" >Teeth</item>
+		<item value="3" >Lips</item>
+	</combo>
+		<combo label ="" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Bullish Reversal</item>
+			<item value="2" >Bearish Reversal</item>
+		</combo>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+	
+	<signal_method id="comp_turning_bbrsi" title="Reversal">
+		<combo label ="" name="m_mainIndicator" is_control="true" selected_index="1">
+			<item value="1" >Indicator</item>
+			<item value="2" >Upper Band</item>
+			<item value="3" >Lower Band</item>
+		</combo>
+		<combo label ="" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Bullish Reversal</item>
+			<item value="2" >Bearish Reversal</item>
+		</combo>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+
+	<signal_method id="comp_standvalue" title="Compare(Value)">
+		<m_mainIndicator>1</m_mainIndicator>
+		<combo label ="Indicator Value" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" > &gt; </item>
+			<item value="2" > &lt; </item>
+			<item value="3" > = </item>
+			<item value="4" > &gt;= </item>
+			<item value="5" > &lt;= </item>
+		</combo>
+		<edit postlabel="" name="m_standLine" data_type="decimal" is_control="true" min="-2147483648" max="2147483647">0</edit>
+		<edit label="(For Consecutive" postlabel="Bar(s))" name="m_keepingBarNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="comp_standvalue_signal" title="Compare(Signal-Value)">
+		<m_mainIndicator>0</m_mainIndicator>
+		<combo label ="Signal" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" > &gt; </item>
+			<item value="2" > &lt; </item>
+			<item value="3" > = </item>
+			<item value="4" > &gt;= </item>
+			<item value="5" > &lt;= </item>
+		</combo>
+		<edit postlabel="" name="m_standLine" data_type="decimal" is_control="true" min="-2147483648" max="2147483647">0</edit>
+		<edit label="(For Consecutive" postlabel="Bar(s))" name="m_keepingBarNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="comp_standvalue_disparity" title="Compare(Value)">
+		<m_mainIndicator>1</m_mainIndicator>
+		<combo label ="Indicator Value" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" > &gt; </item>
+			<item value="2" > &lt; </item>
+			<item value="3" > = </item>
+			<item value="4" > &gt;= </item>
+			<item value="5" > &lt;= </item>
+		</combo>
+		<edit postlabel="" name="m_standLine" data_type="decimal" is_control="true" min="0" max="99999">100</edit>
+		<edit label="(For Consecutive" postlabel="Bar(s))" name="m_keepingBarNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="comp_standvalue_aroon" title="Compare(Value)">
+		<combo label =" " name="m_mainIndicator" is_control="true" selected_index="1">
+			<item value="1" >Aroon Up</item>
+			<item value="2" >Aroon Down</item>
+		</combo>
+		<combo label="" postlabel ="" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" > &gt; </item>
+			<item value="2" > &lt; </item>
+			<item value="3" > = </item>
+			<item value="4" > &gt;= </item>
+			<item value="5" > &lt;= </item>
+		</combo>
+		<edit postlabel="" name="m_standLine" data_type="decimal" is_control="true" min="-99999" max="99999">50</edit>
+		<edit label="(For Consecutive" postlabel="Bar(s))" name="m_keepingBarNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="comp_standvalue_dmi" title="Compare(Value)">
+		<combo label ="" name="m_mainIndicator" is_control="true" selected_index="1">
+			<item value="1" >+DI</item>
+			<item value="2" >-DI</item>
+		</combo>
+		<combo label="" postlabel ="" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" > &gt; </item>
+			<item value="2" > &lt; </item>
+			<item value="3" > = </item>
+			<item value="4" > &gt;= </item>
+			<item value="5" > &lt;= </item>
+		</combo>
+		<edit postlabel="" name="m_standLine" data_type="decimal" is_control="true" min="-99999" max="99999">20</edit>
+		<edit label="(For Consecutive" postlabel="Bar(s))" name="m_keepingBarNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="comp_standvalue_gp" title="Compare(Value)">
+		<combo label ="" name="m_mainIndicator" is_control="true" selected_index="1">
+			<item value="1" >Golden Buy</item>
+			<item value="2" >Golden Sell</item>
+		</combo>
+		<combo label="" postlabel ="" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" > &gt; </item>
+			<item value="2" > &lt; </item>
+			<item value="3" > = </item>
+			<item value="4" > &gt;= </item>
+			<item value="5" > &lt;= </item>
+		</combo>
+		<edit postlabel="" name="m_standLine" data_type="decimal" is_control="true" min="0" max="99999">1</edit>
+		<edit label="(For Consecutive" postlabel="Bar(s))" name="m_keepingBarNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="comp_standvalue_tp" title="Compare(Value)">
+		<combo label ="" name="m_mainIndicator" is_control="true" selected_index="1">
+			<item value="1" >T.P. BUY</item>
+			<item value="2" >T.P. SELL</item>
+		</combo>
+		<combo label="" postlabel ="" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" > &gt; </item>
+			<item value="2" > &lt; </item>
+			<item value="3" > = </item>
+			<item value="4" > &gt;= </item>
+			<item value="5" > &lt;= </item>
+		</combo>
+		<edit postlabel="" name="m_standLine" data_type="decimal" is_control="true" min="0" max="99999">100</edit>
+		<edit label="(For Consecutive" postlabel="Bar(s))" name="m_keepingBarNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="comp_standvalue_energy" title="Compare(Value)">
+		<combo label ="" name="m_mainIndicator" is_control="true" selected_index="1">
+			<item value="1" >Energy+</item>
+			<item value="2" >Energy-</item>
+		</combo>
+		<combo label="" postlabel ="" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" > &gt; </item>
+			<item value="2" > &lt; </item>
+			<item value="3" > = </item>
+			<item value="4" > &gt;= </item>
+			<item value="5" > &lt;= </item>
+		</combo>
+		<edit postlabel="" name="m_standLine" data_type="decimal" is_control="true" min="0" max="99999">100</edit>
+		<edit label="(For Consecutive" postlabel="Bar(s))" name="m_keepingBarNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="comp_standvalue_elderray" title="Compare(Value)">
+		<combo label ="" name="m_mainIndicator" is_control="true" selected_index="1">
+			<item value="1" >Bull Power</item>
+			<item value="2" >Bear Power</item>
+		</combo>
+		<combo label="" postlabel ="" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" > &gt; </item>
+			<item value="2" > &lt; </item>
+			<item value="3" > = </item>
+			<item value="4" > &gt;= </item>
+			<item value="5" > &lt;= </item>
+		</combo>
+		<edit postlabel="" name="m_standLine" data_type="decimal" is_control="true" min="0" max="99999">0</edit>
+		<edit label="(For Consecutive" postlabel="Bar(s))" name="m_keepingBarNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+  
+	<signal_method id="comp_standvalue_macd" title="Compare(Value)">
+		<combo label ="" name="m_mainIndicator" is_control="true" selected_index="1">
+			<item value="1" >MACD</item>
+			<item value="0" >Signal</item>
+			<item value="50" >Oscillator</item>
+		</combo>
+		<combo label="" postlabel ="" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" > &gt; </item>
+			<item value="2" > &lt; </item>
+			<item value="3" > = </item>
+			<item value="4" > &gt;= </item>
+			<item value="5" > &lt;= </item>
+		</combo>
+		<edit postlabel="" name="m_standLine" data_type="decimal" is_control="true" min="-99999" max="99999">0</edit>
+		<edit label="(For Consecutive" postlabel="Bar(s))" name="m_keepingBarNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="comp_standvalue_volumepower" title="Compare(Value)">
+		<combo label ="" name="m_mainIndicator" is_control="true" selected_index="0">
+			<item value="0" >Volume Power</item>
+			<item value="1" >Short Term</item>
+			<item value="2" >Long Term</item>
+			<item value="3" >Medium Term</item>
+		</combo>
+		<combo label="" postlabel ="" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" > &gt; </item>
+			<item value="2" > &lt; </item>
+			<item value="3" > = </item>
+			<item value="4" > &gt;= </item>
+			<item value="5" > &lt;= </item>
+		</combo>
+		<edit postlabel="" name="m_standLine" data_type="decimal" is_control="true" min="-99999" max="99999">100</edit>
+		<edit label="(For Consecutive" postlabel="Bar(s))" name="m_keepingBarNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="comp_standvalue_volumepowerosc" title="Compare(Value)">
+		<m_mainIndicator>0</m_mainIndicator>
+		<m_mainIndicator>1</m_mainIndicator>
+		<combo label="MA" postlabel ="" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" > &gt; </item>
+			<item value="2" > &lt; </item>
+			<item value="3" > = </item>
+			<item value="4" > &gt;= </item>
+			<item value="5" > &lt;= </item>
+		</combo>
+		<edit postlabel="" name="m_standLine" data_type="decimal" is_control="true" min="-99999" max="99999">0</edit>
+		<edit label="(For Consecutive" postlabel="Bar(s))" name="m_keepingBarNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+		<crlf is_control="true"/>
+		
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="comp_standline_signal" title="Compare(Line)">
+		<m_mainIndicator>1</m_mainIndicator>
+		<combo label="Indicator Value" postlabel ="Signal" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" > &gt; </item>
+			<item value="2" > &lt; </item>
+			<item value="3" > = </item>
+			<item value="4" > &gt;= </item>
+			<item value="5" > &lt;= </item>
+		</combo>
+		<m_subIndicator>3</m_subIndicator>
+		<edit label="(For Consecutive" postlabel="Bar(s))" name="m_keepingBarNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="comp_standline_aroon" title="Compare(Line)">
+		<m_mainIndicator>1</m_mainIndicator>
+		<combo label="Up" postlabel ="Down" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" > &gt; </item>
+			<item value="2" > &lt; </item>
+			<item value="3" > = </item>
+			<item value="4" > &gt;= </item>
+			<item value="5" > &lt;= </item>
+		</combo>
+		<m_subIndicator>2</m_subIndicator>
+		<edit label="(For Consecutive" postlabel="Bar(s))" name="m_keepingBarNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="comp_standline_abratio" title="Compare(Line)">
+		<m_mainIndicator>1</m_mainIndicator>
+		<combo label="A ratio" postlabel ="B ratio" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" > &gt; </item>
+			<item value="2" > &lt; </item>
+			<item value="3" > = </item>
+			<item value="4" > &gt;= </item>
+			<item value="5" > &lt;= </item>
+		</combo>
+		<m_subIndicator>2</m_subIndicator>
+		<edit label="(For Consecutive" postlabel="Bar(s))" name="m_keepingBarNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="comp_standline_dmi" title="Compare(Line)">
+		<m_mainIndicator>1</m_mainIndicator>
+		<combo label="+DI" postlabel ="-DI" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" > &gt; </item>
+			<item value="2" > &lt; </item>
+			<item value="3" > = </item>
+			<item value="4" > &gt;= </item>
+			<item value="5" > &lt;= </item>
+		</combo>
+		<m_subIndicator>2</m_subIndicator>
+		<edit label="(For Consecutive" postlabel="Bar(s))" name="m_keepingBarNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="comp_standline_energy" title="Compare(Line)">
+		<m_mainIndicator>1</m_mainIndicator>
+		<combo label="Energy+" postlabel ="Energy-" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" > &gt; </item>
+			<item value="2" > &lt; </item>
+			<item value="3" > = </item>
+			<item value="4" > &gt;= </item>
+			<item value="5" > &lt;= </item>
+		</combo>
+		<m_subIndicator>2</m_subIndicator>
+		<edit label="(For Consecutive" postlabel="Bar(s))" name="m_keepingBarNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+	
+	<signal_method id="comp_standline_gp" title="Compare(Line)">
+		<m_mainIndicator>1</m_mainIndicator>
+		<combo label="Golden Buy" postlabel ="Golden Sell" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" > &gt; </item>
+			<item value="2" > &lt; </item>
+			<item value="3" > = </item>
+			<item value="4" > &gt;= </item>
+			<item value="5" > &lt;= </item>
+		</combo>
+		<m_subIndicator>2</m_subIndicator>
+		<edit label="(For Consecutive" postlabel="Bar(s))" name="m_keepingBarNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="comp_standline_tp" title="Compare(Value)">
+		<m_mainIndicator>1</m_mainIndicator>
+		<combo label="T.P. BUY" postlabel ="T.P. SELL" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" > &gt; </item>
+			<item value="2" > &lt; </item>
+			<item value="3" > = </item>
+			<item value="4" > &gt;= </item>
+			<item value="5" > &lt;= </item>
+		</combo>
+		<m_subIndicator>2</m_subIndicator>
+		<edit label="(For Consecutive" postlabel="Bar(s))" name="m_keepingBarNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+
+	</signal_method>
+
+	<signal_method id="comp_standline_ilmok" title="Compare(Leading Span)">
+		<m_mainIndicator>3</m_mainIndicator>
+		<combo label="Leading Span1" postlabel ="Leading Span2" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" > &gt; </item>
+			<item value="2" > &lt; </item>
+			<item value="3" > = </item>
+			<item value="4" > &gt;= </item>
+			<item value="5" > &lt;= </item>
+		</combo>
+		<m_subIndicator>4</m_subIndicator>
+		<edit label="(For Consecutive" postlabel="Bar(s))" name="m_keepingBarNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="comp_prespan" title="Compare(Future Value)">
+		<m_mainIndicator>3</m_mainIndicator>
+		<combo label="Leading Span1" postlabel ="Leading Span2" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" > &gt; </item>
+			<item value="2" > &lt; </item>
+			<item value="3" > = </item>
+			<item value="4" > &gt;= </item>
+			<item value="5" > &lt;= </item>
+		</combo>
+		<m_subIndicator>4</m_subIndicator>
+		<edit label="(For Consecutive" postlabel="Bar(s))" name="m_keepingBarNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="comp_standline_switchline" title="Compare(Conv/Base)">
+		<m_mainIndicator>1</m_mainIndicator>
+		<combo label="Conversion Line" postlabel ="Base Line" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" > &gt; </item>
+			<item value="2" > &lt; </item>
+			<item value="3" > = </item>
+			<item value="4" > &gt;= </item>
+			<item value="5" > &lt;= </item>
+		</combo>
+		<m_subIndicator>2</m_subIndicator>
+		<edit label="(For Consecutive" postlabel="Bar(s))" name="m_keepingBarNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="comp_standline_term" title="Short Term">
+		<m_mainIndicator>1</m_mainIndicator>
+		<combo label="Short Term" postlabel ="Long Term" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" > &gt; </item>
+			<item value="2" > &lt; </item>
+			<item value="3" > = </item>
+			<item value="4" > &gt;= </item>
+			<item value="5" > &lt;= </item>
+		</combo>
+		<m_subIndicator>2</m_subIndicator>
+		<edit label="(For Consecutive" postlabel="Bar(s))" name="m_keepingBarNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+
+	<signal_method id="comp_price" title="Compare(Price)">
+		<combo name="m_price" is_control="true" selected_index="4">
+			<item value="1" >Open</item>
+			<item value="2" >High</item>
+			<item value="3" >Low</item>
+			<item value="4" >Close</item>
+		</combo>
+		<combo name="m_trend" postlabel="Indicator Value(Short Term)" is_control="true" selected_index="1">
+			<item value="1" > &gt; </item>
+			<item value="2" > &lt; </item>
+			<item value="3" > = </item>
+			<item value="4" > &gt;= </item>
+			<item value="5" > &lt;= </item>
+		</combo>
+		<m_mainIndicator>1</m_mainIndicator>
+		<edit label="(For Consecutive" postlabel="Bar(s))" name="m_keepingBarNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="comp_price_bound" title="Compare(Price)">
+		<combo name="m_price" is_control="true" selected_index="4">
+			<item value="1" >Open</item>
+			<item value="2" >High</item>
+			<item value="3" >Low</item>
+			<item value="4" >Close</item>
+		</combo>
+		<combo name="m_trend" is_control="true" selected_index="1">
+			<item value="1" > &gt; </item>
+			<item value="2" > &lt; </item>
+			<item value="3" > = </item>
+			<item value="4" > &gt;= </item>
+			<item value="5" > &lt;= </item>
+		</combo>
+		<combo name="m_mainIndicator" is_control="true" selected_index="1">
+			<item value="1" >Upper Band</item>
+			<item value="2" >Lower Band</item>
+		</combo>
+		<edit label="(For Consecutive" postlabel="Bar(s))" name="m_keepingBarNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="comp_price_pivot" title="Compare(Price)">
+		<combo name="m_price" is_control="true" selected_index="4">
+			<item value="1" >Open</item>
+			<item value="2" >High</item>
+			<item value="3" >Low</item>
+			<item value="4" >Close</item>
+		</combo>
+		<combo name="m_trend" is_control="true" selected_index="1">
+			<item value="1" > &gt; </item>
+			<item value="2" > &lt; </item>
+			<item value="3" > = </item>
+			<item value="4" > &gt;= </item>
+			<item value="5" > &lt;= </item>
+		</combo>
+		<combo name="m_mainIndicator" is_control="true" selected_index="1">
+			<item value="1" >Pivot Line</item>
+			<item value="2" >Resistance 1</item>
+			<item value="3" >Resistance 2</item>
+			<item value="4" >Support 1</item>
+			<item value="5" >Support 2</item>
+		</combo>
+		<edit label="(For Consecutive" postlabel="Bar(s))" name="m_keepingBarNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="comp_price_ilmok" title="Compare(Price)">
+		<combo name="m_price" is_control="true" selected_index="4">
+			<item value="1" >Open</item>
+			<item value="2" >High</item>
+			<item value="3" >Low</item>
+			<item value="4" >Close</item>
+		</combo>
+		<combo name="m_trend" is_control="true" selected_index="1">
+			<item value="1" > &gt; </item>
+			<item value="2" > &lt; </item>
+			<item value="3" > = </item>
+			<item value="4" > &gt;= </item>
+			<item value="5" > &lt;= </item>
+		</combo>
+		<combo name="m_mainIndicator" is_control="true" selected_index="1">
+			<item value="1" >Conversion Line</item>
+			<item value="2" >Base Line</item>
+			<item value="3" >Leading Span1</item>
+			<item value="4" >Leading Span2</item>
+			<item value="5" >Lagging Span</item>
+		</combo>
+		<edit label="(For Consecutive" postlabel="Bar(s))" name="m_keepingBarNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="comp_price_mac" title="Compare(Price)">
+		<combo name="m_price" is_control="true" selected_index="4">
+			<item value="1" >Open</item>
+			<item value="2" >High</item>
+			<item value="3" >Low</item>
+			<item value="4" >Close</item>
+		</combo>
+		<combo name="m_trend" is_control="true" selected_index="1">
+			<item value="1" > &gt; </item>
+			<item value="2" > &lt; </item>
+			<item value="3" > = </item>
+			<item value="4" > &gt;= </item>
+			<item value="5" > &lt;= </item>
+		</combo>
+		<combo name="m_mainIndicator" is_control="true" selected_index="1">
+			<item value="1" >MAC Maximum</item>
+			<item value="2" >MAC Upper</item>
+			<item value="3" >MAC Lower</item>
+			<item value="4" >MAC Minimum</item>
+		</combo>
+		<edit label="(For Consecutive" postlabel="Bar(s))" name="m_keepingBarNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="comp_price_alligator" title="Compare(Price)">
+		<combo name="m_price" is_control="true" selected_index="4">
+			<item value="1" >Open</item>
+			<item value="2" >High</item>
+			<item value="3" >Low</item>
+			<item value="4" >Close</item>
+		</combo>
+		<combo name="m_trend" is_control="true" selected_index="1">
+			<item value="1" > &gt; </item>
+			<item value="2" > &lt; </item>
+			<item value="3" > = </item>
+			<item value="4" > &gt;= </item>
+			<item value="5" > &lt;= </item>
+		</combo>
+		<combo name="m_mainIndicator" is_control="true" selected_index="1">
+			<item value="1" >Jaw</item>
+			<item value="2" >Teeth</item>
+			<item value="3" >Lips</item>
+		</combo>
+		<edit label="(For Consecutive" postlabel="Bar(s))" name="m_keepingBarNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="comp_price_zigzag" title="Compare(Price)">
+		<combo name="m_price" is_control="true" selected_index="4">
+			<item value="1" >Open</item>
+			<item value="2" >High</item>
+			<item value="3" >Low</item>
+			<item value="4" >Close</item>
+		</combo>
+		<combo name="m_trend" is_control="true" selected_index="1">
+			<item value="1" > &gt; </item>
+			<item value="2" > &lt; </item>
+			<item value="3" > = </item>
+			<item value="4" > &gt;= </item>
+			<item value="5" > &lt;= </item>
+		</combo>
+		<combo name="m_mainIndicator" is_control="true" selected_index="1">
+			<item value="1" >ZigZag</item>
+			<item value="0" >ZigZag Base Line</item>
+		</combo>
+		<edit label="(For Consecutive" postlabel="Bar(s))" name="m_keepingBarNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="comp_price_2lineblock" title="Compare(Price)">
+		<combo name="m_price" is_control="true" selected_index="4">
+			<item value="1" >Open</item>
+			<item value="2" >High</item>
+			<item value="3" >Low</item>
+			<item value="4" >Close</item>
+		</combo>
+		<combo name="m_trend" is_control="true" selected_index="1">
+			<item value="1" > &gt; </item>
+			<item value="2" > &lt; </item>
+			<item value="3" > = </item>
+			<item value="4" > &gt;= </item>
+			<item value="5" > &lt;= </item>
+		</combo>
+		<combo name="m_mainIndicator" is_control="true" selected_index="1">
+			<item value="3" >1/2 Line</item>
+		</combo>
+		<edit label="(For Consecutive" postlabel="Bar(s))" name="m_keepingBarNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="comp_price_3lineblock" title="Compare(Price)">
+		<combo name="m_price" is_control="true" selected_index="4">
+			<item value="1" >Open</item>
+			<item value="2" >High</item>
+			<item value="3" >Low</item>
+			<item value="4" >Close</item>
+		</combo>
+		<combo name="m_trend" is_control="true" selected_index="1">
+			<item value="1" > &gt; </item>
+			<item value="2" > &lt; </item>
+			<item value="3" > = </item>
+			<item value="4" > &gt;= </item>
+			<item value="5" > &lt;= </item>
+		</combo>
+		<combo name="m_mainIndicator" is_control="true" selected_index="1">
+			<item value="4" >1/3 Line</item>
+			<item value="3" >2/3 Line</item>
+		</combo>
+		<edit label="(For Consecutive" postlabel="Bar(s))" name="m_keepingBarNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="comp_price_4lineblock" title="Compare(Price)">
+		<combo name="m_price" is_control="true" selected_index="4">
+			<item value="1" >Open</item>
+			<item value="2" >High</item>
+			<item value="3" >Low</item>
+			<item value="4" >Close</item>
+		</combo>
+		<combo name="m_trend" is_control="true" selected_index="1">
+			<item value="1" > &gt; </item>
+			<item value="2" > &lt; </item>
+			<item value="3" > = </item>
+			<item value="4" > &gt;= </item>
+			<item value="5" > &lt;= </item>
+		</combo>
+		<combo name="m_mainIndicator" is_control="true" selected_index="1">
+			<item value="5" >1/4 Line</item>
+			<item value="4" >2/4 Line</item>
+			<item value="3" >3/4 Line</item>
+		</combo>
+		
+		<edit label="(For Consecutive" postlabel="Bar(s))" name="m_keepingBarNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="comp_price_fiborblock" title="Compare(Price)">
+		<combo name="m_price" is_control="true" selected_index="4">
+			<item value="1" >Open</item>
+			<item value="2" >High</item>
+			<item value="3" >Low</item>
+			<item value="4" >Close</item>
+		</combo>
+		<combo name="m_trend" is_control="true" selected_index="1">
+			<item value="1" > &gt; </item>
+			<item value="2" > &lt; </item>
+			<item value="3" > = </item>
+			<item value="4" > &gt;= </item>
+			<item value="5" > &lt;= </item>
+		</combo>
+		<combo name="m_mainIndicator" is_control="true" selected_index="1">
+			<item value="6" >1th Line</item>
+			<item value="5" >2th Line</item>
+			<item value="4" >3th Line</item>
+			<item value="3" >4th Line</item>
+		</combo>
+		
+		<edit label="(For Consecutive" postlabel="Bar(s))" name="m_keepingBarNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+
+	<signal_method id="comp_volumepower" title="Compare(MA)">
+		<m_mainIndicator>0</m_mainIndicator>
+		<combo label="Volume Power " name="m_trend" is_control="true" selected_index="1">
+			<item value="1" > &gt; </item>
+			<item value="2" > &lt; </item>
+			<item value="3" > = </item>
+			<item value="4" > &gt;= </item>
+			<item value="5" > &lt;= </item>
+		</combo>
+		<combo name="m_subIndicator" is_control="true" selected_index="1">
+			<item value="1" >Short Term</item>
+			<item value="2" >Long Term</item>
+			<item value="3" >Medium Term</item>
+		</combo>
+		
+		<edit label="(For Consecutive" postlabel="Bar(s))" name="m_keepingBarNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="comp_divergence" title="Divergence">
+		<m_mainIndicator>1</m_mainIndicator>
+		<combo label ="Indicator" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Bullish</item>
+			<item value="2" >Bearish</item>
+		</combo>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="comp_cloud" title="Compare(Cloud)">
+		<combo postlabel="" name="m_mainIndicator" is_control="true" selected_index="1">
+			<item value="1" >Conversion Line</item>
+			<item value="2" >Base Line</item>
+			<item value="5" >Lagging Span</item>
+		</combo>
+		<combo name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Above Cloud </item>
+			<item value="2" >Below Cloud </item>
+		</combo>
+		<m_subIndicator>8</m_subIndicator>
+		<edit label="(For Consecutive" postlabel="Bar(s))" name="m_keepingBarNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+	
+	<!-- BB-RSI-->
+	<signal_method id="comp_bound_ind" title="Compare(Value)">
+		<m_mainIndicator>1</m_mainIndicator>
+		<combo label="Indicator Value" name="m_trend" is_control="true" selected_index="1">
+			<item value="1" > &gt; </item>
+			<item value="2" > &lt; </item>
+			<item value="3" > = </item>
+			<item value="4" > &gt;= </item>
+			<item value="5" > &lt;= </item>
+		</combo>
+		<combo name="m_subIndicator" is_control="true" selected_index="1">
+			<item value="2" >Upper Band</item>
+			<item value="3" >Lower Band</item>
+		</combo>
+		<edit label="(For Consecutive" postlabel="Bar(s))" name="m_keepingBarNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="comp_dmi_adx" title="Compare(DI/ADX)">
+		<combo postlabel="" name="m_mainIndicator" is_control="true" selected_index="1">
+			<item value="1" > +DI </item>
+			<item value="2" > -DI </item>
+		</combo>
+		<combo name="m_trend" is_control="true" selected_index="1">
+			<item value="1" > &gt; </item>
+			<item value="2" > &lt; </item>
+			<item value="3" > = </item>
+			<item value="4" > &gt;= </item>
+			<item value="5" > &lt;= </item>
+		</combo>
+		<combo name="m_subIndicator" is_control="true" selected_index="3">
+			<item value="3" > ADX	</item>
+			<item value="4" > ADXR </item>
+		</combo>
+		<edit label="(For Consecutive" postlabel="Bar(s))" name="m_keepingBarNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+
+	<signal_method id="cross_price_autotrend" title="Price Crossover">
+		<combo label ="Price " name="m_trend" is_control="true" selected_index="1">
+			<item value="1" >Cross Above</item>
+			<item value="2" >Cross Below</item>
+		</combo>
+		<combo postlabel="" name="m_mainIndicator" is_control="true" selected_index="1">
+			<item value="1" >RH Line</item>
+			<item value="2" >RL Line</item>
+		</combo>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+
+	</signal_method>
+	<signal_method id="comp_price_autotrend" title="Comp(Price)">
+		<combo name="m_price" is_control="true" selected_index="4">
+			<item value="1" >Open</item>
+			<item value="2" >High</item>
+			<item value="3" >Low</item>
+			<item value="4" >Close</item>
+		</combo>
+		<combo name="m_trend" is_control="true" selected_index="1">
+			<item value="1" > &gt; </item>
+			<item value="2" > &lt; </item>
+			<item value="3" > = </item>
+			<item value="4" > &gt;= </item>
+			<item value="5" > &lt;= </item>
+		</combo>
+		<combo name="m_mainIndicator" is_control="true" selected_index="1">
+			<item value="1" >RH Line</item>
+			<item value="2" >RL Line</item>
+		</combo>
+		<edit label="(For Consecutive" postlabel="Bar(s))" name="m_keepingBarNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+		
+		<crlf is_control="true"/>
+		<edit label="Base:" postlabel="Past Bar ( 0 is the last )" name="m_baseBarNum" data_type="decimal" is_control="true" min="0" max="1000">0</edit>
+		<edit label="Range:" postlabel="Bar(s)" name="m_barNum" data_type="decimal" is_control="true" min="1" max="100">1</edit>
+	</signal_method>
+</signal_def>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="KSC_5601"?>
+<stchart_savefile>
+	<ToolbarButtons>
+		<Button>
+			<text></text>
+			<icon>180</icon>
+			<menuid>5063</menuid>
+			<desc>Crosshair</desc>
+			<size>20</size>
+			<style>1</style>
+			<use>1</use>
+		</Button>
+		<Button>
+			<text></text>
+			<icon>352</icon>
+			<menuid>6000</menuid>
+			<desc>Trend Line</desc>
+			<size>20</size>
+			<style>1</style>
+			<use>1</use>
+		</Button>
+		<Button>
+			<text></text>
+			<icon>322</icon>
+			<menuid>6007</menuid>
+			<desc>Horizontal Line</desc>
+			<size>20</size>
+			<style>1</style>
+			<use>1</use>
+		</Button>
+		<Button>
+			<text></text>
+			<icon>358</icon>
+			<menuid>6008</menuid>
+			<desc>Vertical Line</desc>
+			<size>20</size>
+			<style>1</style>
+			<use>1</use>
+		</Button>
+		<Button>
+			<text></text>
+			<icon>354</icon>
+			<menuid>6011</menuid>
+			<desc>Fibonacci Retracement</desc>
+			<size>20</size>
+			<style>1</style>
+			<use>1</use>
+		</Button>
+		<Button>
+			<text></text>
+			<icon>327</icon>
+			<menuid>6024</menuid>
+			<desc>Section Line</desc>
+			<size>20</size>
+			<style>1</style>
+			<use>1</use>
+		</Button>
+		<Button>
+			<text></text>
+			<icon>349</icon>
+			<menuid>6030</menuid>
+			<desc>Ellipse</desc>
+			<size>20</size>
+			<style>1</style>
+			<use>1</use>
+		</Button>
+		<Button>
+			<text></text>
+			<icon>355</icon>
+			<menuid>6031</menuid>
+			<desc>Rectangle</desc>
+			<size>20</size>
+			<style>1</style>
+			<use>1</use>
+		</Button>
+		<Button>
+			<text></text>
+			<icon>301</icon>
+			<menuid>6050</menuid>
+			<desc>Pen</desc>
+			<size>20</size>
+			<style>1</style>
+			<use>1</use>
+		</Button>
+		<Button>
+			<text></text>
+			<icon>356</icon>
+			<menuid>6025</menuid>
+			<desc>Text</desc>
+			<size>20</size>
+			<style>1</style>
+			<use>1</use>
+		</Button>
+		<Button>
+			<text></text>
+			<icon>328</icon>
+			<menuid>31551</menuid>
+			<desc>Delete all Trend Lines</desc>
+			<size>20</size>
+			<style>1</style>
+			<use>1</use>
+		</Button>
+	</ToolbarButtons>
+</stchart_savefile>

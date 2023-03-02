@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stchart_savefile><ToolbarButtons>
+<Button><text></text><icon>57</icon><menuid>31696</menuid><desc>Change Toolbar</desc><size>20</size><style>1</style></Button>
+<Button><text></text><icon>103</icon><menuid>31697</menuid><desc>Edit Toolbar</desc><size>20</size><style>1</style></Button>
+<Button><text>Candle Chart</text><icon>0</icon><menuid>31536</menuid><desc>Price Chart Type</desc><size>100</size><style>1</style></Button>
+<Button><text></text><icon>406</icon><menuid>6084</menuid><desc>2 Division Lines</desc><size>20</size><style>1</style></Button>
+<Button><text></text><icon>407</icon><menuid>6085</menuid><desc>3 Division Lines</desc><size>20</size><style>1</style></Button>
+<Button><text></text><icon>408</icon><menuid>6086</menuid><desc>4 Division Lines</desc><size>20</size><style>1</style></Button>
+<Button><text></text><icon>359</icon><menuid>6012</menuid><desc>Vertical Retracement</desc><size>20</size><style>1</style></Button>
+<Button><text></text><icon>339</icon><menuid>6019</menuid><desc>Show Retracement</desc><size>20</size><style>1</style></Button>
+<Button><text></text><icon>325</icon><menuid>6023</menuid><desc>Profit Target Value</desc><size>20</size><style>1</style></Button>
+<Button><text></text><icon>330</icon><menuid>6021</menuid><desc>Period Clone</desc><size>20</size><style>1</style></Button>
+<Button><text></text><icon>323</icon><menuid>6022</menuid><desc>Candle Counting</desc><size>20</size><style>1</style></Button>
+<Button><text></text><icon>0</icon><menuid>0</menuid><desc>Separator</desc><size>18</size><style>5</style></Button>
+<Button><text></text><icon>357</icon><menuid>31560</menuid><desc>Trend Line Setting</desc><size>20</size><style>1</style></Button>
+<Button><text></text><icon>350</icon><menuid>31549</menuid><desc>Stamp Color Setting</desc><size>20</size><style>1</style></Button>
+<Button><text></text><icon>0</icon><menuid>0</menuid><desc>Separator</desc><size>18</size><style>5</style></Button>
+<Button><text></text><icon>353</icon><menuid>31559</menuid><desc>Trend Line Manager</desc><size>20</size><style>1</style></Button>
+<Button><text></text><icon>313</icon><menuid>31561</menuid><desc>Auto Trend Line Manger</desc><size>20</size><style>1</style></Button>
+<Button><text></text><icon>405</icon><menuid>6035</menuid><desc>Auto Pattern Manager</desc><size>20</size><style>1</style></Button>
+<Button><text></text><icon>0</icon><menuid>0</menuid><desc>Separator</desc><size>18</size><style>5</style></Button>
+<Button><text></text><icon>306</icon><menuid>6058</menuid><desc>Horizontal Type</desc><size>20</size><style>1</style></Button>
+<Button><text></text><icon>304</icon><menuid>6059</menuid><desc>Tab Type</desc><size>20</size><style>1</style></Button>
+<Button><text></text><icon>305</icon><menuid>6057</menuid><desc>Vertical Type</desc><size>20</size><style>1</style></Button>
+<Button><text></text><icon>0</icon><menuid>0</menuid><desc>Separator</desc><size>18</size><style>5</style></Button>
+<Button><text></text><icon>180</icon><menuid>5063</menuid><desc>Cross Line</desc><size>20</size><style>1</style></Button>
+<Button><text></text><icon>170</icon><menuid>5060</menuid><desc>Data Window</desc><size>20</size><style>1</style></Button>
+<Button><text></text><icon>86</icon><menuid>6056</menuid><desc>Data List</desc><size>20</size><style>1</style></Button>
+<Button><text></text><icon>133</icon><menuid>6049</menuid><desc>Show All Data</desc><size>20</size><style>1</style></Button>
+<Button><text></text><icon>123</icon><menuid>6047</menuid><desc>Save Image</desc><size>20</size><style>1</style></Button> 
+<Button><text></text><icon>29</icon><menuid>5078</menuid><desc>Print</desc><size>20</size><style>1</style></Button>
+<Button><text></text><icon>0</icon><menuid>0</menuid><desc>Separator</desc><size>18</size><style>5</style></Button>
+<Button><text>Stg.Report</text><icon>0</icon><menuid>5052</menuid><desc>Stg.Report</desc><size>70</size><style>1</style></Button>
+<Button><text>Replay</text><icon>0</icon><menuid>6038</menuid><desc>Replay Mode</desc><size>60</size><style>1</style></Button>
+</ToolbarButtons>
+</stchart_savefile>
